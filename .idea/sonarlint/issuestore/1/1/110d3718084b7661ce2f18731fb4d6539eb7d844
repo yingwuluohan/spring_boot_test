@@ -1,0 +1,17 @@
+
+Jsquid:S1135ı"2Complete the task associated to this TODO comment.(¡á¼
+Fsquid:S2201K"*The return value of "length" must be used.(¨Óúøÿÿÿÿ
+Qsquid:S1172û"4Remove this unused method parameter "loginDomainId".(Øïæùÿÿÿÿ
+?squid:S1148X"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Jsquid:S1135Š"2Complete the task associated to this TODO comment.(¡á¼
+]squid:S2259K"AA "NullPointerException" could be thrown; "str" is nullable here.(¨Óúøÿÿÿÿ
+Jsquid:S2387"."log" is the name of a field in "BaseService".(ìıÃ§ÿÿÿÿÿ
+Jsquid:S1135ñ"2Complete the task associated to this TODO comment.(¡á¼
+bsquid:CommentedOutCodeLineO"<This block of commented-out lines of code should be removed.(¡¸¼Ì
+Jsquid:S1481"-Remove this unused "dataType" local variable.(¥±³½ıÿÿÿÿ
+gsquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(üÓÿ¡üÿÿÿÿ
+gsquid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(ÈÕ†Ìÿÿÿÿÿ
+Xsquid:S1126d"AReplace this if-then-else statement by a single return statement.(¿á©ã
+Qsquid:S1172ï"4Remove this unused method parameter "loginDomainId".(¥€‹•ıÿÿÿÿ
+Lsquid:S1172ˆ"4Remove this unused method parameter "loginDomainId".(ì’‰Å
+Ysquid:S1854"<Remove this useless assignment to local variable "dataType".(¥±³½ıÿÿÿÿ

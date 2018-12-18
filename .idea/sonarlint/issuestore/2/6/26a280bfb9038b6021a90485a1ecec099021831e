@@ -1,0 +1,7 @@
+
+Gsquid:S1068"+Remove this unused "version" private field.(³ρωÿÿÿÿ
+?squid:S1068"(Remove this unused "code" private field.(²βθϊ
+Gsquid:S1068"+Remove this unused "message" private field.(ω„θΏϋÿÿÿÿ
+?squid:S1068"(Remove this unused "data" private field.(νέµ
+wsquid:UselessImportCheck"NRemove this unused import 'com.unisound.iot.common.entity.ResponseStatusEnum'.(‘‘δόÿÿÿÿ
+=squid:S1948"&Make "data" transient or serializable.(νέµ

@@ -1,0 +1,126 @@
+server:
+  port: 8080
+
+
+# springBoot 2.0 之后 配置url时需要用jdbc-url ,不然多数据源时找不到URL
+spring:
+    http:
+        encoding:
+          charset: UTF-8
+          force: true
+          enabled: true
+
+    datasource:
+      primary:
+        driver-class-name: com.mysql.jdbc.Driver
+        type: com.alibaba.druid.pool.DruidDataSource
+        name: test
+        jdbc-url: jdbc:mysql://10.10.13.125:3306/kar-operation-platform
+        #url: jdbc:mysql://127.0.0.1:3306/kar-operation-platform
+        username: dev
+        #username: root
+        password: M20131209k
+        #password: 123456
+        filters: stat
+        maxActive: 20
+        initialSize: 1
+        maxWait: 60000
+        minIdle: 1
+        timeBetweenEvictionRunsMillis: 60000
+        minEvictableIdleTimeMillis: 300000
+        validationQuery: select 'x'
+        testWhileIdle: true
+        testOnBorrow: false
+        testOnReturn: false
+        poolPreparedStatements: true
+        maxOpenPreparedStatements: 20
+        time-between-eviction-runs-millis: 18800 #就是这句话
+
+      secondary:
+        driver-class-name: com.mysql.jdbc.Driver
+        type: com.alibaba.druid.pool.DruidDataSource
+        name: report
+        jdbc-url: jdbc:mysql://10.10.13.125:3306/operation-platform
+        #url: jdbc:mysql://127.0.0.1:3306/operation-platform
+        username: dev
+        #username: root
+        password: M20131209k
+        #password: 123456
+        filters: stat
+        maxActive: 20
+        initialSize: 1
+        maxWait: 60000
+        minIdle: 1
+        timeBetweenEvictionRunsMillis: 60000
+        minEvictableIdleTimeMillis: 300000
+        validationQuery: select 'x'
+        testWhileIdle: true
+        testOnBorrow: false
+        testOnReturn: false
+        poolPreparedStatements: true
+        maxOpenPreparedStatements: 20
+        time-between-eviction-runs-millis: 18800 #就是这句话
+
+# https://blog.csdn.net/janceewa/article/details/79696949
+    mongodb:
+          host: 127.0.0.1
+          port: 27017
+          username: admin
+          password: 123456
+          database: admin
+          #数据库 mongo_test
+
+    redis:
+        host: 10.30.0.234 #redis服务器地址
+        #host: 127.0.0.1 #redis服务器地址
+        port: 6379
+        timeout: 10000 #超时时间
+        database: 0 #0-15 16个库 默认0
+        lettuce:
+          pool:
+            max-active: 8 #最大连接数
+            max-wait: -1 #默认-1 最大连接阻塞等待时间
+            max-idle: 8 #最大空闲连接 默认8
+            min-idle: 0 #最小空闲连接
+    rabbitmq:
+      host: 10.30.0.244
+      port: 5672
+      username: guest
+      password: guest
+      timeout: 1000
+      retryMaxCount: 5
+      # 开启ACK
+      listener:
+        acknowledge-mode: manual
+
+mybatis:
+  mapper-locations: classpath:mapping/*/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+
+
+url:
+   AULBUM_URL: http://10.20.222.150:8888/data-manage/manage/child/v1/album/findByPage
+
+#logging:
+#  config: classpath:log4j2.yml
+logging:
+    path: /logs
+    level:
+      all: debug
+      org.springframework : DEBUG
+      org.mybatis: DEBUG
+      java.sql.Connection: DEBUG
+      java.sql.Statement: DEBUG
+      java.sql.PreparedStatement: DEBUG
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+
+

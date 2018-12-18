@@ -1,0 +1,11 @@
+
+Qsquid:S2864"4Iterate over the "entrySet" instead of the "keySet".(Ò›¼ÿøÿÿÿÿ
+usquid:S2293W"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ğ‡Á…ûÿÿÿÿ
+psquid:S2293Z"YReplace the type specification in this constructor call with the diamond operator ("<>").(«üÎŒ
+usquid:S2293p"YReplace the type specification in this constructor call with the diamond operator ("<>").(³ƒäáúÿÿÿÿ
+usquid:S2293q"YReplace the type specification in this constructor call with the diamond operator ("<>").(„éíªûÿÿÿÿ
+usquid:S2293t"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ğ‡Á…ûÿÿÿÿ
+vsquid:S2293‘"YReplace the type specification in this constructor call with the diamond operator ("<>").(µÓ°úÿÿÿÿ
+nsquid:S3776m"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(åÄ¿ğıÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²Ÿëçøÿÿÿÿ
+[squid:S1155Ÿ">Use isEmpty() to check whether the collection is empty or not.(§ÔÓİùÿÿÿÿ

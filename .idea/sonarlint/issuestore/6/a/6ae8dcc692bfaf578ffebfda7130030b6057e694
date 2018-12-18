@@ -1,0 +1,44 @@
+
+ƒsquid:S1192z"lDefine a constant instead of duplicating this literal "?key=02be86b7fe35b2405f9049dda19ced42&sign=" 3 times.(Ä±ü”
+gsquid:S1192l"PDefine a constant instead of duplicating this literal "&scenario=child" 3 times.(·ç×Ä
+Gsquid:S1066é"/Merge this if statement with the enclosing one.(é¼¶š
+qsquid:S2293§"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ó¥Î
+jsquid:S1871æ"MThis branch's code block is the same as the block for the branch on line 227.(¶âÀ·ûÿÿÿÿ
+Qsquid:S3516‘"9Refactor this method to not always return the same value.(ìôÂÁ
+csquid:CommentedOutCodeLineó"<This block of commented-out lines of code should be removed.(êğœË
+csquid:CommentedOutCodeLineõ"<This block of commented-out lines of code should be removed.(ş„à
+bsquid:CommentedOutCodeLineı"<This block of commented-out lines of code should be removed.(ÄÚ—X
+csquid:CommentedOutCodeLine€"<This block of commented-out lines of code should be removed.(‚ï†¬
+hsquid:CommentedOutCodeLine‚"<This block of commented-out lines of code should be removed.(Ê²Èøûÿÿÿÿ
+csquid:CommentedOutCodeLine‰"<This block of commented-out lines of code should be removed.(ËÊüù
+csquid:CommentedOutCodeLine’"<This block of commented-out lines of code should be removed.(ËÊüù
+csquid:CommentedOutCodeLine¨"<This block of commented-out lines of code should be removed.(è‡”¥
+[squid:S2583“"DChange this condition so that it does not always evaluate to "false"(¼¦ç4
+asquid:S2583ş"DChange this condition so that it does not always evaluate to "false"(…¼Â”şÿÿÿÿ
+osquid:S3776Ğ"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ÔÙÓØÿÿÿÿÿ
+esquid:S001008"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°á‹J
+ksquid:S00100<"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±¢¹Èúÿÿÿÿ
+ksquid:S00100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÙˆûÿÿÿÿ
+ksquid:S00100D"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äªÒ¦üÿÿÿÿ
+ksquid:S00100H"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø”Èæùÿÿÿÿ
+ksquid:S00100L"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÓÉüÿÿÿÿ
+ksquid:S00100P"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØÁï£ùÿÿÿÿ
+ksquid:S00100T"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Äğ©ùÿÿÿÿ
+fsquid:S00100X"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÌşì
+ksquid:S00100\"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éı€äûÿÿÿÿ
+Ksquid:S1172û".Remove this unused method parameter "topicId".(ÿÍÿÿÿÿÿ
+Osquid:S1172ˆ"2Remove this unused method parameter "albumTypeId".(¡‹øÇıÿÿÿÿ
+Jsquid:S1172‘"2Remove this unused method parameter "albumTypeId".(ìôÂÁ
+dsquid:S00112Ã"FDefine and throw a dedicated exception instead of using a generic one.(Ö©ÃÅşÿÿÿÿ
+ysquid:S00116)"\Rename this field "AULBUM_DETAIL_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë·úâúÿÿÿÿ
+wsquid:S00116,"_Rename this field "ALBUM_CONTENT_SOURCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó÷öÏ
+wsquid:S00116/"ZRename this field "ZUPPIN_TYPE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şø©Ôúÿÿÿÿ
+rsquid:S001162"URename this field "AULBUM_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ìß§şÿÿÿÿ
+osquid:S001165"XRename this field "DATA_PLAN_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Úß
+nsquid:S00117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±¢¹Èúÿÿÿÿ
+nsquid:S00117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äªÒ¦üÿÿÿÿ
+nsquid:S00117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÓÉüÿÿÿÿ
+nsquid:S00117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Äğ©ùÿÿÿÿ
+nsquid:S00117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éı€äûÿÿÿÿ
+|squid:UselessImportCheck"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ
+@squid:S1148Â"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

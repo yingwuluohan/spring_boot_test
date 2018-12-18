@@ -1,0 +1,5 @@
+
+ssquid:UselessImportCheck	"ORemove this unused import 'org.springframework.beans.factory.annotation.Value'.(ìø›
+^squid:S00112:"FDefine and throw a dedicated exception instead of using a generic one.(ö©¤
+%squid:RedundantThrowsDeclarationCheck:"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ö©¤
+fsquid:UselessImportCheck"CRemove this unused import 'com.alibaba.druid.pool.DruidDataSource'.(Ë¸)

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.http:httpcore:4.2.4-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/http/httpcore/4.2.4-SNAPSHOT/httpcore-4.2.4-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/http/httpcore/4.2.4-SNAPSHOT/httpcore-4.2.4-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/http/httpcore/4.2.4-SNAPSHOT/httpcore-4.2.4-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

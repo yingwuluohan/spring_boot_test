@@ -1,0 +1,8 @@
+
+bsquid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(½‘Ñ³
+Ssquid:S1481("0Remove this unused "messageJson" local variable.(È£Ü²ùÿÿÿÿ8š¨•àû,
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¨îÊ8Þ¥™àû,
+bsquid:S1854("?Remove this useless assignment to local variable "messageJson".(È£Ü²ùÿÿÿÿ8š¨•àû,
+Ssquid:S2629'"7Use the built-in formatting to construct this argument.(å„¹Ýøÿÿÿÿ
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(É¥Çì
+]squid:S3457'"AFormat specifiers should be used instead of string concatenation.(å„¹Ýøÿÿÿÿ

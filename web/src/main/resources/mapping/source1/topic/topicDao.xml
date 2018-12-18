@@ -1,0 +1,47 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.unisound.iot.dao.mapper.source1.topic.TopicDao">
+    <!---->
+    <select id="findTopicDetail" resultType="com.unisound.iot.common.modle.Topic" >
+        SELECT a.id ,
+               a.name ,
+               a.domain_id as domainId,
+               a.product_type as productType ,
+               b.name as categoryName
+
+        from topic a inner join category b on a.category_id = b.id
+        where a.dr =0 and a.id=#{topicId}
+
+
+    </select>
+
+    <!---->
+    <select id="findTopicDataDetail" resultType="com.unisound.iot.common.modle.TopicData" >
+        select id ,
+               data_type as dataType ,
+               album_id as albumId ,
+               sort_num as sortNum
+        from topic_data
+        where topic_id = #{topicId}
+        order by sort_num desc
+
+    </select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</mapper>
