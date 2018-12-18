@@ -1,4 +1,4 @@
 
-|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(öº€©ûÿÿÿÿ8½û¦ßû,
-wsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿ‘´¶8½û¦ßû,
 zsquid:UselessImportCheck"ORemove this unused import 'org.springframework.cache.annotation.EnableCaching'.(ÍŠ³Ï8¤–§ßû,
+wsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿ‘´¶8½û¦ßû,
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(öº€©ûÿÿÿÿ8½û¦ßû,

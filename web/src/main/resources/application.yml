@@ -63,12 +63,12 @@ spring:
 
 # https://blog.csdn.net/janceewa/article/details/79696949
     mongodb:
-          host: 127.0.0.1
-          port: 27017
-          username: admin
-          password: 123456
-          database: admin
-          #数据库 mongo_test
+        host: mongodb://admin:123456@localhost:27017/mongo_test
+        port: 27017
+        username: admin
+        password: 123456
+        database: mongo_test
+          #数据库 mongo_test 若不指定，默认打开 test 数据库
 
     redis:
         host: 10.30.0.234 #redis服务器地址
