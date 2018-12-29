@@ -21,6 +21,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+		<disruptor.version>3.3.4</disruptor.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
@@ -171,11 +172,7 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>3.5</version>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.http</groupId>
-			<artifactId>httpcore</artifactId>
-			<version>4.2.4-SNAPSHOT</version>
-		</dependency>
+
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-pool2</artifactId>
@@ -231,8 +228,18 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
-
-	</dependencies>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-mongodb</artifactId>
+            <version>2.0.10.RELEASE</version>
+        </dependency>
+		<!-- disruptor -->
+		<dependency>
+			<groupId>com.lmax</groupId>
+			<artifactId>disruptor</artifactId>
+			<version>${disruptor.version}</version>
+		</dependency>
+    </dependencies>
 
 	<build>
 		<plugins>
