@@ -15,7 +15,7 @@ spring:
         driver-class-name: com.mysql.jdbc.Driver
         type: com.alibaba.druid.pool.DruidDataSource
         name: test
-        jdbc-url: jdbc:mysql://10.10.13.125:3306/kar-operation-platform
+        jdbc-url: jdbc:mysql://10.10.13.125:3306/operation-platform-template
         #url: jdbc:mysql://127.0.0.1:3306/kar-operation-platform
         username: dev
         #username: root
@@ -63,11 +63,12 @@ spring:
 
 # https://blog.csdn.net/janceewa/article/details/79696949
     mongodb:
-        host: mongodb://admin:123456@localhost:27017/mongo_test
+#        host: mongodb://admin:123456@localhost:27017/mongo_test
+        host: mongodb://root:123456@10.20.222.63:27017/msg_center
         port: 27017
-        username: admin
+        username: root
         password: 123456
-        database: mongo_test
+        database: msg_center
           #数据库 mongo_test 若不指定，默认打开 test 数据库
 
     redis:
