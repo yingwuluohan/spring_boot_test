@@ -6,7 +6,8 @@ import com.alibaba.fastjson.JSONObject;
 import com.unisound.iot.common.constants.CommonConstants;
 import com.unisound.iot.common.modle.dataRpc.Album;
 import com.unisound.iot.service.base.BaseService;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Service;
 
@@ -20,7 +21,7 @@ import java.util.*;
 
 @PropertySource({"classpath:setting.properties" })
 public class DataRpcService extends BaseService{
-    Logger log = Logger.getLogger(this.getClass());
+    Logger log = LogManager.getLogger((this.getClass()));
 
 
 

@@ -14,8 +14,8 @@ import com.unisound.iot.common.modle.dataRpc.AlbumType;
 import com.unisound.iot.common.rpc.BaseServiceApi;
 import com.unisound.iot.common.sign.AlbumRequestUtil;
 import com.unisound.iot.common.util.HttpRequestUtil;
-import org.apache.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Service;
@@ -34,7 +34,7 @@ import java.util.Map;
 @PropertySource({"classpath:setting.properties" })
 public abstract class BaseService implements BaseServiceApi {
 
-    Logger log = Logger.getLogger(this.getClass());
+    Logger log = LogManager.getLogger(this.getClass());
 
     /**  内容来源*/
     @Value("${AULBUM_DETAIL_URL}")
