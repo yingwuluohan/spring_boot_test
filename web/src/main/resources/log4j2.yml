@@ -1,54 +1,143 @@
-
-
+# 共有8个级别，按照从低到高为：ALL < TRACE < DEBUG < INFO < WARN < ERROR < FATAL < OFF。
 Configuration:
-status: info
-
-Properties: # 定义全局变量
-  Property: # 缺省配置（用于开发环境）。其他环境需要在VM参数中指定，如下：
-    #测试：-Dlog.level.console=warn -Dlog.level.bo=trace
-    #生产：-Dlog.level.console=warn -Dlog.level.bo=info
-    - name: log.level.console
-      value: trace
-    - name: log.level.bo
-      value: trace
-    - name: log.path
-      value: /opt/logs
-    - name: kar-business-operation
-      value: bo
-
-Appenders:
-  Console:  #输出到控制台
-    name: CONSOLE
-    target: SYSTEM_OUT
-    ThresholdFilter:
-      level: ${sys:log.level.console} # “sys:”表示：如果VM参数中没指定这个变量值，则使用本文件中定义的缺省全局变量值
-      onMatch: ACCEPT
-      onMismatch: DENY
-    PatternLayout:
-      pattern: "%d{yyyy-MM-dd HH:mm:ss,SSS}:%4p %t (%F:%L) - %m%n"
-  RollingFile: # 输出到文件，超过128MB归档
-    - name: ROLLING_FILE
-      ignoreExceptions: false
-      fileName: ${log.path}/${project.name}.log
-      filePattern: "${log.path}/$${date:yyyy-MM}/${project.name}-%d{yyyy-MM-dd}-%i.log.gz"
+  status: warn
+  monitorInterval: 30
+  Properties: # 定义全局变量
+    Property: # 缺省配置（用于开发环境）。其他环境需要在VM参数中指定，如下：
+      #测试：-Dlog.level.console=warn -Dlog.level.xjj=trace
+      #生产：-Dlog.level.console=warn -Dlog.level.xjj=info
+      - name: log.level.console
+        value: info
+      - name: log.path
+        value: log
+      - name: project.name
+        value: springBoot
+      - name: log.pattern
+        value: "%d{yyyy-MM-dd HH:mm:ss.SSS} -%5p ${PID:-} [%15.15t] %-30.30C{1.} : %m%n"
+  Appenders:
+    Console:  #输出到控制台
+      name: CONSOLE
+      target: SYSTEM_OUT
       PatternLayout:
-        pattern: "%d{yyyy-MM-dd HH:mm:ss,SSS}:%4p %t (%F:%L) - %m%n"
-      Policies:
-        SizeBasedTriggeringPolicy:
-          size: "128 MB"
-      DefaultRolloverStrategy:
-        max: 1000
-
-Loggers:
-  Root:
-    level: info
-    AppenderRef:
-      - ref: CONSOLE
-      - ref: ROLLING_FILE
-  Logger: # 为com.xjj包配置特殊的Log级别，方便调试
-    - name: com.unisound.iot.service
-      additivity: false
-      level: ${sys:log.level.bo}
+        pattern: ${log.pattern}
+#   启动日志
+    RollingFile:
+      - name: ROLLING_FILE
+        fileName: ${log.path}/${project.name}.log
+        filePattern: "${log.path}/historyRunLog/$${date:yyyy-MM-dd}/${project.name}-%d{yyyy-MM-dd}-%i.log"
+        PatternLayout:
+          pattern: ${log.pattern}
+        Filters:
+#        一定要先去除不接受的日志级别，然后获取需要接受的日志级别
+          ThresholdFilter:
+            - level: error
+              onMatch: DENY
+              onMismatch: NEUTRAL
+            - level: info
+              onMatch: ACCEPT
+              onMismatch: DENY
+        Policies:
+#          TimeBasedTriggeringPolicy:  # 按天分类
+#            modulate: true
+#            interval: 1
+          SizeBasedTriggeringPolicy:
+            size: 10 M   #最大日志文件大小
+        DefaultRolloverStrategy:     # 文件最多100个
+          max: 100
+#   平台日志
+      - name: PLATFORM_ROLLING_FILE
+        ignoreExceptions: false
+        fileName: ${log.path}/platform/${project.name}_platform.log
+        filePattern: "${log.path}/platform/$${date:yyyy-MM}/${project.name}-%d{yyyy-MM-dd}-%i.log"
+        PatternLayout:
+          pattern: ${log.pattern}
+        Policies:
+#          TimeBasedTriggeringPolicy:  # 按天分类
+#            modulate: true
+#            interval: 1
+          SizeBasedTriggeringPolicy:
+            size: 10    #最大日志文件大小
+        DefaultRolloverStrategy:     # 文件最多100个
+          max: 100
+#   业务日志
+      - name: BUSSINESS_ROLLING_FILE
+        ignoreExceptions: false
+        fileName: ${log.path}/bussiness/${project.name}_bussiness.log
+        filePattern: "${log.path}/bussiness/$${date:yyyy-MM-dd}/${project.name}-%d{yyyy-MM-dd}-%i.log"
+        PatternLayout:
+          pattern: ${log.pattern}
+        Policies:
+#          TimeBasedTriggeringPolicy:  # 按天分类
+#            modulate: true
+#            interval: 1
+          SizeBasedTriggeringPolicy:
+            size: 10 M   #最大日志文件大小
+        DefaultRolloverStrategy:     # 文件最多100个
+          max: 100
+#   错误日志
+      - name: EXCEPTION_ROLLING_FILE
+        ignoreExceptions: false
+        fileName: ${log.path}/exception/${project.name}_exception.log
+        filePattern: "${log.path}/exception/$${date:yyyy-MM}/${project.name}-%d{yyyy-MM-dd}-%i.log"
+        ThresholdFilter:
+          level: error
+          onMatch: ACCEPT
+          onMismatch: DENY
+        PatternLayout:
+          pattern: ${log.pattern}
+        Policies:
+          TimeBasedTriggeringPolicy:  # 按天分类
+            modulate: true
+            interval: 1
+        DefaultRolloverStrategy:     # 文件最多100个
+          max: 100
+#   DB 日志
+      - name: DB_ROLLING_FILE
+        ignoreExceptions: false
+        fileName: ${log.path}/db/${project.name}_db.log
+        filePattern: "${log.path}/db/$${date:yyyy-MM-dd}/${project.name}-%d{yyyy-MM-dd}-%i.log"
+        PatternLayout:
+          pattern: ${log.pattern}
+        Policies:
+          TimeBasedTriggeringPolicy:  # 按天分类
+            modulate: true
+            interval: 1
+        DefaultRolloverStrategy:     # 文件最多100个
+          max: 100
+  Loggers:
+    Root:
+      level: info
       AppenderRef:
         - ref: CONSOLE
         - ref: ROLLING_FILE
+        - ref: EXCEPTION_ROLLING_FILE
+    Logger:
+      - name: platform
+        level: info
+        additivity: false
+        AppenderRef:
+          - ref: CONSOLE
+          - ref: PLATFORM_ROLLING_FILE
+      - name: bussiness
+        level: info
+        additivity: false
+        AppenderRef:
+          - ref: BUSSINESS_ROLLING_FILE
+      - name: exception
+        level: debug
+        additivity: true
+        AppenderRef:
+          - ref: EXCEPTION_ROLLING_FILE
+      - name: db
+        level: info
+        additivity: false
+        AppenderRef:
+          - ref: DB_ROLLING_FILE
+#    监听具体包下面的日志
+#    Logger: # 为com.xjj包配置特殊的Log级别，方便调试
+#      - name: com.xjj
+#        additivity: false
+#        level: ${sys:log.level.xjj}
+#        AppenderRef:
+#          - ref: CONSOLE
+#          - ref: ROLLING_FILE

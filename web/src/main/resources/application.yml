@@ -105,17 +105,18 @@ mybatis:
 url:
    AULBUM_URL: http://10.20.222.150:8888/data-manage/manage/child/v1/album/findByPage
 
-#logging:
-#  config: classpath:log4j2.yml
 logging:
-    path: /logs
-    level:
-      all: debug
-      org.springframework : DEBUG
-      org.mybatis: DEBUG
-      java.sql.Connection: DEBUG
-      java.sql.Statement: DEBUG
-      java.sql.PreparedStatement: DEBUG
+  config: classpath:log4j2.yml
+
+#logging:
+#    path: /logs
+#    level:
+#      all: debug
+#      org.springframework : DEBUG
+#      org.mybatis: DEBUG
+#      java.sql.Connection: DEBUG
+#      java.sql.Statement: DEBUG
+#      java.sql.PreparedStatement: DEBUG
 
 eureka:
   client:

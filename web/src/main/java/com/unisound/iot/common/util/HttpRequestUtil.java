@@ -1,16 +1,6 @@
 package com.unisound.iot.common.util;
 
-import com.alibaba.fastjson.JSONObject;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-//import org.apache.http.client.HttpClient;
-//import org.apache.http.client.methods.HttpPost;
-import org.apache.http.entity.StringEntity;
-//import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
-import org.apache.http.params.CoreConnectionPNames;
-import org.apache.http.util.EntityUtils;
-import org.apache.log4j.Logger;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -18,10 +8,13 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+
+//import org.apache.http.client.HttpClient;
+//import org.apache.http.client.methods.HttpPost;
+//import org.apache.http.impl.client.DefaultHttpClient;
 
 
 /**
@@ -31,7 +24,6 @@ import java.util.Map;
  * @date 2015年6月24日
  */
 public class HttpRequestUtil {
-	private static Logger logger = Logger.getLogger(HttpRequestUtil.class);
 	private static final int defaultConnectTimeout = 3000;
 	private static final int defaultSocketTimeout = 5000;
 	/**
@@ -110,7 +102,7 @@ public class HttpRequestUtil {
 				result.append(line);
 			}
 		} catch (Exception e) {
-			logger.error("发送GET请求过程中出错：" + e.getMessage(), e);
+//			logger.error("发送GET请求过程中出错：" + e.getMessage(), e);
 			e.printStackTrace();
 		} finally {
 			try {
@@ -181,7 +173,7 @@ public class HttpRequestUtil {
 				result.append(line);
 			}
 		} catch (Exception e) {
-			logger.error("发送POST请求过程中出错：" + e.getMessage(), e);
+//			logger.error("发送POST请求过程中出错：" + e.getMessage(), e);
 		} finally {
 			try {
 				if (out != null) {

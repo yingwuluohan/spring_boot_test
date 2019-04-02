@@ -1,7 +1,8 @@
 package com.unisound.iot.controller.base;
 
 import com.unisound.iot.common.constants.CommonConstants;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,7 +12,7 @@ import java.util.Map;
  */
 public abstract class BaseController<T> {
 
-    private static Logger logger = Logger.getLogger(BaseController.class);
+    private static Logger logger = LogManager.getLogger(BaseController.class);
 
     public Map<String, Object> exchangeResult(T t, int code) {
         Map<String, Object> map = new HashMap<String, Object>();

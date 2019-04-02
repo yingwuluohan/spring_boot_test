@@ -15,6 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -205,10 +206,11 @@ public class ItemController extends BaseController {
     }
 
 
-
-
-
-
+    public static void main(String[] args) {
+        String[] str = new String[] { "a", "b" };
+        List<String> list = Arrays.asList(str);
+        list.add( "c" );
+    }
 
 
 
