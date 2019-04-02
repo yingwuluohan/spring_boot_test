@@ -26,7 +26,7 @@ public class UserController extends BaseController {
     private ChannelServiceImpl channelService;
 
 
-    //v1/user/find_user
+    /**v1/user/find_user */
     @SuppressWarnings("unchecked")
     @RequestMapping(value="find_user/{id}",method = {RequestMethod.GET, RequestMethod.POST})
     public String mongoOperate(HttpServletRequest request, @ModelAttribute ItemVo itemVo ,
@@ -36,7 +36,7 @@ public class UserController extends BaseController {
         channel.setName( "terstname");
         channel.setId( "2837381");
         channelService.addChannel( channel );
-        User   list = userService.getUser( id );
+        User list = userService.getUser( id );
         return "ok";
     }
 

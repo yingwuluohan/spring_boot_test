@@ -16,8 +16,6 @@ import java.util.List;
 
 /**
  * @title: 基础Dao
- * @author: lizehao
- * @date: 2016年6月18日22:32:43
  */
 @Repository
 public class MongoBaseDao<T> {
