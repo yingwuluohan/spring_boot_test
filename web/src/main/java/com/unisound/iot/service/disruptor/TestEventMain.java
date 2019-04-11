@@ -16,7 +16,7 @@ public class TestEventMain {
     public static void main(String[] args) throws Exception
     {
         // 执行器，用于构造消费者线程
-        Executor executor1 = new ThreadPoolExecutor( 8 ,10 ,0L ,
+        Executor executor1 = new ThreadPoolExecutor( 6 ,6 ,0L ,
                 TimeUnit.SECONDS ,new LinkedBlockingQueue<Runnable>());
 
                 // 指定事件工厂
