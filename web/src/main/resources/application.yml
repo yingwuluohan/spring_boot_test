@@ -84,7 +84,7 @@ spring:
             max-idle: 8 #最大空闲连接 默认8
             min-idle: 0 #最小空闲连接
     rabbitmq:
-      host: 10.30.0.244
+      host: 10.20.222.62
       port: 5672
       username: guest
       password: guest
@@ -101,6 +101,16 @@ zookeeper:
   connectionTimeoutMs: 6000
   maxRetries: 3
   baseSleepTimeMs: 1000
+
+
+#kafka:
+#  bootstrap-servers: 10.20.222.66:9092,10.20.222.67:9092
+#    producer:
+#      retries: 0
+#      batch-size: 16384
+#      buffer-memory: 33554432
+#      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+#      value-serializer: org.apache.kafka.common.serialization.StringSerializer
 
 mybatis:
   mapper-locations: classpath:mapping/*/*.xml

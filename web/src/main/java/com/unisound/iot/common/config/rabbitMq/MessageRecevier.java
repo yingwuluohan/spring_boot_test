@@ -11,11 +11,7 @@ import org.springframework.amqp.rabbit.annotation.*;
 import org.springframework.stereotype.Component;
 
 
-/**
- * @author：gaoyang.
- * @DATA:Created on 2018/8/21 17:23.
- * @description:.
- */
+
 @Component
 public class MessageRecevier {
 
@@ -23,8 +19,8 @@ public class MessageRecevier {
 //    @Resource
 //    private PayFlowMapper payFlowMapper;
 
-    @RabbitListener(bindings = @QueueBinding(
-            value = @Queue(value = "busi.shopping.order.status", autoDelete = "false"),
+    @RabbitListener(bindings =
+    @QueueBinding( value = @Queue(value = "busi.shopping.order.status", autoDelete = "false"),
             exchange = @Exchange(value = "shopping-direct-exchange", type = ExchangeTypes.DIRECT),
             key = "busi.shopping.order.status"))
     @RabbitHandler
