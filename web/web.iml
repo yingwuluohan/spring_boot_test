@@ -27,6 +27,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-websocket:2.0.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-messaging:5.0.9.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-websocket:5.0.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.0.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.0.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.5.RELEASE" level="project" />
@@ -53,10 +56,6 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.6" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.6" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.6" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.0.5.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.34" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:8.5.34" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.34" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate.validator:hibernate-validator:6.0.12.Final" level="project" />
     <orderEntry type="library" name="Maven: javax.validation:validation-api:2.0.1.Final" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.3.2.Final" level="project" />
@@ -64,6 +63,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-web:5.0.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.0.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.0.9.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.tomcat:tomcat-servlet-api:7.0.54" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:2.0.5.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:2.0.5.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.jayway.jsonpath:json-path:2.4.0" level="project" />
@@ -89,7 +89,6 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.6" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-amqp:2.0.5.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-messaging:5.0.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.amqp:spring-rabbit:2.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.amqp:spring-amqp:2.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: com.rabbitmq:amqp-client:5.4.1" level="project" />
@@ -131,7 +130,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:5.0.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.tomcat:tomcat-servlet-api:7.0.54" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.tomcat:tomcat-jsp-api:7.0.54" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.tomcat:tomcat-el-api:7.0.54" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-pool2:2.5.0" level="project" />
@@ -166,7 +164,6 @@
     <orderEntry type="library" name="Maven: org.elasticsearch:jna:4.4.0-1" level="project" />
     <orderEntry type="library" name="Maven: org.elasticsearch.plugin:transport-netty3-client:5.6.4" level="project" />
     <orderEntry type="library" name="Maven: org.elasticsearch.plugin:transport-netty4-client:5.6.11" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.1.29.Final" level="project" />
     <orderEntry type="library" name="Maven: org.locationtech.spatial4j:spatial4j:0.6" level="project" />
     <orderEntry type="library" name="Maven: com.vividsolutions:jts:1.13" level="project" />
     <orderEntry type="library" name="Maven: org.elasticsearch.plugin:reindex-client:5.6.4" level="project" />
@@ -199,6 +196,8 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.0.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:2.0.10.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:3.6.4" level="project" />
+    <orderEntry type="library" name="Maven: org.yeauty:netty-websocket-spring-boot-starter:0.7.6" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.1.29.Final" level="project" />
     <orderEntry type="library" name="Maven: com.lmax:disruptor:3.3.6" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.18" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.2" level="project" />

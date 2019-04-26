@@ -35,6 +35,13 @@
 		</dependencies>
 	</dependencyManagement>
 	<dependencies>
+
+		<!-- websocket -->
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-websocket</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
@@ -79,9 +86,21 @@
 					<groupId>ch.qos.logback</groupId>
 					<artifactId>logback-classic</artifactId>
 				</exclusion>
+				<!-- 移除嵌入式tomcat插件 -->
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-tomcat</artifactId>
+				</exclusion>
 			</exclusions>
 		</dependency>
 
+		<!-- 关联外部tomcat进行部署，加入servlet-api依赖 -->
+		<dependency>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>tomcat-servlet-api</artifactId>
+			<version>8.0.39</version>
+			<scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -280,7 +299,11 @@
             <version>2.0.10.RELEASE</version>
         </dependency>
 		<!-- disruptor -->
-
+		<dependency>
+			<groupId>org.yeauty</groupId>
+			<artifactId>netty-websocket-spring-boot-starter</artifactId>
+			<version>0.7.6</version>
+		</dependency>
         <dependency>
             <groupId>com.lmax</groupId>
             <artifactId>disruptor</artifactId>
