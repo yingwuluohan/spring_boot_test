@@ -1,6 +1,8 @@
 package com.unisound.iot.controller.jdk;
 
 import com.unisound.iot.service.report.ReportService;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,6 +18,8 @@ import java.util.List;
 @RestController
 @RequestMapping("map/")
 public class JmapController {
+
+    Logger log = LogManager.getLogger(this.getClass());
 
     @Autowired
     private ReportService reportService;
@@ -63,14 +67,14 @@ public class JmapController {
         makeStackOverflowError();
     }
 
-
+    //  /map/test/out
     @SuppressWarnings("unchecked")
     @RequestMapping(value="test/out",method = {RequestMethod.GET, RequestMethod.POST})
     @ResponseBody
     public void makeOutofMemoryError(){
 
         try{
-            for( int i = 0 ;i < 10 ;i++ ){
+            for( int i = 0 ;i < 6 ;i++ ){
                 List<String > list = new ArrayList<>();
                 ThreadTest test = new ThreadTest( list , memory );
                 Thread thread = new Thread( test );
@@ -100,7 +104,7 @@ public class JmapController {
             try{
                 System.out.println(  "当前线程：" + Thread.currentThread().getName() );
                 while( true ){
-
+                    log.info( "当前线程：" +Thread.currentThread().getName() + "list size:" + list.size() );
                     list.add(  memory+"dddddd" + Math.random() );
 
                     System.out.println( Thread.currentThread().getName()+": " + list.size() );
