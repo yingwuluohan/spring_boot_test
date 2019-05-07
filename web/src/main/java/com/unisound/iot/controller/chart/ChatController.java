@@ -1,4 +1,4 @@
-package com.unisound.iot.controller.websocket;
+package com.unisound.iot.controller.chart;
 
 import com.unisound.iot.api.chart.ChartRoomService;
 import com.unisound.iot.api.chart.ChatRoomServerClientService;

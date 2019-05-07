@@ -1,7 +1,7 @@
 target/*
 .classpath
 .idea/*
-.idea
+.idea/workspace.xml
 .project
 .settings
 .settings/*

@@ -1,4 +1,4 @@
-package com.unisound.iot.controller.websocket;
+package com.unisound.iot.controller.chart;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;

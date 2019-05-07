@@ -1,4 +1,4 @@
-package com.unisound.iot.controller.websocket;
+package com.unisound.iot.controller.chart;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;

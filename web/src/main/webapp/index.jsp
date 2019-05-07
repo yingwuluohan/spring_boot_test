@@ -74,19 +74,19 @@
 <br>
 <script type="text/javascript">
     function serverInit(){
-        $.ajax({
-            url: "/chat/initHttpChat",
-            async :false,
-            cache:false,
-            type:'get',
-            dataType: 'jsonp',
-            data:{
-                userName : "234"
-            },
-            success:function(dataSso){
-                alert( "ok ");
-            }
-        })
+//        $.ajax({
+//            url: "/chat/initHttpChat",
+//            async :false,
+//            cache:false,
+//            type:'get',
+//            dataType: 'jsonp',
+//            data:{
+//                userName : "234"
+//            },
+//            success:function(dataSso){
+//                alert( "ok ");
+//            }
+//        })
     }
 </script>
 

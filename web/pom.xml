@@ -36,7 +36,7 @@
 	</dependencyManagement>
 	<dependencies>
 
-		<!-- websocket -->
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -314,8 +314,13 @@
 			<artifactId>lombok</artifactId>
 			<version>1.16.18</version>
 		</dependency>
+        <dependency>
+            <groupId>javax.websocket</groupId>
+            <artifactId>javax.websocket-api</artifactId>
+            <version>1.0</version>
+        </dependency>
 
-	</dependencies>
+    </dependencies>
 
 	<!--<build>-->
 		<!--<plugins>-->
