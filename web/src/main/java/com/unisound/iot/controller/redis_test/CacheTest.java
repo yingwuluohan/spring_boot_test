@@ -18,6 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 @RequestMapping("redis/")
 public class CacheTest {
 
+
     @Autowired
     private RedisServiceImpl redisUtil;
     //redis/v1/cache/12345

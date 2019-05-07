@@ -38,6 +38,8 @@ public class AuthItemTemplate extends BaseModle<AuthItemTemplate , Object> imple
      */
     private String checker;
 
+
+
     public String getChecker() {
         return checker;
     }
