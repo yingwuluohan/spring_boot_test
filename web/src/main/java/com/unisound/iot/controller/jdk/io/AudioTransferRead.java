@@ -1,31 +1,32 @@
 package com.unisound.iot.controller.jdk.io;
 
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.*;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 
 
 @RestController
-@RequestMapping("io/")
+@RequestMapping("nio/")
 public class AudioTransferRead {
 
 
 
 
-    @SuppressWarnings("unchecked")
+
     @RequestMapping(value="test/",method = {RequestMethod.GET })
     @ResponseBody
-    public String getMsgHistory(HttpServletRequest request ) {
-        MessageDigest digest = null;
-        try {
-            digest = MessageDigest.getInstance("MD5");
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
-        }
-        String filePath = "D://manage.rar";
+    public String getIo(HttpServletRequest request ) {
+//        MessageDigest digest = null;
+//        try {
+//            digest = MessageDigest.getInstance("MD5");
+//        } catch (NoSuchAlgorithmException e) {
+//            e.printStackTrace();
+//        }
+        String filePath = "/Users/yingwuluohan/Documents/soft/test.png";
         try {
             InputStream inputStream = request.getInputStream();
             FileOutputStream outputStream = new FileOutputStream( new File( filePath));
@@ -36,7 +37,7 @@ public class AudioTransferRead {
             while (read > -1) {
                 audioLen += read;
                 // 计算MD5,顺便写到文件
-                digest.update(buffer, 0, read);
+//                digest.update(buffer, 0, read);
                 outputStream.write(buffer, 0, read);
 
                 read = inputStream.read(buffer);
@@ -50,6 +51,8 @@ public class AudioTransferRead {
         }
         return "";
     }
+
+
 
 
 }
