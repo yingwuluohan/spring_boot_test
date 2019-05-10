@@ -23,6 +23,8 @@
 		<java.version>1.8</java.version>
 		<disruptor.version>3.3.4</disruptor.version>
 	</properties>
+
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -36,7 +38,7 @@
 	</dependencyManagement>
 	<dependencies>
 
-		<!-- websocket -->
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -314,8 +316,25 @@
 			<artifactId>lombok</artifactId>
 			<version>1.16.18</version>
 		</dependency>
+        <dependency>
+            <groupId>javax.websocket</groupId>
+            <artifactId>javax.websocket-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+		<!--转写测试-->
+		<dependency>
+			<groupId>cn.yunzhisheng.utils</groupId>
+			<artifactId>jtoken</artifactId>
+			<version>2.0.5</version>
+		</dependency>
+		<dependency>
+			<groupId>redis.clients</groupId>
+			<artifactId>jedis</artifactId>
+			<version>2.7.3</version>
+		</dependency>
 
-	</dependencies>
+		<!--转写测试-->
+    </dependencies>
 
 	<!--<build>-->
 		<!--<plugins>-->
