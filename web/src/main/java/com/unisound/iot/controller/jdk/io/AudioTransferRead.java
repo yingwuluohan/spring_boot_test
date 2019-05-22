@@ -7,26 +7,27 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.*;
-import java.security.MessageDigest;
 
 
 @RestController
-@RequestMapping("io/")
+@RequestMapping("nio/")
 public class AudioTransferRead {
 
 
 
 
 
-    @RequestMapping(value="test"  ,method = {RequestMethod.GET, RequestMethod.POST})
+    @RequestMapping(value="test/",method = {RequestMethod.GET })
     @ResponseBody
-    public String getMsgHistory(HttpServletRequest request ){
-        MessageDigest digest = null;
+    public String getIo(HttpServletRequest request ) {
+//        MessageDigest digest = null;
+
 //        try {
 //            digest = MessageDigest.getInstance("MD5");
 //        } catch (NoSuchAlgorithmException e) {
 //            e.printStackTrace();
 //        }
+
         String filePath = "D://test_io"+ Math.random() +".jpg";
         try {
 
@@ -42,6 +43,7 @@ public class AudioTransferRead {
             while (( len = read ) >  -1) {
                 audioLen += read;
                 // 计算MD5,顺便写到文件
+
                 outputStream.write(buffer, 0, read);
                 read = inputStream.read(buffer);
             }
@@ -99,5 +101,7 @@ public class AudioTransferRead {
             e.printStackTrace();
         }
     }
+
+
 
 }

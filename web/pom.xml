@@ -258,10 +258,7 @@
 			<artifactId>lettuce-core</artifactId>
 		</dependency>
 
-		<dependency>  <!-- 加上这个才能辨认到log4j2.yml文件 -->
-			<groupId>com.fasterxml.jackson.dataformat</groupId>
-			<artifactId>jackson-dataformat-yaml</artifactId>
-		</dependency>
+
 		<!--<dependency> &lt;!&ndash; 引入log4j2依赖 &ndash;&gt;-->
 		<!--<groupId>org.springframework.boot</groupId>-->
 		<!--<artifactId>spring-boot-starter-log4j2</artifactId>-->

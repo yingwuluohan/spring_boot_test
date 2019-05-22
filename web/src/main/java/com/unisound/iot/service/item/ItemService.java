@@ -6,6 +6,8 @@ import com.unisound.iot.common.modle.DwhItem;
 import com.unisound.iot.common.modle.Item;
 import com.unisound.iot.common.modle.ItemDate;
 import com.unisound.iot.common.vo.ItemVo;
+import com.unisound.iot.dao.mapper.source1.album.SoundAlbumDao;
+import com.unisound.iot.dao.mapper.source1.item.ItemDao;
 import com.unisound.iot.service.base.BaseService;
 import com.unisound.iot.service.report.ReportService;
 import org.apache.commons.collections.CollectionUtils;
@@ -16,8 +18,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import com.unisound.iot.dao.mapper.source1.item.*;
 /**
  * 组件服务
  * Created by Admin on 2018/9/30.
@@ -31,6 +31,8 @@ public class ItemService extends BaseService{
     private ItemDao itemDao;
     @Autowired
     private ReportService reportService;
+    @Autowired
+    private SoundAlbumDao soundAlbumDao;
 
     /**
      * 查询组件及资源详情
@@ -38,6 +40,8 @@ public class ItemService extends BaseService{
      * @return
      */
     public Item findItemDetail(ItemVo itemVo ){
+        List<String> result = soundAlbumDao.findTemplateInfo(  );
+        System.out.println( result );
         Item item = itemDao.findItemDetail( itemVo );
         if (null != item) {
             List< Integer> dataTypeList = itemDao.findItemDataType(item.getItemId());

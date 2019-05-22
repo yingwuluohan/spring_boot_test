@@ -1,12 +1,21 @@
 package com.unisound.iot.controller.jdk;
 
+import com.unisound.iot.controller.jdk.io.AudioTransferRead;
 import com.unisound.iot.service.report.ReportService;
+import org.apache.commons.codec.binary.Hex;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.net.ProtocolException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,6 +35,64 @@ public class JmapController {
     private int stackLength = 1;
 
     private String memory = "public String getMsgHistory(HttpServletRequest request, @PathVariable(name=\"id\") long id)";
+
+    // map/InputStream
+    @RequestMapping(value="InputStream",method = {RequestMethod.GET })
+    @ResponseBody
+    public String getReadInfo(HttpServletRequest request ) throws Exception {
+        File file = new File( "/application/iotest.txt" );
+        InputStream inputStream = new FileInputStream( file );
+        String fileName = "/application/iotest22.txt";
+        MessageDigest digest = null;
+        try {
+            digest = MessageDigest.getInstance("MD5");
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+
+        long audioLen = 0;
+        FileOutputStream outputStream = null;
+
+        try {
+            outputStream = new FileOutputStream(fileName);
+            byte[] buffer = new byte[2048];
+            int read = inputStream.read(buffer);
+            while (read > -1) {
+                audioLen += read;
+                // 计算MD5,顺便写到文件
+                digest.update(buffer, 0, read);
+                outputStream.write(buffer, 0, read);
+
+                read = inputStream.read(buffer);
+            }
+        } catch (Exception e) {
+            throw new Exception(""+e.getMessage());
+
+        } finally {
+
+            try {
+                outputStream.close();
+            } catch (Exception e) {
+            }
+        }
+        if (audioLen == 0) {
+            throw new ProtocolException(  "audio is empty");
+        }
+        byte[] bytes = digest.digest();
+        System.out.println( Hex.encodeHexString( bytes ) );
+        return Hex.encodeHexString( bytes );
+
+
+    }
+
+    public static void main(String[] args) {
+        AudioTransferRead audio = new AudioTransferRead();
+        try {
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
 
     //map/test/12
     @SuppressWarnings("unchecked")
