@@ -1,0 +1,248 @@
+问题：
+1. 并发收集器CMS 只能针对老年代吗？
+   不同的收集器收集的内存区域不一样？？？
+
+
+
+一.  JVM各区存放数据类型
+（ 一 ）JVM组成包含：
+heap区又分为：
+Eden Space（伊甸园）、( EC )
+Survivor Space(幸存者区)、( S0C , S1C )
+Old Gen（老年代）( OC )
+
+非heap区又分：
+Code Cache(代码缓存区)；
+Perm Gen（永久代）；
+Jvm Stack(java虚拟机栈)；
+Local Method Statck(本地方法栈)；
+
+1. 方法区（Method Area）：用于存放class、运行时常量池、字段、方法、代码、JIT代码等。
+
+2. 伊甸园 (Eden Space): 对象被创建的时候首先放到这个区域，进行垃圾回收后，不能被回收的对象被放入到空的survivor区域
+
+3.幸存者区 ( Survivor Space) :用于保存在eden space内存区域中经过垃圾回收后没有被回收的对象。Survivor有两个
+
+二. 内存溢出及CPU负载
+（1）.栈溢出 ( 栈用来存放基础数据类型的对象和自定义对象的引用 ，一个先进后出的数据结构，通常保存方法中的参数，局部变量。栈中的数据可以共享 。其长度固定，效率高)
+           形式参数是局部变量，局部变量的数据存在于栈内存中。栈内存中的局部变量随着方法的消失而消失
+ 	eg:递归的时候，局部变量都分配在栈上，递归调用时的函数参数是通过栈空间来传递的，只有当递归结束时该空间才会释放。
+
+（2）.堆内存溢出（ 堆用于存放所有new生成的对象 ，  ）
+        1. dump可以是内存溢出时让其自动生成，或者手工直接导。配置jvm参数-XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/biapp/m.hprof
+
+	2.手动生成dump：jmap -F -dump:live,file=jmap.hprof PID
+
+	3.EMT 工具分析
+
+		3.1 EMT 简介
+		dominator_tree
+ 		   A. Shallow Size是对象本身占据的内存的大小，不包含其引用的对象
+  		   B. Retained Size=当前对象大小+当前对象可直接或间接引用到的对象的大小总和
+		Histogram
+  		   A.  Shallow Heap : Shallow size就是对象本身占用内存的大小
+  		   B. Retained Heap:它表示如果一个对象被释放掉，那会因为该对象的释放而减少引用进而被释放的所有的对象（包括被递归释放的）所占用的heap大小
+
+（3）.堆外内存溢出
+	eg:集合中无限循环存放class，可导致堆外内存溢出。
+
+
+
+
+（4）.CPU 负载过高
+
+     分析过程：
+	1. 获取Java进程的pid ，jps -l , 或者 先top 查询出占用过高的进程ID
+  	 命令：top   查询结果的Java进程ID是：8183
+
+	2. 查询 8183 进程下占用过高的子线程ID：
+  	   命令：top -H -p 8183
+           比如查询结果获取到的子线程ID：8228 ，8193 ，8186
+        3.将子进程的ID转换成16进制数字：
+     	   命令：printf %x  28837
+                printf %x  28838
+       		printf %x  28839
+
+
+	4. 打印当前进程ID的所有线程信息 ，（ 可以输出到指定文件中  ）
+    		命令： jstack 8183 > jincheng.8183
+
+	5. 最后筛选出线程ID的信息 （ -B10 ： 前10 行信息 ，-A10 后10行信息 ）
+  	       cat  jincheng.8183 | grep 1ffa -A10 -B10
+
+
+三 .命令
+
+1.jstat：类加载信息，jvm垃圾回收信息，运行时，jit 编译信息
+  A. jstat -class PID 1000 10 ( 1000 每个一秒钟， 输出十次 类加载信息 )
+  B. jstat -gc PID  （kB）( GC 的回收信息  ，S0c ：第一个幸存区的大小 ；S0U：第一个幸存区的使用大小
+  ；EC：当前eden space总容量（kB）；oC：老年代大小; MC：Metaspace 方法区大小（kB）; CCSC:压缩类空间大小 )
+
+  C. jstat -gccapacity PID （kB）( 堆内存统计 )
+2.jmap 结合MAT分析垃圾回收  (手工构造内存溢出 ，通过工具排查问题 )
+
+
+3.jinfo ：查看JVM运行时的参数值
+  eg:jinfo -flag MaxHeapSize PID( 堆栈最大参数设置 )
+     jinfo -flag ThreadStackSize PID( 线程堆栈大小 )
+     jinfo -flag UseG1Gc PID ( 是否启用了G1Gc 垃圾回收 )
+
+     jinfo -flags PID ( 可以查看全部手动赋值的全部参数设置：)
+
+  查看运行时参数的设置：
+  java -XX:+PrintFlagInitial ( 查看初始值 )
+  java -XX:+PrintFlagsFinal -version  ( 查看最终设置的值 )
+  java -XX:+UnlockDiagnosticVMOption ( 解锁诊断参数 )
+ eg: bool InitialHeapSize  := 130023424
+  其中:= 表示被JVM修改之后的值 ，= 表示默认值
+
+
+
+4.jstack 查看线程
+
+
+
+
+四.jvm 参数类型设置
+
+1. 标准参数 ( 在jvm )
+  -server -client
+  -version  -showversion
+
+2.X参数,非标准化参数（ 在各个JDK版本中变动比较小 )
+  -Xint：完全解释执行
+  -Xcomp:第一次使用就编译成本地代码 （ 速度慢 ）
+  -Xmixed:混合模式 （ jvm自己决定编译类型 ）
+3.XX参数
+  A.（Boolean类型）格式：-XX:[+-]<属性的name> 表示（+启用）或者（-禁用）name属性
+    eg.： -XX:+UseConcMarkSweepGC ( 启用 )
+          -XX:+UseG1GC (启用G1 垃圾收集器 )
+
+
+  B.（非Boolean类型）格式：-XX:<name>=<value>表示name属性的值是value.
+     eg: -XX:MaxGcPauseMillis=500
+
+
+特例： -Xmx 和-Xms 最大和最小内存参数 ，-Xss 也是XX参数
+     -Xms
+     -Xmx 等价于-XX:MaxHeapSize
+
+五 . 垃圾回收算法
+1. 对象分配，大对象直接进入老年代
+ 大对象设置： （ -XX:PretenureSizeThreshold ） 超过该大小的内存对象都是大对象
+
+2. 长期存活的对象进入老年代，参数设置：
+
+
+3. 停顿时间：
+   参数设置： XX:MaxGCPauseMillis
+
+4.吞吐量：花在垃圾收集的时间和花在应用的时间占比
+  XX:GCTimeRatio=<N>
+
+参数调优主要是针对停顿时间和吞吐量
+
+六。 垃圾收集器
+
+1. 串行收集器：serial ,Serial Old （ 吞吐量优先 ）
+参数设置： -XX:+UseParallelGC , -XX:UseParallelOldGC
+
+
+2. 并行收集器：Parallel Scavenge ,吞吐量 （  收集器工作时 ，用户进程停顿 ）
+
+备注：查看是否启用并行收集器：
+jinfo -flag UseParallelGC PID
+jinfo -flag UseParallelOldGC  PID
+
+3. 并发收集器 Concurrent: CMS ,G1 ,停顿时间 （  收集器工作时 ，用户进程不 停顿 ）
+
+备注：设置并发收集器
+
+ -XX:+UseConcMarkSweepGC
+
+jinfo -flag -XX:+UseConcMarkSweepGC
+
+
+
+垃圾回收统计信息
+-XX:+PrintHeapAtGC GC的heap详情
+-XX:+PrintGCDetails  GC详情
+-XX:+PrintGCTimeStamps  打印GC时间信息
+-XX:+PrintTenuringDistribution    打印年龄信息等
+
+-XX:+HandlePromotionFailure   老年代分配担保（true  or false）
+
+
+
+七.垃圾收集器的选择指南：
+
+1. 官方文档：docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/collectors.html
+  ~toc.html
+
+
+2. 关于并行收集器 (Parallel GC )： 开启垃圾回收线程：
+   并行垃圾回收开启线程数量参考数量：
+  -XX:UseParallelGC 手动开启
+  e.g.: CPU > 8 = 5/8 个
+        CPU < 8 = CPU的实际个数
+
+  备注：内存新老空间使用不同种类的垃圾收集器设置：
+       -XX:+UseParallelOldGC（新生代，老年代都使用并行回收收集器） 关键字（PSYoungGen）
+	-XX:+UseConcMarkSweepGC(新生代使用并行收集器，老年代使用CMS)
+	-XX:ParallelGCThreads 限制并行线程数量
+	-XX:MaxGCPauseMills  GC最大停顿毫秒数
+2.1. 动态内存调整
+
+
+
+3.关于并发垃圾收集器：低停顿，低延迟
+
+  种类：CMS( 垃圾回收时可以不停顿应用程序 ) ，G1
+
+  缺点：CPU敏感 ，会产生动态垃圾 和空间碎片 。
+
+3.1 参数设置：
+
+-XX:+UseConcMarkSweepGC ( 开启CMS 收集器 )
+
+  -XX:CMSInitiatingOccupancyFrantion:   ( 触发 FullGC )
+ -XX:+UseCMSInitiatingOccupancyOnly： （ 是否动态调整  ）
+ -XX:+CMSScavengeBeforeRemark: ( FullGC 之前先做 YGC )
+ -XX:+CMSClassUnloadingEnabledL ( 启动回收Perm区 )
+
+
+4. G1  收集器
+
+ 4.1 专有名词： Region ,
+
+
+ 4.2 youngGC , MixedGC ( 回收所有young 和部分old )
+
+
+ 4.3 设置原则：A： 年轻代的大小避免使用-Xmn ，-XX:NewRatio 等显式设置Young 区大小，会覆盖暂停时间
+             B：暂停时间目标：暂停时间不要太苛刻， 其吞吐量目标是90%的应用程序时间和10%的垃圾回收时间，太短会影响吞吐量
+
+5. 可视化垃圾回收日志分析工具
+
+  备注：首先是设置JVM 打印日志的参数：
+  -XX:+PrintGCDetails
+  -XX:+PrintGCTimeStampas
+  -XX:+PrintGCDateStamps
+  -Xloggc:$CATALINA_HOME/logs/gc.log
+  -XX:+PrintHeapAtGC
+  -XX:+PrintTenuringDistribution
+
+ JVM 默认是使用并行垃圾回收器
+
+
+
+  5.1 在线：gceasy.io
+   
+  5.2 GCViewer :
+   
+
+
+
+
+
+
