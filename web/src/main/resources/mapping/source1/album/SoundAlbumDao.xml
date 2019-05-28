@@ -2,6 +2,12 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.unisound.iot.dao.mapper.source1.album.SoundAlbumDao">
 
+    <select id="findTemplateInfo" resultType="String" >
+        select templateName
+        from app_template
+
+
+    </select>
     <!--查询专辑合集主键集合-->
     <select id="findAlbumTypeIdList" resultType="Long" >
         select albumTypeId

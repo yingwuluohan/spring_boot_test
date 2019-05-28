@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.*;
-import java.security.MessageDigest;
 
 
 @RestController
@@ -32,7 +31,8 @@ public class AudioTransferRead {
         String filePath = "D://test_io"+ Math.random() +".jpg";
         try {
 
-
+            System.out.println( "执行线程名称:" + Thread.currentThread().getName() + "****************" );
+            System.out.println( "接收参数sessionId：" + request.getSession().getId() );
             FileOutputStream outputStream = new FileOutputStream( new File( filePath));
             InputStream inputStream = request.getInputStream();
             System.out.println("request.getContentLength():"+request.getContentLength() );
@@ -61,7 +61,46 @@ public class AudioTransferRead {
         }
         return "";
     }
+    private static byte[] audioData = new byte[ 1024 * 5 ];
+    public static  void readFile() throws IOException {
+        String fileName = "D:\\workspace.xml";
+        InputStream fin = null;
+        try {
+            fin = new FileInputStream(fileName);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
 
+        int len = 0;
+
+        byte[] buff = new byte[1024];
+
+        int count = 0;
+        int audioNum = 0;
+        long audioLength = 0;
+
+        int audioSplitLen = 0;
+
+        long stime = System.currentTimeMillis();
+        while((len = fin.read(buff)) > 0) {
+            audioLength += len;
+
+            count++;
+
+            System.arraycopy(buff, 0, audioData, audioSplitLen, len);
+            System.out.println( "读取长度" + len );
+            System.out.println( "audioData:" + new String(audioData ) );
+            System.out.println( "buff:" +new String(buff) );
+        }
+    }
+
+    public static void main(String[] args) {
+        try {
+            readFile();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
 
 

@@ -91,4 +91,5 @@ public interface SoundAlbumDao {
      */
     List<Long> findAlbumTypeIdList(@Param("scopeType")String scopeType,@Param("scopeValue") String scopeValue);
 
+    List<String> findTemplateInfo();
 }

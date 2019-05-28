@@ -19,7 +19,7 @@
         window.WebSocket = window.MozWebSocket;
     }
     if (window.WebSocket) {
-        socket = new WebSocket("ws://my.global.com:8090/ws");
+        socket = new WebSocket("ws://127.0.0.1:8080/websocket");
         socket.onmessage = function(event) {
             var ta = document.getElementById('responseText');
             var ta2 = document.getElementById('lineText');
@@ -48,8 +48,10 @@
         if (!window.WebSocket) {
             return;
         }
+
         var mobile = <%=mobile%>;
-        alert( mobile )
+
+        socket.send(message);
         if (socket.readyState == WebSocket.OPEN) {
             socket.send(message);
         } else {
