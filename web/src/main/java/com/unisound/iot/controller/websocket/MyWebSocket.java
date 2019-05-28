@@ -4,12 +4,19 @@ package com.unisound.iot.controller.websocket;
  * @Created by yingwuluohan on 2019/4/26.
  * @Company 北京云知声技术有限公司
  */
+
+import org.springframework.stereotype.Component;
+
 import javax.websocket.*;
 import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
+import java.net.InetSocketAddress;
+import java.nio.ByteBuffer;
 import java.util.concurrent.CopyOnWriteArraySet;
 
+//TODO 这个注解用来标记一个类是 WebSocket 的处理器。
 @ServerEndpoint("/websocket")
+@Component
 public class MyWebSocket {
     //静态变量，用来记录当前在线连接数。应该把它设计成线程安全的。
     private static int onlineCount = 0;
@@ -25,12 +32,20 @@ public class MyWebSocket {
      * @param session  可选的参数。session为与某个客户端的连接会话，需要通过它来给客户端发送数据
      */
     @OnOpen
-    public void onOpen(Session session){
+    public void onOpen( Session session){
+        System.out.println( "message:"  );
+        InetSocketAddress address = WebsocketUtil.getRemoteAddress(session);
+        if( null != address ){
+            String hostAddress = address.getAddress().getHostAddress();
+            System.out.println( "客户端地址：" + hostAddress );
+        }
         this.session = session;
         webSocketSet.add(this);     //加入set中
         addOnlineCount();           //在线数加1
         System.out.println("有新连接加入！当前在线人数为" + getOnlineCount());
     }
+
+
 
     /**
      * 连接关闭调用的方法
@@ -50,7 +65,8 @@ public class MyWebSocket {
     @OnMessage
     public void onMessage(String message, Session session) {
         System.out.println("来自客户端的消息:" + message);
-
+        String scheme = session.getRequestURI().getScheme();
+        System.out.println( "scheme :" + scheme );
         //群发消息
         for(MyWebSocket item: webSocketSet){
             try {
@@ -60,6 +76,18 @@ public class MyWebSocket {
                 continue;
             }
         }
+    }
+
+    @OnMessage
+    public void onMessage(byte[] data ){
+
+        if( null != data ){
+            long length = data.length;
+            System.out.println( "数据长度:" + length );
+            System.out.println( "OnMessage:" + new String( data ));
+        }
+
+
     }
 
     /**
@@ -79,7 +107,10 @@ public class MyWebSocket {
      * @throws IOException
      */
     public void sendMessage(String message) throws IOException{
+        byte[] data = message.getBytes();
+        ByteBuffer buffer = ByteBuffer.wrap(data);
         this.session.getBasicRemote().sendText(message);
+        this.session.getBasicRemote().sendBinary( buffer );
         //this.session.getAsyncRemote().sendText(message);
     }
 

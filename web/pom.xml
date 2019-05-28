@@ -38,7 +38,11 @@
 	</dependencyManagement>
 	<dependencies>
 
-
+		<dependency>
+			<groupId>asm</groupId>
+			<artifactId>asm</artifactId>
+			<version>3.3.1</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -313,11 +317,18 @@
 			<artifactId>lombok</artifactId>
 			<version>1.16.18</version>
 		</dependency>
+		<!--webSockt 开始 -->
         <dependency>
             <groupId>javax.websocket</groupId>
             <artifactId>javax.websocket-api</artifactId>
             <version>1.0</version>
         </dependency>
+		<dependency>
+			<groupId>org.java-websocket</groupId>
+			<artifactId>Java-WebSocket</artifactId>
+			<version>1.3.8</version>
+		</dependency>
+		<!-- websockt 结束 -->
 		<!--转写测试-->
 		<dependency>
 			<groupId>cn.yunzhisheng.utils</groupId>
@@ -329,7 +340,10 @@
 			<artifactId>jedis</artifactId>
 			<version>2.7.3</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-websocket</artifactId>
+		</dependency>
 		<!--转写测试-->
     </dependencies>
 

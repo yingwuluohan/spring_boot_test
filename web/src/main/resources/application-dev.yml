@@ -63,7 +63,7 @@ spring:
 
 # https://blog.csdn.net/janceewa/article/details/79696949
     mongodb:
-#        host: mongodb://admin:123456@localhost:27017/mongo_test
+##        host: mongodb://admin:123456@localhost:27017/mongo_test
         host: mongodb://root:123456@10.20.222.63:27017/msg_center
         port: 27017
         username: root
