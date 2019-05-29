@@ -7,25 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4ce12f4-769e-43a1-b6d5-f65d93d447d7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/MemeryController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/Metaspace.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/pa_chong/BroswerPaChong.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/pa_chong/HttpPaChong.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/pa_chong/TcpSocketClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/pa_chong/TcpSocketServer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/pa_chong/UDPSocketClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/pa_chong/UDPSocketServer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/pa_chong/talk_house/TalkClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/pa_chong/talk_house/TalkServer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/MyWebSocketClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/SocketClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/WebsocketUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/WebSocketClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/api/Handshakedata.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/api/WebSocket.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" afterPath="$PROJECT_DIR$/web/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/MyWebSocket.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/MyWebSocket.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/web/src/main/resources/application-dev.yml" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/web.iml" afterPath="$PROJECT_DIR$/web/web.iml" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/MyWebSocketClient.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/MyWebSocketClient.java" />
     </list>
     <ignored path="$PROJECT_DIR$/web/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,11 +31,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="MyWebSocketClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/MyWebSocketClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MyWebSocket.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/MyWebSocket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="110" column="50" lean-forward="true" selection-start-line="110" selection-start-column="50" selection-end-line="110" selection-end-column="50" />
+            <state relative-caret-position="334">
+              <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3280#3281#0" expanded="true" />
@@ -65,35 +65,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyWebSocketClient.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/MyWebSocketClient.java">
+      <file leaf-file-name="OnOpen.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0-sources.jar!/javax/websocket/OnOpen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChartRoomServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/service/chat/ChartRoomServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="22">
+              <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/index.jsp">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="43" column="37" lean-forward="false" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,9 +91,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -159,15 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/src/main/resources/log4j2.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/WebApplication.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/JmapController.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/base/BaseController.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/modle/AuthItemTemplate.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/test/yzs/zhuanxie/src/cn/yunzhisheng/test/A.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/util/LOG.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/copy_asr/api/Context.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/exception/ProtocolException.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/copy_asr/api/Result.java" />
@@ -209,6 +186,15 @@
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/SocketClient.java" />
         <option value="$PROJECT_DIR$/web/pom.xml" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/MyWebSocket.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/Draft.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/api/ClientHandshake.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/service/WebSocketImpl.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/AbstractWebSocket.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/Draft_6455.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/WebSocketClient.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/api/WebSocket.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/api/Handshakedata.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/api/ServerHandshake.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/MyWebSocketClient.java" />
       </list>
     </option>
@@ -317,6 +303,11 @@
             <path>
               <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_boot_test" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_boot_test" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -376,38 +367,6 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="iot" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_boot_test" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="iot" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="chat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_boot_test" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="iot" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="dataRpc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_boot_test" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -417,54 +376,28 @@
             <path>
               <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: javax.websocket:javax.websocket-api:1.0" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: javax.websocket:javax.websocket-api:1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="javax.websocket-api-1.0.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: javax.websocket:javax.websocket-api:1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="javax.websocket-api-1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.java-websocket:Java-WebSocket:1.3.8" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.java-websocket:Java-WebSocket:1.3.8" type="70bed36:NamedLibraryElementNode" />
-              <item name="Java-WebSocket-1.3.8.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.java-websocket:Java-WebSocket:1.3.8" type="70bed36:NamedLibraryElementNode" />
-              <item name="Java-WebSocket-1.3.8.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java_websocket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.java-websocket:Java-WebSocket:1.3.8" type="70bed36:NamedLibraryElementNode" />
-              <item name="Java-WebSocket-1.3.8.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java_websocket" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: javax.websocket:javax.websocket-api:1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="javax.websocket-api-1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -487,7 +420,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../utservice-transcribe" />
-    <property name="SearchEverywhereHistoryKey" value="itemDao&#9;FILE&#9;file://D:/workspace/uper-other-codeing/spring_boot_test/web/src/main/resources/mapping/source1/item/ItemDao.xml&#10;ItemDao&#9;FILE&#9;file://D:/workspace/uper-other-codeing/spring_boot_test/web/src/main/resources/mapping/source1/item/ItemDao.xml&#10;LOG&#9;FILE&#9;file://D:/workspace/uper-other-codeing/spring_boot_test/web/src/main/java/com/unisound/iot/common/util/LOG.java&#10;reportDao&#9;FILE&#9;file:///workplace/spring_boot_operation/web/src/main/resources/mapping/source2/report/ReportDao.xml&#10;MyDailyRollingFileAppender.java&#9;FILE&#9;file:///workplace/spring_boot_operation/web/src/main/java/com/unisound/iot/common/config/MyDailyRollingFileAppender.java&#10;BaseSer&#9;PSI&#9;JAVA://com.unisound.iot.service.base.BaseService&#10;BaseC&#9;PSI&#9;JAVA://com.unisound.iot.controller.base.BaseController&#10;spring.fa&#9;FILE&#9;jar:///application/repository/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/META-INF/spring.factories&#10;SoundAlbumDao&#9;FILE&#9;file:///workplace/Sound_project/kar-business-operation/web/src/main/java/com/unisound/iot/dao/mapper/source1/album/SoundAlbumDao.java&#10;dataRpcService&#9;FILE&#9;file:///workplace/Sound_project/kar-business-operation/web/src/main/java/com/unisound/iot/service/dataRpc/DataRpcService.java&#10;AlbumTypeDetail&#9;FILE&#9;file:///workplace/Sound_project/kar-business-operation/web/src/main/java/com/unisound/iot/common/modle/dataRpc/AlbumTypeDetail.java&#10;AlbumType&#9;FILE&#9;file:///workplace/Sound_project/kar-business-operation/web/src/main/java/com/unisound/iot/common/modle/dataRpc/AlbumType.java" />
+    <property name="SearchEverywhereHistoryKey" value="Draft_6455&#9;FILE&#9;jar://D:/soft/apache-maven-3.1.0-bin/localRepository/org/java-websocket/Java-WebSocket/1.3.5/Java-WebSocket-1.3.5.jar!/org/java_websocket/drafts/Draft_6455.class&#10;ClientHandshake&#9;PSI&#9;JAVA://org.java_websocket.handshake.ClientHandshake&#10;Handshakedata&#9;FILE&#9;jar://D:/soft/apache-maven-3.1.0-bin/localRepository/org/java-websocket/Java-WebSocket/1.3.8/Java-WebSocket-1.3.8.jar!/org/java_websocket/handshake/Handshakedata.class&#10;Draft&#9;PSI&#9;JAVA://org.java_websocket.drafts.Draft&#10;WebSocketImpl&#9;FILE&#9;jar://D:/soft/apache-maven-3.1.0-bin/localRepository/org/java-websocket/Java-WebSocket/1.3.8/Java-WebSocket-1.3.8.jar!/org/java_websocket/WebSocketImpl.class&#10;itemDao&#9;FILE&#9;file://D:/workspace/uper-other-codeing/spring_boot_test/web/src/main/resources/mapping/source1/item/ItemDao.xml&#10;ItemDao&#9;FILE&#9;file://D:/workspace/uper-other-codeing/spring_boot_test/web/src/main/resources/mapping/source1/item/ItemDao.xml&#10;LOG&#9;FILE&#9;file://D:/workspace/uper-other-codeing/spring_boot_test/web/src/main/java/com/unisound/iot/common/util/LOG.java&#10;reportDao&#9;FILE&#9;file:///workplace/spring_boot_operation/web/src/main/resources/mapping/source2/report/ReportDao.xml&#10;MyDailyRollingFileAppender.java&#9;FILE&#9;file:///workplace/spring_boot_operation/web/src/main/java/com/unisound/iot/common/config/MyDailyRollingFileAppender.java&#10;BaseSer&#9;PSI&#9;JAVA://com.unisound.iot.service.base.BaseService&#10;BaseC&#9;PSI&#9;JAVA://com.unisound.iot.controller.base.BaseController&#10;spring.fa&#9;FILE&#9;jar:///application/repository/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/META-INF/spring.factories&#10;SoundAlbumDao&#9;FILE&#9;file:///workplace/Sound_project/kar-business-operation/web/src/main/java/com/unisound/iot/dao/mapper/source1/album/SoundAlbumDao.java&#10;dataRpcService&#9;FILE&#9;file:///workplace/Sound_project/kar-business-operation/web/src/main/java/com/unisound/iot/service/dataRpc/DataRpcService.java&#10;AlbumTypeDetail&#9;FILE&#9;file:///workplace/Sound_project/kar-business-operation/web/src/main/java/com/unisound/iot/common/modle/dataRpc/AlbumTypeDetail.java&#10;AlbumType&#9;FILE&#9;file:///workplace/Sound_project/kar-business-operation/web/src/main/java/com/unisound/iot/common/modle/dataRpc/AlbumType.java" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
@@ -530,7 +463,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyWebSocketClient">
+  <component name="RunManager" selected="Tomcat Server.service">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1295,16 +1228,15 @@
       <workItem from="1558488448355" duration="612000" />
       <workItem from="1558513393066" duration="86000" />
       <workItem from="1558513738949" duration="11811000" />
-      <workItem from="1559008989127" duration="15198000" />
+      <workItem from="1559008989127" duration="21032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253268000" />
+    <option name="totallyTimeSpent" value="259102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1326,8 +1258,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45711184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42068964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23434125" sideWeight="0.4893617" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42068964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28239742" sideWeight="0.4893617" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45057473" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1362,7 +1294,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8172414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.345977" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39195403" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1376,7 +1308,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45711184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988507" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42068964" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23434125" sideWeight="0.4893617" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28239742" sideWeight="0.4893617" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1587,8 +1519,38 @@
           <properties />
           <option name="timeStamp" value="86" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/WebSocketClient.java</url>
+          <line>471</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/WebSocketClient.java</url>
+          <line>489</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/WebSocketClient.java</url>
+          <line>214</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/WebSocketClient.java</url>
+          <line>184</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/MyWebSocket.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="87" />
+      <option name="time" value="92" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1597,186 +1559,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/setting.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/WebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/dao/mapper/source1/dwhitem/DwhItemDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/dao/mapper/source1/release/ReleaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/service/aio/BufferOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/dataRpc/DateRpcController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/service/report/ReportService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/core/consum/ConsumMessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/message/MessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/service/base/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="335" column="18" lean-forward="false" selection-start-line="335" selection-start-column="18" selection-end-line="335" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/dao/mapper/source1/item/ItemDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/release/ReleaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/mapping/source1/item/ItemDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="68" column="30" lean-forward="false" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/dao/mapper/source2/report/ReportDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/mapping/source1/dwh/DwhItemDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/mapping/source1/album/SoundAlbumDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/dao/mapper/source1/album/SoundAlbumDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="93" column="33" lean-forward="false" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/mapping/source1/release/ReleaseDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/mapping/source2/report/ReportDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/service/item/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="79" column="20" lean-forward="false" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/application-test.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/item/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/MemeryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -1990,59 +1772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/java-websocket/Java-WebSocket/1.3.5/Java-WebSocket-1.3.5.jar!/org/java_websocket/drafts/Draft_6455.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="56" column="11" lean-forward="false" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-          <folding>
-            <marker date="1559022273206" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1559022273206" expanded="false" signature="149:1919" ph="..." />
-            <marker date="1559022273206" expanded="true" signature="2240:2251" ph=" { " />
-            <marker date="1559022273206" expanded="true" signature="2281:2287" ph=" }" />
-            <marker date="1559022273206" expanded="false" signature="2337:2348" ph=" { " />
-            <marker date="1559022273206" expanded="false" signature="2396:2402" ph=" }" />
-            <marker date="1559022273206" expanded="true" signature="2460:3153" ph="{...}" />
-            <marker date="1559022273206" expanded="true" signature="3269:3987" ph="{...}" />
-            <marker date="1559022273206" expanded="true" signature="4123:5397" ph="{...}" />
-            <marker date="1559022273206" expanded="false" signature="5435:5446" ph=" { " />
-            <marker date="1559022273206" expanded="false" signature="5468:5474" ph=" }" />
-            <marker date="1559022273206" expanded="false" signature="5524:5535" ph=" { " />
-            <marker date="1559022273206" expanded="false" signature="5563:5569" ph=" }" />
-            <marker date="1559022273206" expanded="true" signature="5673:6631" ph="{...}" />
-            <marker date="1559022273206" expanded="true" signature="6789:7635" ph="{...}" />
-            <marker date="1559022273206" expanded="true" signature="7669:8008" ph="{...}" />
-            <marker date="1559022273206" expanded="true" signature="8071:8467" ph="{...}" />
-            <marker date="1559022273206" expanded="true" signature="8543:10162" ph="{...}" />
-            <marker date="1559022273206" expanded="true" signature="10274:14017" ph="{...}" />
-            <marker date="1559022273206" expanded="true" signature="14108:16218" ph="{...}" />
-            <marker date="1559022273206" expanded="true" signature="16293:16636" ph="{...}" />
-            <marker date="1559022273206" expanded="true" signature="16705:17087" ph="{...}" />
-            <marker date="1559022273206" expanded="true" signature="17113:17291" ph="{...}" />
-            <marker date="1559022273206" expanded="true" signature="17328:17604" ph="{...}" />
-            <marker date="1559022273206" expanded="true" signature="17653:18035" ph="{...}" />
-            <marker date="1559022273206" expanded="true" signature="18093:18330" ph="{...}" />
-            <marker date="1559022273206" expanded="true" signature="18375:18907" ph="{...}" />
-            <marker date="1559022273206" expanded="true" signature="18979:19498" ph="{...}" />
-            <marker date="1559022273206" expanded="true" signature="19603:24342" ph="{...}" />
-            <marker date="1559022273206" expanded="false" signature="24397:24408" ph=" { " />
-            <marker date="1559022273206" expanded="false" signature="24441:24447" ph=" }" />
-            <marker date="1559022273206" expanded="true" signature="24478:24683" ph="{...}" />
-            <marker date="1559022273206" expanded="true" signature="24721:25051" ph="{...}" />
-            <marker date="1559022273206" expanded="false" signature="25078:25089" ph=" { " />
-            <marker date="1559022273206" expanded="false" signature="25151:25157" ph=" }" />
-            <marker date="1559022273206" expanded="true" signature="25242:25999" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/java-websocket/Java-WebSocket/1.3.8/Java-WebSocket-1.3.8.jar!/org/java_websocket/WebSocketImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="508" column="0" lean-forward="false" selection-start-line="508" selection-start-column="0" selection-end-line="508" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/SocketClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -2054,14 +1783,6 @@
             <element signature="e#1788#1789#0" expanded="false" />
             <element signature="e#1823#1824#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/java-websocket/Java-WebSocket/1.3.8/Java-WebSocket-1.3.8.jar!/org/java_websocket/client/WebSocketClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="58" column="11" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2089,10 +1810,319 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/java-websocket/Java-WebSocket/1.3.8/Java-WebSocket-1.3.8.jar!/org/java_websocket/AbstractWebSocket.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2134">
+          <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/Handshakedata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/java-websocket/Java-WebSocket/1.3.8/Java-WebSocket-1.3.8.jar!/org/java_websocket/handshake/ClientHandshake.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/api/ClientHandshake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/AbstractWebSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="80" column="49" lean-forward="false" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/java-websocket/Java-WebSocket/1.3.5/Java-WebSocket-1.3.5.jar!/org/java_websocket/drafts/Draft_6455.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="664" column="1" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="664" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/service/WebSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="61" column="47" lean-forward="false" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/java-websocket/Java-WebSocket/1.3.8/Java-WebSocket-1.3.8.jar!/org/java_websocket/drafts/Draft.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4796">
+          <caret line="246" column="8" lean-forward="false" selection-start-line="246" selection-start-column="8" selection-end-line="246" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/Draft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="904">
+          <caret line="259" column="8" lean-forward="false" selection-start-line="259" selection-start-column="8" selection-end-line="259" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/Draft_6455.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="590" column="36" lean-forward="false" selection-start-line="590" selection-start-column="36" selection-end-line="590" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/java-websocket/Java-WebSocket/1.3.8/Java-WebSocket-1.3.8.jar!/org/java_websocket/client/WebSocketClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="504" column="1" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="504" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/java-websocket/Java-WebSocket/1.3.8/Java-WebSocket-1.3.8.jar!/org/java_websocket/handshake/Handshakedata.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/java-websocket/Java-WebSocket/1.3.8/Java-WebSocket-1.3.8.jar!/org/java_websocket/handshake/ServerHandshake.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/api/ServerHandshake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/api/WebSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/java-websocket/Java-WebSocket/1.3.8/Java-WebSocket-1.3.8.jar!/org/java_websocket/WebSocket.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/java-websocket/Java-WebSocket/1.3.8/Java-WebSocket-1.3.8.jar!/org/java_websocket/WebSocketImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="50" column="31" lean-forward="false" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+          <folding>
+            <marker date="1559025168841" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1559025168841" expanded="false" signature="142:1734" ph="..." />
+            <marker date="1559025168841" expanded="true" signature="2754:3049" ph="{...}" />
+            <marker date="1559025168841" expanded="true" signature="3117:3999" ph="{...}" />
+            <marker date="1559025168841" expanded="true" signature="4005:4023" ph="/**...*/" />
+            <marker date="1559025168841" expanded="false" signature="4120:4131" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="4153:4159" ph=" }" />
+            <marker date="1559025168841" expanded="true" signature="4165:4183" ph="/**...*/" />
+            <marker date="1559025168841" expanded="false" signature="4287:4298" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="4321:4327" ph=" }" />
+            <marker date="1559025168841" expanded="true" signature="4377:5438" ph="{...}" />
+            <marker date="1559025168841" expanded="true" signature="5504:12115" ph="{...}" />
+            <marker date="1559025168841" expanded="true" signature="12172:12706" ph="{...}" />
+            <marker date="1559025168841" expanded="true" signature="12792:12946" ph="{...}" />
+            <marker date="1559025168841" expanded="true" signature="13033:13165" ph="{...}" />
+            <marker date="1559025168841" expanded="true" signature="13236:13836" ph="{...}" />
+            <marker date="1559025168841" expanded="true" signature="13915:15882" ph="{...}" />
+            <marker date="1559025168841" expanded="false" signature="15931:15942" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="15975:15981" ph=" }" />
+            <marker date="1559025168841" expanded="true" signature="16070:17298" ph="{...}" />
+            <marker date="1559025168841" expanded="false" signature="17360:17371" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="17410:17416" ph=" }" />
+            <marker date="1559025168841" expanded="true" signature="17452:17725" ph="{...}" />
+            <marker date="1559025168841" expanded="false" signature="17784:17795" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="17838:17844" ph=" }" />
+            <marker date="1559025168841" expanded="true" signature="17931:18532" ph="{...}" />
+            <marker date="1559025168841" expanded="true" signature="18556:19280" ph="{...}" />
+            <marker date="1559025168841" expanded="false" signature="19313:19324" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="19352:19358" ph=" }" />
+            <marker date="1559025168841" expanded="false" signature="19405:19416" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="19468:19474" ph=" }" />
+            <marker date="1559025168841" expanded="true" signature="19548:19797" ph="{...}" />
+            <marker date="1559025168841" expanded="true" signature="19902:20153" ph="{...}" />
+            <marker date="1559025168841" expanded="true" signature="20254:20304" ph="{...}" />
+            <marker date="1559025168841" expanded="true" signature="20358:20993" ph="{...}" />
+            <marker date="1559025168841" expanded="true" signature="21074:21157" ph="{...}" />
+            <marker date="1559025168841" expanded="false" signature="21214:21225" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="21243:21249" ph=" }" />
+            <marker date="1559025168841" expanded="false" signature="21297:21308" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="21368:21374" ph=" }" />
+            <marker date="1559025168841" expanded="true" signature="21435:21588" ph="{...}" />
+            <marker date="1559025168841" expanded="false" signature="21626:21637" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="21669:21675" ph=" }" />
+            <marker date="1559025168841" expanded="true" signature="21779:22593" ph="{...}" />
+            <marker date="1559025168841" expanded="true" signature="22634:22894" ph="{...}" />
+            <marker date="1559025168841" expanded="true" signature="22942:23236" ph="{...}" />
+            <marker date="1559025168841" expanded="true" signature="23277:23594" ph="{...}" />
+            <marker date="1559025168841" expanded="true" signature="23630:23790" ph="{...}" />
+            <marker date="1559025168841" expanded="true" signature="23820:23968" ph="{...}" />
+            <marker date="1559025168841" expanded="false" signature="24000:24011" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="24061:24067" ph=" }" />
+            <marker date="1559025168841" expanded="false" signature="24105:24116" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="24147:24153" ph=" }" />
+            <marker date="1559025168841" expanded="false" signature="24184:24195" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="24244:24250" ph=" }" />
+            <marker date="1559025168841" expanded="false" signature="24289:24300" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="24323:24329" ph=" }" />
+            <marker date="1559025168841" expanded="false" signature="24384:24395" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="24424:24430" ph=" }" />
+            <marker date="1559025168841" expanded="false" signature="24457:24468" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="24492:24498" ph=" }" />
+            <marker date="1559025168841" expanded="false" signature="24528:24539" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="24563:24569" ph=" }" />
+            <marker date="1559025168841" expanded="false" signature="24624:24635" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="24680:24686" ph=" }" />
+            <marker date="1559025168841" expanded="false" signature="24740:24751" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="24795:24801" ph=" }" />
+            <marker date="1559025168841" expanded="false" signature="24830:24841" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="24859:24865" ph=" }" />
+            <marker date="1559025168841" expanded="false" signature="24890:24901" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="24918:24924" ph=" }" />
+            <marker date="1559025168841" expanded="false" signature="24967:24978" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="25009:25015" ph=" }" />
+            <marker date="1559025168841" expanded="false" signature="25039:25050" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="25071:25077" ph=" }" />
+            <marker date="1559025168841" expanded="false" signature="25111:25122" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="25165:25171" ph=" }" />
+            <marker date="1559025168841" expanded="false" signature="25224:25235" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="25251:25257" ph=" }" />
+            <marker date="1559025168841" expanded="false" signature="25291:25302" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="25325:25331" ph=" }" />
+            <marker date="1559025168841" expanded="false" signature="25380:25391" ph=" { " />
+            <marker date="1559025168841" expanded="false" signature="25420:25426" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/WebSocketClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="e#9069#9070#0" expanded="false" />
+            <element signature="e#9119#9120#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/socket_client/api/Handshakedata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar!/javax/websocket/server/PathParam.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar!/javax/websocket/Session.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0-sources.jar!/javax/websocket/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0-sources.jar!/javax/websocket/server/ServerEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="76" column="18" lean-forward="false" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0-sources.jar!/javax/websocket/server/DefaultServerEndpointConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="58" column="13" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0-sources.jar!/javax/websocket/SendResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="48" column="19" lean-forward="false" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0-sources.jar!/javax/websocket/server/ServerEndpointConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="60" column="17" lean-forward="false" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/MyWebSocketClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/MyWebSocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="110" column="50" lean-forward="true" selection-start-line="110" selection-start-column="50" selection-end-line="110" selection-end-column="50" />
+        <state relative-caret-position="334">
+          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3280#3281#0" expanded="true" />
@@ -2107,15 +2137,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/MyWebSocketClient.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0-sources.jar!/javax/websocket/OnOpen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="22">
+          <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

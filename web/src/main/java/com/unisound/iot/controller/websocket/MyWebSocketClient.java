@@ -1,8 +1,8 @@
 package com.unisound.iot.controller.websocket;
 
+import com.unisound.iot.controller.websocket.socket_client.WebSocketClient;
+import com.unisound.iot.controller.websocket.socket_client.api.WebSocket;
 import org.apache.log4j.Logger;
-import org.java_websocket.WebSocket;
-import org.java_websocket.client.WebSocketClient;
 import org.java_websocket.handshake.ServerHandshake;
 
 import java.io.File;
@@ -51,15 +51,15 @@ public class MyWebSocketClient extends WebSocketClient {
     public static void main(String[] args) {
         try {
             URI uri = new URI( "ws://127.0.0.1:8080/websocket" );
-            MyWebSocketClient e = new MyWebSocketClient( uri );
-            e.connect();
+            MyWebSocketClient socket = new MyWebSocketClient( uri );
+            socket.connect();
 
 
-            while(!e.getReadyState().equals(WebSocket.READYSTATE.OPEN)){
+            while(!socket.getReadyState().equals(WebSocket.READYSTATE.OPEN)){
                 logger.info("正在连接...");
             }
             byte[] data = new byte[ 1024 ];
-            e.send( "test hellow " );
+            socket.send( "test hellow " );
             try {
                 FileInputStream inputStream = new FileInputStream( new File( "D://feedback_type.sql" ) );
                 int length = 0 ;
@@ -69,7 +69,7 @@ public class MyWebSocketClient extends WebSocketClient {
                     System.out.println( "發送二進制數據：" + data );
 //                    System.arraycopy(data, 0, audioData, 0, length);
                     audioLength += length;
-                    e.send( data );
+                    socket.send( data );
                     System.out.println( "文件叠加后的长度:" + audioLength );
                 }
 
