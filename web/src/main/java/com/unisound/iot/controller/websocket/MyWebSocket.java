@@ -5,21 +5,25 @@ package com.unisound.iot.controller.websocket;
  * @Company 北京云知声技术有限公司
  */
 
+import com.unisound.iot.controller.websocket.javax_websocket.HttpSessionConfigurator;
 import org.springframework.stereotype.Component;
 
+import javax.servlet.http.HttpSession;
 import javax.websocket.*;
+import javax.websocket.server.PathParam;
 import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
 import java.util.concurrent.CopyOnWriteArraySet;
+import java.util.concurrent.atomic.AtomicInteger;
 
 //TODO 这个注解用来标记一个类是 WebSocket 的处理器。
-@ServerEndpoint("/websocket")
+@ServerEndpoint(value = "/websocket/{info}" , configurator = HttpSessionConfigurator.class)
 @Component
 public class MyWebSocket {
     //静态变量，用来记录当前在线连接数。应该把它设计成线程安全的。
-    private static int onlineCount = 0;
+    private static AtomicInteger onlineCount = new AtomicInteger();
 
     //concurrent包的线程安全Set，用来存放每个客户端对应的MyWebSocket对象。若要实现服务端与单一客户端通信的话，可以使用Map来存放，其中Key可以为用户标识
     private static CopyOnWriteArraySet<MyWebSocket> webSocketSet = new CopyOnWriteArraySet<MyWebSocket>();
@@ -32,8 +36,11 @@ public class MyWebSocket {
      * @param session  可选的参数。session为与某个客户端的连接会话，需要通过它来给客户端发送数据
      */
     @OnOpen
-    public void onOpen( Session session){
-        System.out.println( "message:"  );
+    public void onOpen(@PathParam("info") String info , Session session ,EndpointConfig config ){
+        HttpSession httpSession= (HttpSession) config.getUserProperties().get(HttpSession.class.getName());
+        System.out.println( httpSession.getAttribute( "name" ));
+
+        System.out.println( "info:" + info );
         InetSocketAddress address = WebsocketUtil.getRemoteAddress(session);
         if( null != address ){
             String hostAddress = address.getAddress().getHostAddress();
@@ -115,15 +122,15 @@ public class MyWebSocket {
     }
 
     public static synchronized int getOnlineCount() {
-        return onlineCount;
+        return onlineCount.get();
     }
 
     public static synchronized void addOnlineCount() {
-        MyWebSocket.onlineCount++;
+        MyWebSocket.onlineCount.getAndDecrement();
     }
 
     public static synchronized void subOnlineCount() {
-        MyWebSocket.onlineCount--;
+        MyWebSocket.onlineCount.decrementAndGet();
     }
 
 
