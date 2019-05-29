@@ -19,7 +19,7 @@
         window.WebSocket = window.MozWebSocket;
     }
     if (window.WebSocket) {
-        socket = new WebSocket("ws://127.0.0.1:8080/websocket");
+        socket = new WebSocket("ws://127.0.0.1:8080/websocket/param");
         socket.onmessage = function(event) {
             var ta = document.getElementById('responseText');
             var ta2 = document.getElementById('lineText');
