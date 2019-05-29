@@ -25,15 +25,18 @@ public class MemeryController {
     @RequestMapping(value = "v1" ,method = {RequestMethod.GET, RequestMethod.POST})
     public String findAlbumList( ){
 
-        System.out.println( "begin *********" );
+        System.out.println( "********** memery begin *********" );
         heap();
 
         return "ok";
     }
 
 
+    /**
+     *  堆内存溢出
+     * java.lang.OutOfMemoryError: Java heap space
+     */
 
-    //堆内存溢出
     public void heap(){
         int i = 0 ;
         while(true){
