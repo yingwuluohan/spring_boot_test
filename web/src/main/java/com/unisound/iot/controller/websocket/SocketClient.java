@@ -16,11 +16,11 @@ public class SocketClient {
     public static WebSocketClient client;
     public static void main(String[] args) {
         try {
-            client = new WebSocketClient(new URI("ws://127.0.0.1:8080/websocket"),new Draft_6455()) {
+            client = new WebSocketClient(new URI("ws://10.20.222.77:8480/websocket/parm"),new Draft_6455()) {
 
                 @Override
                 public void onOpen(ServerHandshake serverHandshake) {
-
+                    System.out.println( "client *** link" );
                 }
 
                 @Override

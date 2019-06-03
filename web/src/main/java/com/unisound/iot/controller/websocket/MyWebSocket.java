@@ -19,6 +19,8 @@ import java.util.concurrent.CopyOnWriteArraySet;
 import java.util.concurrent.atomic.AtomicInteger;
 
 //TODO 这个注解用来标记一个类是 WebSocket 的处理器。
+
+//TODO 如果需要configurator 这个参数做onopen 获取session ，则需要继承Configurator 重新
 @ServerEndpoint(value = "/websocket/{info}" , configurator = HttpSessionConfigurator.class)
 @Component
 public class MyWebSocket {
@@ -36,10 +38,11 @@ public class MyWebSocket {
      * @param session  可选的参数。session为与某个客户端的连接会话，需要通过它来给客户端发送数据
      */
     @OnOpen
-    public void onOpen(@PathParam("info") String info , Session session ,EndpointConfig config ){
+    public void onOpen(@PathParam("info") String info , Session session ,EndpointConfig config ) throws InterruptedException {
         HttpSession httpSession= (HttpSession) config.getUserProperties().get(HttpSession.class.getName());
         System.out.println( httpSession.getAttribute( "name" ));
-
+        System.out.println( "当前建立连接的线程名称:" + Thread.currentThread().getName() );
+        Thread.sleep( 3000L );
         System.out.println( "info:" + info );
         InetSocketAddress address = WebsocketUtil.getRemoteAddress(session);
         if( null != address ){
@@ -70,10 +73,12 @@ public class MyWebSocket {
      * @param session 可选的参数
      */
     @OnMessage
-    public void onMessage(String message, Session session) {
+    public void onMessage(String message, Session session) throws InterruptedException {
         System.out.println("来自客户端的消息:" + message);
         String scheme = session.getRequestURI().getScheme();
         System.out.println( "scheme :" + scheme );
+        System.out.println( "当前发送内容的线程名称:" + Thread.currentThread().getName() );
+        Thread.sleep( 3000L );
         //群发消息
         for(MyWebSocket item: webSocketSet){
             try {
