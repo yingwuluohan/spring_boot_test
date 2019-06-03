@@ -4,10 +4,7 @@ import com.unisound.iot.controller.websocket.socket_client.WebSocketClient;
 import org.apache.log4j.Logger;
 import org.java_websocket.handshake.ServerHandshake;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 import java.net.URI;
 import java.net.URISyntaxException;
 
@@ -64,17 +61,20 @@ public class MyWebSocketClient extends WebSocketClient {
             socket.send( "test hellow " );
             socket.onMessage( "test hellow222" );
             try {
-                FileInputStream inputStream = new FileInputStream( new File( "/workplace/go/goTest.iml" ) );
                 int length = 0 ;
                 long audioLength = 0;
-                while( ( length = inputStream.read( data )) > 0 ){
+                while( true ){
+                    BufferedInputStream inputStream = new BufferedInputStream( new FileInputStream( new File( "D://2019-05-31gc.log" ) ));
+                    while( ( length = inputStream.read( data )) > 0 ){
 
-                    System.out.println( "發送二進制數據：" + data );
+                        System.out.println( "發送二進制數據：" + data );
 //                    System.arraycopy(data, 0, audioData, 0, length);
-                    audioLength += length;
-                    socket.send( data );
-                    System.out.println( "文件叠加后的长度:" + audioLength );
+                        audioLength += length;
+                        socket.send( data );
+                        System.out.println( "文件叠加后的长度:" + audioLength );
+                    }
                 }
+
 
             } catch (FileNotFoundException e1) {
                 e1.printStackTrace();
