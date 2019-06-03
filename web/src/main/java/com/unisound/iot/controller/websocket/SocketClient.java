@@ -1,63 +1,88 @@
 package com.unisound.iot.controller.websocket;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import org.java_websocket.WebSocket;
-import org.java_websocket.client.WebSocketClient;
-import org.java_websocket.drafts.Draft_6455;
-import org.java_websocket.handshake.ServerHandshake;
 
+import org.apache.log4j.Logger;
+
+import javax.websocket.*;
+import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 
-public class SocketClient {
+@ClientEndpoint
+public class SocketClient   {
 
-    static Logger logger = LogManager.getLogger(SocketClient.class);
-    public static WebSocketClient client;
-    public static void main(String[] args) {
+    private static Logger logger = org.apache.log4j.Logger.getLogger(SocketClient.class);
+    private Session session = null;
+
+    private int count = 0;
+
+    @OnOpen
+    public void onOpen(Session session){
+        sendMessage("onOpen hello benny onOpen");
+    }
+
+    @OnClose
+    public void onClose(){
+
+    }
+
+    @OnMessage
+    public void onMessage(String message, Session session){
+        System.out.println("server message:"+message);
+        if(count <10){
+            sendMessage("onMessage hello benny "+(++count));
+        }
+    }
+
+    @OnError
+    public void onError(Throwable thr){
+
+    }
+
+    public SocketClient() {
+        super();
+    }
+
+    public static void main(String[] args) throws URISyntaxException {
+        URI uri = new URI( "ws://10.20.222.77:8480/websocket/parms" );
+        SocketClient client = new SocketClient( uri );
+        client.sendMessage( "test" );
+
+    }
+
+    public SocketClient(URI endpointURI) {
+        super();
         try {
-            client = new WebSocketClient(new URI("ws://10.20.222.77:8480/websocket/parm"),new Draft_6455()) {
+            WebSocketContainer container = ContainerProvider.getWebSocketContainer();	// 获得WebSocketContainer
+            this.session = container.connectToServer(SocketClient.class, endpointURI);	// 该方法会阻塞
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
 
-                @Override
-                public void onOpen(ServerHandshake serverHandshake) {
-                    System.out.println( "client *** link" );
-                }
+    public Session getSession() {
+        return session;
+    }
 
-                @Override
-                public void onMessage(String msg) {
-                    logger.info("收到消息=========="+msg);
-                    if(msg.equals("over")){
-                        client.close();
-                    }
+    public void setSession(Session session) {
+        this.session = session;
+    }
 
-                }
 
-                @Override
-                public void onClose(int i, String s, boolean b) {
-                    logger.info("链接已关闭");
-                }
+    public void sendMessage(String message){
+        try {
+            this.session.getBasicRemote().sendText(message);
 
-                @Override
-                public void onError(Exception e){
-                    e.printStackTrace();
-                    logger.info("发生错误已关闭");
-                }
-            };
-        } catch (URISyntaxException e) {
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
             e.printStackTrace();
+        }finally {
+            try {
+                this.session.getBasicRemote().flushBatch();
+            } catch (IOException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
         }
-
-        client.connect();
-        logger.info(client.getDraft());
-        while(!client.getReadyState().equals(WebSocket.READYSTATE.OPEN)){
-            logger.info("正在连接...");
-        }
-        //连接成功,发送信息
-        client.send("哈喽,连接一下啊");
-
     }
-
-    public void onOpen(ServerHandshake serverHandshake) {
-        logger.info("握手成功");
     }
-}

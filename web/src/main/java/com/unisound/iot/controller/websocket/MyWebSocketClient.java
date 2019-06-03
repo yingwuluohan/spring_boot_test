@@ -8,6 +8,8 @@ import java.io.*;
 import java.net.URI;
 import java.net.URISyntaxException;
 
+
+
 public class MyWebSocketClient extends WebSocketClient {
 
     static Logger logger = Logger.getLogger(MyWebSocketClient.class);
@@ -46,21 +48,23 @@ public class MyWebSocketClient extends WebSocketClient {
     private static byte[] audioData = new byte[1024 * 1024 ];
     public static void main(String[] args) {
         try {
-            URI uri = new URI( "ws://10.20.222.77:8480/websocket/parm" );
+            URI uri = new URI( "ws://10.20.222.77:8480/websocket/parms" );
             MyWebSocketClient socket = new MyWebSocketClient( uri );
             socket.connect();
 
 
-            while(!socket.getReadyState().equals( READYSTATE.OPEN)){
+            while(!socket.getReadyState().equals(WebSocketClient.READYSTATE.OPEN)){
+                System.out.println( socket.getReadyState() );
                 logger.info("正在连接...");
             }
             byte[] data = new byte[ 1024 ];
             socket.send( "test hellow " );
+            socket.onMessage( "test hellow222" );
             try {
+                int length = 0 ;
+                long audioLength = 0;
                 while( true ){
                     BufferedInputStream inputStream = new BufferedInputStream( new FileInputStream( new File( "D://2019-05-31gc.log" ) ));
-                    int length = 0 ;
-                    long audioLength = 0;
                     while( ( length = inputStream.read( data )) > 0 ){
 
                         System.out.println( "發送二進制數據：" + data );
