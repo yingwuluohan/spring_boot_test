@@ -59,7 +59,7 @@ public class RabbiMqListenerConsumer {
                     //1.test.demo.send:队列名,2.true:是否长期有效,3.false:是否自动删除
                     value = @Queue(value = "topic-first-queue", durable = "true", autoDelete = "false"),
                     //1.default.topic交换器名称(默认值),2.true:是否长期有效,3.topic:类型是topic
-                    exchange = @Exchange(value = "topic-platform-exchange", durable = "true", type = "topic"),
+                    exchange = @Exchange(value = "topic-platform-exchange", durable = "true", type = "topic", autoDelete = "false"),
                     //test2.send:路由的名称,ProducerConfig 里面 绑定的路由名称(xxxx.to(exchange).with("test2.send")))
                     key = "routing-key.#")  )
     public void topicQueueListener( String info ){

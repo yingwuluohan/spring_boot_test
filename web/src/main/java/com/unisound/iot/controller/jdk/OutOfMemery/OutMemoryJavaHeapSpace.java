@@ -9,15 +9,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Created by yingwuluohan on 2019/5/22.
+ * @Created by yingwuluohan on 2019/6/1.
  * @Company 北京云知声技术有限公司
+ *
+ * java.lang.OutOfMemoryError: GC overhead limit exceeded
  */
 @RestController
-@RequestMapping("memory/")
-public class MemeryController {
+@RequestMapping("outmemoryheap/")
+public class OutMemoryJavaHeapSpace {
 
 
-    private List<User> list = new ArrayList<>();
+    private List<OutMemoryJavaHeapSpace.User> list = new ArrayList<>();
     private List< Class > noList = new ArrayList<>();
 
     //memory/v1
@@ -31,6 +33,10 @@ public class MemeryController {
         return "ok";
     }
 
+    public static void main(String[] args) {
+        OutMemoryJavaHeapSpace out = new OutMemoryJavaHeapSpace();
+        out.heap();
+    }
 
     /**
      *  堆内存溢出
@@ -41,7 +47,7 @@ public class MemeryController {
         int i = 0 ;
         while(true){
             i++;
-            User user = new User();
+            OutMemoryJavaHeapSpace.User user = new OutMemoryJavaHeapSpace.User();
             user.setAge( i );
             user.setName( i+ "testNsame");
             user.setNum( i );

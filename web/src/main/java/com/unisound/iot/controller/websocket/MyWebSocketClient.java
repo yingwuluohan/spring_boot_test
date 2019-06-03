@@ -1,7 +1,6 @@
 package com.unisound.iot.controller.websocket;
 
 import com.unisound.iot.controller.websocket.socket_client.WebSocketClient;
-import com.unisound.iot.controller.websocket.socket_client.api.WebSocket;
 import org.apache.log4j.Logger;
 import org.java_websocket.handshake.ServerHandshake;
 
@@ -11,6 +10,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
+
+
 
 public class MyWebSocketClient extends WebSocketClient {
 
@@ -50,18 +51,20 @@ public class MyWebSocketClient extends WebSocketClient {
     private static byte[] audioData = new byte[1024 * 1024 ];
     public static void main(String[] args) {
         try {
-            URI uri = new URI( "ws://127.0.0.1:8080/websocket" );
+            URI uri = new URI( "ws://10.20.222.77:8480/websocket/parms" );
             MyWebSocketClient socket = new MyWebSocketClient( uri );
             socket.connect();
 
 
-            while(!socket.getReadyState().equals(WebSocket.READYSTATE.OPEN)){
+            while(!socket.getReadyState().equals(WebSocketClient.READYSTATE.OPEN)){
+                System.out.println( socket.getReadyState() );
                 logger.info("正在连接...");
             }
             byte[] data = new byte[ 1024 ];
             socket.send( "test hellow " );
+            socket.onMessage( "test hellow222" );
             try {
-                FileInputStream inputStream = new FileInputStream( new File( "D://feedback_type.sql" ) );
+                FileInputStream inputStream = new FileInputStream( new File( "/workplace/go/goTest.iml" ) );
                 int length = 0 ;
                 long audioLength = 0;
                 while( ( length = inputStream.read( data )) > 0 ){
