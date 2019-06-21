@@ -200,12 +200,6 @@ Kweb/src/main/java/com/unisound/iot/controller/pa_chong/TcpSocketClient.java,a/
 Qweb/src/main/java/com/unisound/iot/controller/pa_chong/talk_house/TalkServer.java,6/a/6a27ee6f461f858c9ee0a17f2b7a6b32c1846fa1
 Å
 Qweb/src/main/java/com/unisound/iot/controller/pa_chong/talk_house/TalkClient.java,8/f/8f4448f68cef20f81cd6a07e049c51dd0173e0d6
-Ü
-Vweb/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/HeapOutOfController.java,1/3/13bd13178e27592e8c2b018a64538b7b9c1bdf4a
-á
-Wweb/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/StackOutOfController.java,c/f/cfefd4996ce5d975fd7ab571c15948a54019508a
-É
-Sweb/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/MemeryController.java,d/e/de4f44cd2123e12cede8f7f5328952e77a2aa08b
 x
 Hweb/src/main/java/com/unisound/iot/controller/jdk/thread/ThreadMain.java,f/a/faffdcd917c6f919a4f4f22142f35d5e6d12d9a2
 z
@@ -238,3 +232,21 @@ Nweb/src/main/java/com/unisound/iot/controller/websocket/MyWebSocketClient.java
 dweb/src/main/java/com/unisound/iot/controller/websocket/javax_websocket/HttpSessionConfigurator.java,c/5/c532331d7dfd2f2a5762e226534d79500fb35d75
 ;
 web/web.iml,1/f/1f295492ca46f30309bf8a77ec481309909c7b37
+|
+Lweb/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/Metaspace.java,7/e/7ee52b87785d79a63b909a4729fa1baf81577389
+â
+Yweb/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/OutMemoryJavaHeapSpace.java,e/8/e8c75049f919a961cb3725c78a051908de55cdc9
+á
+Wweb/src/main/java/com/unisound/iot/controller/jdk/transient_serializable/Transient.java,5/3/5303b3e61e10c4fa717dd48adc1335608ee9a008
+8
+web/mvnw,d/9/d9cd70c2a290953e4a7adb98b52c6aa080807895
+ä
+Zweb/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/DirectBufferMemoryOutof.java,6/b/6bce2c2540139f05854c6fe30f6fa49a592816e8
+è
+_web/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/StackOverflowErrorController.java,f/2/f23025d723cc64e32b4d756703ba65a30263c452
+Å
+Qweb/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/StackErrorMock.java,6/8/684cc711841113e0ba6c13c1a02ccebe226d750d
+w
+Gweb/src/main/java/com/unisound/iot/controller/jdk/thread/join/Join.java,b/b/bbf4cadb1072ba68cd41e1beb51b5a9d807790ed
+q
+Aweb/src/main/java/com/unisound/iot/controller/distribut/test.java,5/0/50e386133640bfccbd47faad6cdd540f74711f6e

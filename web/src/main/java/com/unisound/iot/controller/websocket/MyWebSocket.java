@@ -15,6 +15,8 @@ import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
+import java.util.Map;
+import java.util.TreeMap;
 import java.util.concurrent.CopyOnWriteArraySet;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -151,6 +153,13 @@ public class MyWebSocket {
 
     public static void main(String[] args) {
         System.out.println( ":" + int2Byte( 100111 ));
+
+        Map<String , Integer > map = new TreeMap<>();
+        map.put( "a" , 3 );
+        map.put( "a" , 31 );
+        map.put( "b" , 40 );
+        map.put( "c" , 50 );
+
     }
 
 
