@@ -1,0 +1,66 @@
+spring:
+  application:
+    name: distinct
+  cache:
+    type: redis
+  redis:
+    lettuce:
+      pool:
+        max-active: 500
+        max-idle: 5
+        max-wait: -1ms
+        min-idle: 0
+    database: 0
+    password: yunzhisheng
+    host: 10.20.222.137
+    port: 6379
+    timeout: 1000ms
+  aop:
+    auto: true
+    proxy-target-class: true
+  cloud:
+    service-registry:
+      auto-registration:
+        enabled: false
+
+
+
+server:
+  port: 8082
+  tomcat.max-threads: 300
+  tomcat.uri-encoding: UTF-8
+  connection-timeout: 30
+
+logging:
+    path: logs
+    level:
+      all: info
+      org.springframework : ERROR
+      org.mybatis: info
+      java.sql.Connection: info
+      java.sql.Statement: info
+      java.sql.PreparedStatement: info
+    pattern:
+      console: ERROR
+
+
+info:
+  build:
+    name: "@project.artifactId@"
+    groupId: "@project.groupId@"
+    artifactId: "@project.artifactId@"
+    version: "@project.version@"
+
+http:
+  connect:
+    timeout: 400
+  read:
+    timeout: 400
+
+bigDataService:
+  #host: 39.96.10.196:9080
+  host: dblayer.hivoice.cn
+
+
+
+

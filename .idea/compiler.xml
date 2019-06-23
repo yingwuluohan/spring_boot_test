@@ -9,9 +9,18 @@
         <module name="common" />
         <module name="web" />
       </profile>
+      <profile name="Annotation profile for kar-business-operation" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="distribut_manage" />
+        <module name="distribut_transaction" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common" target="1.8" />
+      <module name="distribut_manage" target="1.8" />
+      <module name="distribut_transaction" target="1.8" />
       <module name="kar-business-operation" target="1.8" />
       <module name="web" target="1.8" />
     </bytecodeTargetLevel>

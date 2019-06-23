@@ -20,7 +20,9 @@
 	<modules>
 		<module>web</module>
 		<module>common</module>
-	</modules>
+        <module>distribut_transaction</module>
+        <module>distribut_manage</module>
+    </modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
