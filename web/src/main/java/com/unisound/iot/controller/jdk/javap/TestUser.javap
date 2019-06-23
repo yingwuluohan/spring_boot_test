@@ -1,0 +1,118 @@
+Warning: Binary file TestUser contains com.justest.test.TestUser
+Compiled from "TestUser.java"
+
+public class com.justest.test.TestUser {
+
+//默认的构造函数
+  public com.justest.test.TestUser();
+
+    Code:
+       0: aload_0
+       1: invokespecial #10                 // Method java/lang/Object."<init>":()V
+       4: return
+
+    LineNumberTable:
+      line 3: 0
+
+    LocalVariableTable:
+      Start  Length  Slot  Name   Signature
+             0       5     0  this   Lcom/justest/test/TestUser;
+
+  public void test(int);
+
+    Code:
+       0: aload_0 //取this对应的对应引用值，压入操作数栈
+       1: dup //复制栈顶的数据，压入栈，此时栈中有两个值，都是this对象引用
+       2: getfield      #18 // 引用出栈，通过引用获得对应count的值，并压入栈
+       5: iload_1 //从局部变量表中取得a的值，压入栈中
+       6: iadd //弹出栈中的count值和a的值，进行加操作，并将结果压入栈
+       7: putfield      #18 // 经过上一步操作后，栈中有两个值，栈顶为上一步操作结果，栈顶下面是this引用，这一步putfield指令，用于将栈顶的值赋值给引用对象的count字段
+      10: return //return void
+
+    LineNumberTable:
+      line 8: 0
+      line 9: 10
+
+    LocalVariableTable:
+      Start  Length  Slot  Name   Signature
+             0      11     0  this   Lcom/justest/test/TestUser;
+             0      11     1     a   I
+
+  public com.justest.test.User initUser(int, java.lang.String);
+
+    Code:
+       0: new           #23   // class com/justest/test/User 创建User对象，并将引用压入栈
+       3: dup //复制栈顶值，再次压入栈，栈中有两个User对象的地址引用
+       4: invokespecial #25   // Method com/justest/test/User."<init>":()V 调用user对象初始化
+       7: astore_3 //从栈中pop出User对象的引用值，并赋值给局部变量表中user变量
+       8: aload_3 //从局部变量表中获得user的值，也就是User对象的地址引用，压入栈中
+       9: iload_1 //从局部变量表中获得a的值，并压入栈中，注意aload和iload的区别，一个取值是对象引用，一个是取int类型数据
+      10: invokevirtual #26  // Method com/justest/test/User.setAge:(I)V 操作数栈pop出两个值，一个是User对象引用，一个是a的值，调用setAge方法，并将a的值传给这个方法,setAge操作的就是堆中对象的字段了
+      13: aload_3 //同7，压入栈
+      14: aload_2 //从局部变量表取出name，压入栈
+      15: invokevirtual #29  // MethodUser.setName:(Ljava/lang/String;)V 操作数栈pop出两个值，一个是User对象引用，一个是name的值，调用setName方法，并将a的值传给这个方法，setName操作的就是堆中对象的字段了
+      18: aload_3 //从局部变量取出User引用，压入栈
+      19: areturn //areturn指令用于返回一个对象的引用，也就是上一步中User的引用,这个返回值将会被压入调用当前方法的那个方法的栈中objectref is popped from the operand stack of the current frame ([§2.6](https://docs.oracle.com/javase/specs/jvms/se7/html/jvms-2.html#jvms-2.6)) and pushed onto the operand stack of the frame of the invoker
+
+    LineNumberTable:
+      line 12: 0
+      line 13: 8
+      line 14: 13
+      line 15: 18
+
+    LocalVariableTable:
+      Start  Length  Slot  Name   Signature
+             0      20     0  this   Lcom/justest/test/TestUser;
+             0      20     1   age   I
+             0      20     2  name   Ljava/lang/String;
+             8      12     3  user   Lcom/justest/test/User;
+
+  public void changeUser(com.justest.test.User, java.lang.String);
+
+    Code:
+       0: aload_1 //局部变量表中取出this，也即TestUser对象引用，压入栈
+       1: aload_2 //局部变量表中取出newName，压入栈
+       2: invokevirtual #29 // Method User.setName:(Ljava/lang/String;)V pop出栈newName值和TestUser引用，调用其setName方法，并将newName的值传给这个方法
+       5: return
+
+    LineNumberTable:
+      line 19: 0
+      line 20: 5
+
+    LocalVariableTable:
+      Start  Length  Slot  Name   Signature
+             0       6     0  this   Lcom/justest/test/TestUser;
+             0       6     1  user   Lcom/justest/test/User;
+             0       6     2 newName   Ljava/lang/String;
+
+public static void main(java.lang.String[]);
+
+    Code:
+       0: new      #1 // class com/justest/test/TestUser 创建TestUser对象，将引用压入栈
+       3: dup //复制引用，压入栈
+       4: invokespecial #43   // Method "<init>":()V 引用值出栈，调用构造方法，对象初始化
+       7: astore_1 //引用值出栈，赋值给局部变量表中变量tu
+       8: aload_1 //取出tu值，压入栈
+       9: bipush    10 //将int值10压入栈
+      11: ldc           #44   // String wangerbei 从常量池中取出“wangerbei” 压入栈
+      13: invokevirtual #46    // Method initUser(ILjava/lang/String;)Lcom/justest/test/User; 调用tu的initUser方法，并返回User对象 ，出栈三个值：tu引用，10和“wangerbei”，并且initUser方法的返回值，即User的引用，也会被压入栈中，参考前面initUser中的areturn指令
+      16: astore_2 //User引用出栈，赋值给user变量
+      17: aload_1 //取出tu值，压入栈
+      18: aload_2 //取出user值，压入栈
+      19: ldc           #48     // String lisi 从常量池中取出“lisi”压入栈
+      21: invokevirtual #50     // Method changeUser:(Lcom/justest/test/User;Ljava/lang/String;)V 调用tu的changeUser方法，并将user引用和lisi传给这个方法
+      24: return //return void
+
+ LineNumberTable:
+      line 23: 0
+      line 24: 8
+      line 25: 17
+      line 26: 24
+
+    LocalVariableTable:
+      Start  Length  Slot  Name   Signature
+             0      25     0  args   [Ljava/lang/String;
+             8      17     1    tu   Lcom/justest/test/TestUser;
+            17       8     2  user   Lcom/justest/test/User;
+
+}

@@ -1,4 +1,4 @@
-package com.unisound.iot.controller.jdk.OutOfMemery;
+package com.unisound.iot.controller.jdk.OutOfMemery.stackOver;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -6,12 +6,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * 栈溢出测试
  *
- * @Created by yingwuluohan on 2019/5/22.
- * @Company 北京云知声技术有限公司
  *
- * java.lang.StackOverflowError
+ * 如果线程请求的栈深度大于虚拟机所允许的最大深度，将抛出StackOverflowError
+ * 如果虚拟机在扩展栈时无法申请到足够的内存空间，将抛出OutOfMemoryError
+ * VM Args：-Xss128k
+ * stack length:
+ Exception in thread "main" java.lang.StackOverflowError
  */
 @RestController
 @RequestMapping("stack/")
