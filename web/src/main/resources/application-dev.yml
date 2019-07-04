@@ -15,7 +15,8 @@ spring:
         driver-class-name: com.mysql.jdbc.Driver
         type: com.alibaba.druid.pool.DruidDataSource
         name: test
-        jdbc-url: jdbc:mysql://10.10.13.125:3306/operation-platform-template
+#        jdbc-url: jdbc:mysql://10.30.0.249:3306/operation-platform-template
+        url: jdbc:mysql://10.30.0.249:3306/operation-platform-template?useUnicode=true&characterEncoding=UTF-8
         #url: jdbc:mysql://127.0.0.1:3306/kar-operation-platform
         username: dev
         #username: root
@@ -40,8 +41,8 @@ spring:
         driver-class-name: com.mysql.jdbc.Driver
         type: com.alibaba.druid.pool.DruidDataSource
         name: report
-        jdbc-url: jdbc:mysql://10.10.13.125:3306/operation-platform
-        #url: jdbc:mysql://127.0.0.1:3306/operation-platform
+#        jdbc-url: jdbc:mysql://10.30.0.249:3306/operation-platform
+        url: jdbc:mysql://10.30.0.249:3306/operation-platform?useUnicode=true&characterEncoding=UTF-8
         username: dev
         #username: root
         password: M20131209k
@@ -95,12 +96,12 @@ spring:
         acknowledge-mode: manual
 
 
-zookeeper:
-  server: 10.20.222.77:2181,10.20.222.76:2181,10.20.222.75:2181
-  sessionTimeoutMs: 6000
-  connectionTimeoutMs: 6000
-  maxRetries: 3
-  baseSleepTimeMs: 1000
+#zookeeper:
+#  server: 10.20.222.77:2181,10.20.222.76:2181,10.20.222.75:2181
+#  sessionTimeoutMs: 6000
+#  connectionTimeoutMs: 6000
+#  maxRetries: 3
+#  baseSleepTimeMs: 1000
 
 
 #kafka:
@@ -123,18 +124,18 @@ mybatis:
 url:
    AULBUM_URL: http://10.20.222.150:8888/data-manage/manage/child/v1/album/findByPage
 
-logging:
-  config: classpath:log4j2.yml
-
 #logging:
-#    path: /logs
-#    level:
-#      all: debug
-#      org.springframework : DEBUG
-#      org.mybatis: DEBUG
-#      java.sql.Connection: DEBUG
-#      java.sql.Statement: DEBUG
-#      java.sql.PreparedStatement: DEBUG
+#  config: classpath:log4j2.yml
+
+logging:
+    path: /logs
+    level:
+      all: debug
+      org.springframework : DEBUG
+      org.mybatis: DEBUG
+      java.sql.Connection: DEBUG
+      java.sql.Statement: DEBUG
+      java.sql.PreparedStatement: DEBUG
 
 eureka:
   client:

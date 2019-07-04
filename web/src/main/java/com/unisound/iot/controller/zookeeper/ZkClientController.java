@@ -5,7 +5,6 @@ import org.apache.curator.framework.CuratorFramework;
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.ZooDefs;
 import org.apache.zookeeper.data.Stat;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
@@ -20,7 +19,7 @@ import java.util.List;
 public class ZkClientController {
 
 
-    @Autowired
+//    @Autowired
     private ZkClient zkClient;
 
     //zk/add

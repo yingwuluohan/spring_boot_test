@@ -330,15 +330,25 @@
 		</dependency>
 		<!-- websockt 结束 -->
 		<!--转写测试-->
-		<dependency>
-			<groupId>cn.yunzhisheng.utils</groupId>
-			<artifactId>jtoken</artifactId>
-			<version>2.0.5</version>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>cn.yunzhisheng.utils</groupId>-->
+			<!--<artifactId>jtoken</artifactId>-->
+			<!--<version>2.0.5</version>-->
+		<!--</dependency>-->
 		<dependency>
 			<groupId>redis.clients</groupId>
 			<artifactId>jedis</artifactId>
 			<version>2.7.3</version>
+		</dependency>
+        <dependency>
+            <groupId>c3p0</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>0.9.1.1</version>
+        </dependency>
+		<dependency>
+			<groupId>commons-dbutils</groupId>
+			<artifactId>commons-dbutils</artifactId>
+			<version>1.6</version>
 		</dependency>
 
 		<!--转写测试-->
@@ -363,7 +373,29 @@
 				</configuration>
 			</plugin>
 		</plugins>
-
+		<resources>
+			<resource>
+				<directory>src/main/java</directory>
+				<includes>
+					<include>**/*.properties</include>
+					<include>**/*.xml</include>
+					<include>**/*.org</include>
+					<include>**/*.txt</include>
+				</includes>
+				<filtering>true</filtering>
+			</resource>
+			<resource>
+				<directory>src/main/resources</directory>
+				<includes>
+					<include>**/*.properties</include>
+					<include>**/*.xml</include>
+					<include>**/*.org</include>
+					<include>**/*.txt</include>
+					<include>*.yml</include>
+				</includes>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
 	</build>
 
 

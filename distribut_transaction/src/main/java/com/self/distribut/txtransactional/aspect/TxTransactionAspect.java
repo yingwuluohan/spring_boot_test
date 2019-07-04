@@ -2,6 +2,9 @@ package com.self.distribut.txtransactional.aspect;
 
 
 import com.self.distribut.txtransactional.annotation.TxTransactional;
+import com.self.distribut.txtransactional.transactionnal.TransactionType;
+import com.self.distribut.txtransactional.transactionnal.TxTransaction;
+import com.self.distribut.txtransactional.transactionnal.TxTransactionManager;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -25,10 +28,19 @@ public class TxTransactionAspect implements Ordered{
 
         System.out.println( "Aspect:"+ txTransactional.isStart() );
 
+        String groupId = "";
+        if( txTransactional.isStart() ){
+            groupId = TxTransactionManager.createTxTransactionGroup();
+        }
+        TxTransaction txTransaction = TxTransactionManager.createLbTransaction( groupId );
+
         try {
             // 走spring的逻辑 ，比spring优先级低
             point.proceed();
+
+            TxTransactionManager.addLbTransaction( txTransaction , txTransactional.isEnd() , TransactionType.comit);
         } catch (Throwable throwable) {
+            TxTransactionManager.addLbTransaction( txTransaction , txTransactional.isEnd() ,TransactionType.rollback );
             throwable.printStackTrace();
         }
 

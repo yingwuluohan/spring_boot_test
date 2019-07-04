@@ -1,6 +1,8 @@
 package com.self.distribut.txtransactional.connection;
 
+import com.self.distribut.txtransactional.transactionnal.TransactionType;
 import com.self.distribut.txtransactional.transactionnal.TxTransaction;
+import com.self.distribut.txtransactional.util.Task;
 
 import java.sql.*;
 import java.util.Map;
@@ -17,9 +19,14 @@ public class TxConnection implements Connection {
 
     private Connection connection;
     private TxTransaction txTransaction;
+    private Task task;
 
-    public TxConnection(Connection connection) {
+
+
+
+    public TxConnection(Connection connection ,TxTransaction txTransaction ) {
         this.connection = connection;
+        this.txTransaction = txTransaction;
     }
 
     @Override
@@ -31,8 +38,27 @@ public class TxConnection implements Connection {
     public void commit() throws SQLException {
         //等通知
         System.out.println( "test comit");
+        //等待,新开启一个线程 拿结果
 
 
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                txTransaction.getTask().waitTask();
+                //怎样拿到结果，
+                try{
+                    if( txTransaction.getTransactionType().equals( TransactionType.comit )){
+                        connection.commit();
+                    }else {
+                        connection.rollback();
+                    }
+                    connection.close();
+                }catch ( SQLException e ){
+                }
+
+            }
+        }).start();
         connection.commit();
     }
 
