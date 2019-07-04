@@ -5,6 +5,9 @@ import com.alibaba.fastjson.JSONObject;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
+import io.netty.channel.group.ChannelGroup;
+import io.netty.channel.group.DefaultChannelGroup;
+import io.netty.util.concurrent.GlobalEventExecutor;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -14,6 +17,8 @@ import java.util.Map;
 public class NettyServerHandler extends ChannelInboundHandlerAdapter {
 
 
+    private static ChannelGroup channelGroup = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE );
+
     private Map< String , List<String >> transactionTypeMap = new HashMap<>();
     private Map<String , Boolean > isEndMap = new HashMap<>();
     private Map<String , Integer > transactionCountMap = new HashMap<>();
@@ -21,7 +26,7 @@ public class NettyServerHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void handlerAdded( ChannelHandlerContext ctx ){
         Channel channel = ctx.channel();
-//        channelGroup.add( ctx.channel() );
+        channelGroup.add( ctx.channel() );
     }
 
 

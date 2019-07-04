@@ -2,7 +2,7 @@ package com.unisound.iot.controller.jdk.javap;
 
 public class TestUser {
     private int count;
-
+    private static volatile int num;
     public void test(int a){
         count = count + a;
     }

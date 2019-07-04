@@ -11,13 +11,12 @@ import org.apache.curator.retry.ExponentialBackoffRetry;
 import org.apache.zookeeper.CreateMode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Component;
 
 import java.net.InetAddress;
 import java.util.ArrayList;
 import java.util.List;
 
-@Component
+//@Component
 public class ZkClient {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 

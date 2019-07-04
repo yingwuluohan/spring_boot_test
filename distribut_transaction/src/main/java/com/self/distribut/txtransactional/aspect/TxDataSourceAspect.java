@@ -2,6 +2,8 @@ package com.self.distribut.txtransactional.aspect;
 
 
 import com.self.distribut.txtransactional.connection.TxConnection;
+import com.self.distribut.txtransactional.transactionnal.TxTransaction;
+import com.self.distribut.txtransactional.transactionnal.TxTransactionManager;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -18,7 +20,10 @@ public class TxDataSourceAspect {
 
         try {
             Connection connection = (Connection) point.proceed();
-            return new TxConnection( connection );
+            //LCN 不生 两个方法在同一个事务里，用什么方法进行事务的传递
+            TxTransaction txTransaction = TxTransactionManager.getCurrent();
+
+            return new TxConnection( connection ,txTransaction );
         } catch (Throwable throwable) {
             throwable.printStackTrace();
         }
