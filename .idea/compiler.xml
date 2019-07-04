@@ -7,13 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
+        <module name="distribut_manage" />
         <module name="web" />
       </profile>
       <profile name="Annotation profile for kar-business-operation" enabled="true">
         <sourceOutputDir name="../target/generated-sources/annotations" />
         <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="distribut_manage" />
         <module name="distribut_transaction" />
       </profile>
     </annotationProcessing>
