@@ -6,39 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4ce12f4-769e-43a1-b6d5-f65d93d447d7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/netty/NettyClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/netty/NettyClientHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/transactionnal/TxTransactionManager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/util/StringUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/util/SystemUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/AudioTransfer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/CommonExecutor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/CommonX509TrustManager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/DerictByteBuffer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/Transcribe.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/TranscribeResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/reference/SoftReferenceDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/reference/WeakReferenceDemo.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/distribut_manage/src/main/java/com/self/manage/handler/NettyServerHandler.java" afterPath="$PROJECT_DIR$/distribut_manage/src/main/java/com/self/manage/handler/NettyServerHandler.java" />
-      <change beforePath="$PROJECT_DIR$/distribut_manage/src/main/java/com/self/manage/server/NettyServer.java" afterPath="$PROJECT_DIR$/distribut_manage/src/main/java/com/self/manage/server/NettyServer.java" />
-      <change beforePath="$PROJECT_DIR$/distribut_transaction/pom.xml" afterPath="$PROJECT_DIR$/distribut_transaction/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/aspect/TxTransactionAspect.java" afterPath="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/aspect/TxTransactionAspect.java" />
-      <change beforePath="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/connection/TxConnection.java" afterPath="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/connection/TxConnection.java" />
-      <change beforePath="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/transactionnal/TransactionType.java" afterPath="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/transactionnal/TransactionType.java" />
-      <change beforePath="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/transactionnal/TxTransaction.java" afterPath="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/transactionnal/TxTransaction.java" />
-      <change beforePath="$PROJECT_DIR$/distribut_transaction/src/main/resources/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" afterPath="$PROJECT_DIR$/web/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/config/zookeeper/ZkConfiguration.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/config/zookeeper/ZkConfiguration.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/zookeeper/ZkClient.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/zookeeper/ZkClient.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/javap/TestDate.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/javap/TestDate.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/javap/TestUser.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/javap/TestUser.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/zookeeper/ZkClientController.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/zookeeper/ZkClientController.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/web/src/main/resources/application-dev.yml" />
-      <change beforePath="$PROJECT_DIR$/web/web.iml" afterPath="$PROJECT_DIR$/web/web.iml" />
-    </list>
+    <list default="true" id="f4ce12f4-769e-43a1-b6d5-f65d93d447d7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/web/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/common/target/" />
@@ -59,14 +27,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TxConnection.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TxConnection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/connection/TxConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+            <state relative-caret-position="462">
+              <caret line="28" column="43" lean-forward="false" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TxDataSourceAspect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/aspect/TxDataSourceAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="25" column="63" lean-forward="false" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/service/DemoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
               <folding>
-                <element signature="e#811#812#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NettyClientHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/netty/NettyClientHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TxTransaction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/transactionnal/TxTransaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+              <folding>
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/util/Task.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,9 +98,14 @@
       <file leaf-file-name="TxTransactionManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/transactionnal/TxTransactionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="499">
+              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+              <folding>
+                <element signature="e#2101#2102#0" expanded="true" />
+                <element signature="e#2156#2157#0" expanded="true" />
+                <element signature="e#2223#2224#0" expanded="true" />
+                <element signature="e#2259#2260#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,19 +113,33 @@
       <file leaf-file-name="TxTransactionAspect.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/aspect/TxTransactionAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="41" column="119" lean-forward="false" selection-start-line="41" selection-start-column="119" selection-end-line="41" selection-end-column="119" />
+            <state relative-caret-position="521">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransactionType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/transactionnal/TransactionType.java">
+      <file leaf-file-name="ReqeustInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/intercept/ReqeustInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="565">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpClient.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/util/HttpClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="696">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,12 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/MyWebSocket.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/transient_serilizable/Transient.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/transient_serializable/Transient.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/StackOverflowErrorController.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/DirectBufferMemoryOutof.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/StackErrorMock.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/thread/join/Join.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/distribut/test.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/bio/BioServer.java" />
@@ -185,7 +221,6 @@
         <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/dao/DistributDao.java" />
         <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/service/DistributService.java" />
         <option value="$PROJECT_DIR$/distribut_transaction/pom.xml" />
-        <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/aspect/TxDataSourceAspect.java" />
         <option value="$PROJECT_DIR$/distribut_manage/pom.xml" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/javap/TestUser.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/javap/TestDate.java" />
@@ -194,13 +229,10 @@
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/config/zookeeper/ZkConfiguration.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/zookeeper/ZkClientController.java" />
         <option value="$PROJECT_DIR$/distribut_transaction/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/netty/NettyClientHandler.java" />
         <option value="$PROJECT_DIR$/distribut_manage/src/main/java/com/self/manage/handler/NettyServerHandler.java" />
         <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/netty/NettyClient.java" />
-        <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/transactionnal/TxTransaction.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/reference/WeakReferenceDemo.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/reference/SoftReferenceDemo.java" />
-        <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/transactionnal/TxTransactionManager.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/TranscribeResult.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/SystemUtils.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/CommonX509TrustManager.java" />
@@ -214,8 +246,18 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/pom.xml" />
         <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/transactionnal/TransactionType.java" />
-        <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/aspect/TxTransactionAspect.java" />
+        <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/util/Task.java" />
+        <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/transactionnal/TxTransaction.java" />
+        <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/netty/NettyClientHandler.java" />
         <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/connection/TxConnection.java" />
+        <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/aspect/TxTransactionAspect.java" />
+        <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/transactionnal/TxTransactionManager.java" />
+        <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/aspect/TxDataSourceAspect.java" />
+        <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/web/DemoService.java" />
+        <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/dao/DemoDao.java" />
+        <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/service/DemoService.java" />
+        <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/intercept/ReqeustInterceptor.java" />
+        <option value="$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/util/HttpClient.java" />
       </list>
     </option>
   </component>
@@ -364,6 +406,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="distribut" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_boot_test" type="462c0819:PsiDirectoryNode" />
+              <item name="distribut_transaction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="distribut" type="462c0819:PsiDirectoryNode" />
               <item name="txtransactional" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -386,7 +438,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="distribut" type="462c0819:PsiDirectoryNode" />
               <item name="txtransactional" type="462c0819:PsiDirectoryNode" />
-              <item name="connection" type="462c0819:PsiDirectoryNode" />
+              <item name="intercept" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
@@ -397,7 +449,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="distribut" type="462c0819:PsiDirectoryNode" />
               <item name="txtransactional" type="462c0819:PsiDirectoryNode" />
-              <item name="transactionnal" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1260,16 +1312,15 @@
       <workItem from="1561636033252" duration="4082000" />
       <workItem from="1562061997854" duration="8562000" />
       <workItem from="1562127016013" duration="14370000" />
-      <workItem from="1562214189725" duration="7937000" />
+      <workItem from="1562214189725" duration="10985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="348238000" />
+    <option name="totallyTimeSpent" value="351286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1291,7 +1342,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45711184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45402297" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45402297" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2948164" sideWeight="0.4961998" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -1638,56 +1689,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/Common/entity/Distribut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/dao/DistributDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distribut_transaction/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/javax/sql/DataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/service/DistributService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/aspect/TxDataSourceAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/sql/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/distribut_manage/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -1798,24 +1799,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/netty/NettyClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/netty/NettyClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1078">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/transactionnal/TxTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -2011,14 +1998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/transactionnal/TxTransactionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/transactionnal/TransactionType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -2027,21 +2006,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/aspect/TxTransactionAspect.java">
+    <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/util/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="41" column="119" lean-forward="false" selection-start-line="41" selection-start-column="119" selection-end-line="41" selection-end-column="119" />
+        <state relative-caret-position="616">
+          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/transactionnal/TxTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/netty/NettyClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/connection/TxConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        <state relative-caret-position="462">
+          <caret line="28" column="43" lean-forward="false" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/transactionnal/TxTransactionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#2101#2102#0" expanded="true" />
+            <element signature="e#2156#2157#0" expanded="true" />
+            <element signature="e#2223#2224#0" expanded="true" />
+            <element signature="e#2259#2260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/dao/DemoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/service/DemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/aspect/TxDataSourceAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="63" lean-forward="false" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/aspect/TxTransactionAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/intercept/WebAppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/intercept/ReqeustInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distribut_transaction/src/main/java/com/self/distribut/txtransactional/util/HttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
