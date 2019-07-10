@@ -9,6 +9,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.concurrent.atomic.AtomicInteger;
 
 @WebServlet( urlPatterns = {"/threadService"},  loadOnStartup = 2)
 public class ThreadMain  extends HttpServlet {
@@ -25,7 +26,7 @@ public class ThreadMain  extends HttpServlet {
 
         try {
             ActionInterface actionInterface = new ProbeAction( "1" );
-            ThreadRunner.runTask( actionInterface.getActionLock() );
+            ThreadRunner.runTask( actionInterface.getActionLock() , new AtomicInteger( 1 ));
             System.out.println( "lock 释放锁" );
 //            Thread.sleep( 3000 );
             synchronized( actionInterface.getActionLock()  ){
