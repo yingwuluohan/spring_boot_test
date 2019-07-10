@@ -350,6 +350,12 @@
 			<artifactId>commons-dbutils</artifactId>
 			<version>1.6</version>
 		</dependency>
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>4.1.10.Final</version>
+		</dependency>
+
 
 		<!--转写测试-->
     </dependencies>
