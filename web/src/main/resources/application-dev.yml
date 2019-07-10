@@ -41,6 +41,7 @@ spring:
         driver-class-name: com.mysql.jdbc.Driver
         type: com.alibaba.druid.pool.DruidDataSource
         name: report
+        #url: jdbc:mysql://127.0.0.1:3306/operation-platform
 #        jdbc-url: jdbc:mysql://10.30.0.249:3306/operation-platform
         url: jdbc:mysql://10.30.0.249:3306/operation-platform?useUnicode=true&characterEncoding=UTF-8
         username: dev

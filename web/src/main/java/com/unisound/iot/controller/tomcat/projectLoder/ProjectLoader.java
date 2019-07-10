@@ -25,7 +25,7 @@ public class ProjectLoader {
         Map<String ,ProjectConfigInfo > projectConfigInfoMap = new HashMap<>();
 
         //读取文件
-        String fileUrl = "D:\\soft\\apache-tomcat-8.5.34\\webapps\\ROOT";
+        String fileUrl = "/application/apache-tomcat-9.0.20/webapps/ROOT";
 //        File[] projects = new File( fileUrl ).listFiles( file -> file.isDirectory() );
         File[] projects = new File( fileUrl ).listFiles(new FileFilter() {
             @Override

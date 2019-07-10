@@ -34,7 +34,7 @@ public class SecendWarTomcat {
 
     public static void main(String[] args ) throws IOException, InstantiationException, IllegalAccessException, ClassNotFoundException {
         //1. 加载项目
-        Map<String ,ProjectLoader.ProjectConfigInfo > projectConfigInfoMap = ProjectLoader.load();
+        Map<String ,ProjectLoader.ProjectConfigInfo > projectConfigInfoMap = null;//ProjectLoader.load();
 
 
 
@@ -83,6 +83,7 @@ public class SecendWarTomcat {
 //                         Upgrade-Insecure-Requests: 1
                          **/
                         String firstLine = sb.toString().split("\r\n" )[ 0 ];
+                        System.out.println( "firstLine:" + firstLine );
                         String projectName = firstLine.split( " " )[ 1 ].split( "/" )[ 1 ];
                         String servletPath = firstLine.split( " " )[ 1 ].replace( "" + projectName , "" );
                         String servletName = projectConfigInfoMap.get( projectName ).servletsMapping.get( servletPath );

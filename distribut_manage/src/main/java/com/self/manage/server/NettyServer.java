@@ -1,7 +1,10 @@
 package com.self.manage.server;
 
 import io.netty.bootstrap.ServerBootstrap;
+import io.netty.channel.ChannelInitializer;
+import io.netty.channel.ChannelPipeline;
 import io.netty.channel.nio.NioEventLoopGroup;
+import io.netty.channel.socket.nio.NioServerSocketChannel;
 
 public class NettyServer {
 
@@ -12,9 +15,7 @@ public class NettyServer {
 //                  channel(NioServerSocketChannel.class ).
 //                  childHandler( (ChannelInitializer) (socketChannel) ->{
 //                      ChannelPipeline pipeline = socketChannel.
-//                  });
-
-
+//                  channel(NioServerSocketChannel.class ).
     }
 
 
