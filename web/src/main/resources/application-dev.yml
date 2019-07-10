@@ -15,12 +15,8 @@ spring:
         driver-class-name: com.mysql.jdbc.Driver
         type: com.alibaba.druid.pool.DruidDataSource
         name: test
-<<<<<<< HEAD
-        jdbc-url: jdbc:mysql://10.30.0.249:3306/operation-platform-template
-=======
 #        jdbc-url: jdbc:mysql://10.30.0.249:3306/operation-platform-template
         url: jdbc:mysql://10.30.0.249:3306/operation-platform-template?useUnicode=true&characterEncoding=UTF-8
->>>>>>> 3793638e094840566ff63c2234a97671851bf41e
         #url: jdbc:mysql://127.0.0.1:3306/kar-operation-platform
         username: dev
         #username: root
@@ -45,13 +41,9 @@ spring:
         driver-class-name: com.mysql.jdbc.Driver
         type: com.alibaba.druid.pool.DruidDataSource
         name: report
-<<<<<<< HEAD
-        jdbc-url: jdbc:mysql://10.30.0.249:3306/operation-platform
         #url: jdbc:mysql://127.0.0.1:3306/operation-platform
-=======
 #        jdbc-url: jdbc:mysql://10.30.0.249:3306/operation-platform
         url: jdbc:mysql://10.30.0.249:3306/operation-platform?useUnicode=true&characterEncoding=UTF-8
->>>>>>> 3793638e094840566ff63c2234a97671851bf41e
         username: dev
         #username: root
         password: M20131209k

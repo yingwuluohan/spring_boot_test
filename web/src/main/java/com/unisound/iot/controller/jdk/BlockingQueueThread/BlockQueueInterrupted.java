@@ -3,6 +3,7 @@ package com.unisound.iot.controller.jdk.BlockingQueueThread;
 import java.io.*;
 import java.nio.ByteBuffer;
 import java.util.Iterator;
+import java.util.List;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
@@ -10,6 +11,7 @@ public class BlockQueueInterrupted {
 
     public final static BlockingQueue<String> outQueue = new ArrayBlockingQueue< String>( 11 );
     private static OutputStream ostream;
+    List list = null;
 
 
     public static void main(String[] args) throws FileNotFoundException, InterruptedException {
