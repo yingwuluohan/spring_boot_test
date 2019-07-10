@@ -1,13 +1,11 @@
 package com.unisound.iot.controller.jdk.nio;
 
-import com.unisound.iot.common.exception.ProtocolException;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import sun.nio.ch.DirectBuffer;
 
-import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.List;
@@ -31,20 +29,20 @@ public class DerictByteBuffer {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    try {
-                        audioTransfer.transfer( "D:\\my.txt" );
-                        System.out.println( "*******************" );
-                        System.out.println( "*******************" );
-                        System.out.println( "*******************" );
-                        System.out.println( "*******************" );
-                        System.out.println( "*******************" );
-                    } catch (ProtocolException e) {
-                        e.printStackTrace();
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
+//                    try {
+//                        audioTransfer.transfer( "D:\\my.txt" );
+//                        System.out.println( "*******************" );
+//                        System.out.println( "*******************" );
+//                        System.out.println( "*******************" );
+//                        System.out.println( "*******************" );
+//                        System.out.println( "*******************" );
+//                    } catch (ProtocolException e) {
+//                        e.printStackTrace();
+//                    } catch (IOException e) {
+//                        e.printStackTrace();
+//                    }
 
-//                    new Transcribe(audioTransfer).run();
+                    new Transcribe(audioTransfer).run();
                 }
             }).start();
 
