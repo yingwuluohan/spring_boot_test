@@ -133,7 +133,7 @@ public class AudioTransfer  {
         byte[] bytes = new byte[ 10240 ];
         int length = 0 ;
         int audioSplitLen = 0;
-        OutputStream outputStream = new FileOutputStream( new File( "D:\\write"+ Thread.currentThread().getName()+".txt" ));
+        OutputStream outputStream = new FileOutputStream( new File( "/Users/yingwuluohan/Documents/soft/"+ Thread.currentThread().getName()+".txt" ));
         while ( (  length = inputStream.read( bytes ) ) > 0 ){
             ByteArrayInputStream input = new ByteArrayInputStream(  bytes );
 
