@@ -13,6 +13,7 @@ public class NettyClientHandler extends ChannelInboundHandlerAdapter {
 
     private ChannelHandlerContext context;
     public void channelActive( ChannelHandlerContext ctx ){
+        System.out.println( ctx );
         context = ctx;
     }
 

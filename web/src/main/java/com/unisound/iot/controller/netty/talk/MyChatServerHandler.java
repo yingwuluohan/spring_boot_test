@@ -43,6 +43,10 @@ public class MyChatServerHandler extends SimpleChannelInboundHandler<String> {
     public void handlerRemoved(ChannelHandlerContext ctx) throws Exception {
         Channel channel = ctx.channel();
         channelGroup.writeAndFlush( "[ 客户端 ：]" + channel.remoteAddress() + "离线");
+        //当有客户端连接断开时 netty 会自动处理channelGroup 中的连接，不需要手动干预
+        /** eg */
+        System.out.println( "channelGroup 连接剩余：" + channelGroup.size() );
+
     }
 
     /** channel处于活动状态 */

@@ -25,16 +25,12 @@ public class DerictByteBuffer {
     @RequestMapping( value="/init" ,method= RequestMethod.GET )
     public void initHttpChat(){
         try {
-            AudioTransfer audioTransfer = new AudioTransfer( 4 , "D:\\my.txt" );
+            AudioTransfer audioTransfer = new AudioTransfer( 4 , "/Users/yingwuluohan/Documents/soft/redis-3.2.9.tar" );
             new Thread(new Runnable() {
                 @Override
                 public void run() {
 //                    try {
 //                        audioTransfer.transfer( "D:\\my.txt" );
-//                        System.out.println( "*******************" );
-//                        System.out.println( "*******************" );
-//                        System.out.println( "*******************" );
-//                        System.out.println( "*******************" );
 //                        System.out.println( "*******************" );
 //                    } catch (ProtocolException e) {
 //                        e.printStackTrace();
