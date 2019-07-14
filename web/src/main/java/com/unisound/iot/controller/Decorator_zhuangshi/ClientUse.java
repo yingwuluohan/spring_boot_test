@@ -10,4 +10,21 @@ public class ClientUse {
         System.out.println( "------------------------");
         component2.doSomething();
     }
+
+    public ClientUse get(){
+        return null;
+    }
+}
+
+
+class client extends ClientUse{
+
+
+
+    public ClientUse getInfo(){
+
+        return new client();
+    }
+
+
 }
