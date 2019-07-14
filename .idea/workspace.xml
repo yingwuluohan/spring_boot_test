@@ -7,27 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4ce12f4-769e-43a1-b6d5-f65d93d447d7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/doc_technology/NIO 体系.docx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/doc_technology/Spring-原理分析.docx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/doc_technology/Tomcat Server原理.docx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/doc_technology/Tomcat 服务器部署 步骤.docx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/doc_technology/分布式事务 + 分布式.docx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/chart/ChartClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/chart/ChartServer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/copy_file_nio/CopyFile.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/first_buffer/BufferTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/first_buffer/Buffer_.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/first_buffer/ByteBuffer_t.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/first_buffer/DerectBuffer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/first_buffer/NioTest2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/first_buffer/NioWrite.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/selector/Selectors.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/netty/nio/BufferScatteringGathering.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/netty/nio/LockFile.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/Decorator_zhuangshi/ClientUse.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/Decorator_zhuangshi/ClientUse.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jvm/test.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/netty/test.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/doc_technology/Spring-原理分析.docx" afterPath="$PROJECT_DIR$/doc_technology/Spring-原理分析.docx" />
     </list>
     <ignored path="$PROJECT_DIR$/web/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -100,8 +80,8 @@
       <file leaf-file-name="memory 引用回收.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/doc_technology/memory 引用回收.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="484">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1253,15 +1233,16 @@
       <workItem from="1562127016013" duration="14370000" />
       <workItem from="1562214189725" duration="10985000" />
       <workItem from="1562722715848" duration="1903000" />
-      <workItem from="1562996471724" duration="15499000" />
+      <workItem from="1562996471724" duration="17249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="413614000" />
+    <option name="totallyTimeSpent" value="415364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1284,7 +1265,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45287356" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27645788" sideWeight="0.4961998" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27645788" sideWeight="0.4961998" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -2037,8 +2018,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/doc_technology/memory 引用回收.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="484">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
