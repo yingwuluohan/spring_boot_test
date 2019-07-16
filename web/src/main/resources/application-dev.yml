@@ -16,13 +16,13 @@ spring:
         type: com.alibaba.druid.pool.DruidDataSource
         name: test
 #        jdbc-url: jdbc:mysql://10.30.0.249:3306/operation-platform-template
-        url: jdbc:mysql://10.30.0.249:3306/operation-platform-template?useUnicode=true&characterEncoding=UTF-8
-        #url: jdbc:mysql://127.0.0.1:3306/kar-operation-platform
-        username: dev
-        #username: root
-        password: M20131209k
-        #password: 123456
-        filters: stat
+#        url: jdbc:mysql://10.30.0.249:3306/operation-platform-template?useUnicode=true&characterEncoding=UTF-8
+        url: jdbc:mysql://127.0.0.1:3306/operation-platform
+#        username: dev
+        username: root
+#        password: M20131209k
+        password: 123456
+#        filters: stat
         maxActive: 20
         initialSize: 1
         maxWait: 60000
@@ -41,13 +41,13 @@ spring:
         driver-class-name: com.mysql.jdbc.Driver
         type: com.alibaba.druid.pool.DruidDataSource
         name: report
-        #url: jdbc:mysql://127.0.0.1:3306/operation-platform
+        url: jdbc:mysql://127.0.0.1:3306/cloud
 #        jdbc-url: jdbc:mysql://10.30.0.249:3306/operation-platform
-        url: jdbc:mysql://10.30.0.249:3306/operation-platform?useUnicode=true&characterEncoding=UTF-8
-        username: dev
-        #username: root
-        password: M20131209k
-        #password: 123456
+#        url: jdbc:mysql://10.30.0.249:3306/operation-platform?useUnicode=true&characterEncoding=UTF-8
+#        username: dev
+        username: root
+#        password: M20131209k
+        password: 123456
         filters: stat
         maxActive: 20
         initialSize: 1
