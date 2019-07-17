@@ -6,7 +6,7 @@ import io.netty.handler.timeout.IdleStateEvent;
 
 /**
  *
- *
+ *从客户端向服务端请求
  */
 public class MyHeartServerHandler extends ChannelInboundHandlerAdapter {
 

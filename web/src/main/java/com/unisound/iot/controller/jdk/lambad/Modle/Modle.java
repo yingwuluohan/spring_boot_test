@@ -14,4 +14,8 @@ public class Modle implements Serializable {
     private String name;
 
     private Integer id;
+
+    public Modle(String name) {
+        this.name = name;
+    }
 }
