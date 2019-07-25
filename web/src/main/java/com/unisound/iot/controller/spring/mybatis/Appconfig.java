@@ -1,16 +1,24 @@
 package com.unisound.iot.controller.spring.mybatis;
 
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
+import org.mybatis.spring.SqlSessionFactoryBean;
 
-@Configuration
-@ComponentScan("com.unisound.iot.controller.spring")
-@LubanScan
+import javax.sql.DataSource;
+
+//@Configuration
+//@ComponentScan("com.unisound.iot.controller.spring")
+//@LubanScan
+//@ImportResource("classpath:spring.xml")//spring5 新特性
 public class Appconfig {
 
 
 
 //    @Bean
+    public SqlSessionFactoryBean sqlSessionFactory(DataSource dataSource ){
+        SqlSessionFactoryBean factoryBean = new SqlSessionFactoryBean();
+        factoryBean.setDataSource( dataSource );
+
+        return  factoryBean;
+    }
 
 
 

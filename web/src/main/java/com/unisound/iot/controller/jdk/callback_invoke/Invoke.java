@@ -27,7 +27,7 @@ public class Invoke {
         } );
 
         lambadInnerClass2( 1 , test->{
-
+            System.out.println( "lambadInnerClass2"+ test.getName());
         });
 
         InvokeListenerInterface inter = new InvokeListenerInterface() {
@@ -48,7 +48,7 @@ public class Invoke {
             }
         };
 
-        inter.find(  new Modle());
+//        inter.find(  new Modle());
 
 
 
