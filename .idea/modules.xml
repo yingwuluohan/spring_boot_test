@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/distribut_manage/distribut_manage.iml" filepath="$PROJECT_DIR$/distribut_manage/distribut_manage.iml" />
-      <module fileurl="file://$PROJECT_DIR$/distribut_transaction/distribut_transaction.iml" filepath="$PROJECT_DIR$/distribut_transaction/distribut_transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/kar-business-operation.iml" filepath="$PROJECT_DIR$/kar-business-operation.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>

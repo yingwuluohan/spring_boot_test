@@ -7,8 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
-        <module name="distribut_manage" />
-        <module name="distribut_transaction" />
         <module name="web" />
       </profile>
     </annotationProcessing>

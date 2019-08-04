@@ -21,6 +21,7 @@ public class Mybatis_ImportBeanDefinitionRegistrar implements ImportBeanDefiniti
         //给出一个包名 得到所有类
 //        for()
 
+        //通过BeanDefinitionBuilder.genericBeanDefinition 可以获取任何的BeanDefiniton
         BeanDefinitionBuilder builder = BeanDefinitionBuilder.genericBeanDefinition( SpringFactory.class ) ;
 
         /**
@@ -36,6 +37,11 @@ public class Mybatis_ImportBeanDefinitionRegistrar implements ImportBeanDefiniti
         // 先获取构造方法，再传给构造方法具体的类 ，这样就可以实例化具体的bean了
         genericBeanDefinition.getConstructorArgumentValues().addGenericArgumentValue( "com.ll.cityDao" );
         genericBeanDefinition.setAutowireMode( 3 );// 通过构造方法注入
+        //TODO 实现方式2 ，采用动态代理的方式
+        Class[] classes = new Class[]{ CityDao.class };
+
+
+
 
     }
 }
