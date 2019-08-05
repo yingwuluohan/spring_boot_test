@@ -91,6 +91,24 @@ public class JmapController {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        String old = "</tel>";
+        String news  = "</tel-m>";
+        String old1 = "<tel>(0\\d{2,3}-\\d{7,8}|1[3-9]\\d{9}|\\d{5})</tel>";
+        String news1  = "<tel-p>按电话号码播报</tel-p>";
+
+        List<String > list = new ArrayList<>();
+        list.add( "来电话了<tel>(0\\d{2,3}-\\d{7,8}|1[3-9]\\d{9}|\\d{5})</tel>");
+        list.add( "<sub alias=\"老年\">耄耋</sub>之年");
+        list.add( "<word>乒乓球</word><word>拍卖完了</word>");
+        list.add( "sdfjlkj<tel>s;djk</tel>");
+        list.add( "不亦来说说<py>那4</py>乎");
+        for( String str : list ){
+            if( str.indexOf( old ) != -1 ){
+                String result =str.replace(old , news );
+                System.out.println( "装换resut:" + result );
+            }
+        }
+
     }
 
 

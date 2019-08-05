@@ -19,9 +19,6 @@ import java.util.Map;
 
 /**
  * 封装常用的HTTP请求的GET/POST方法
- * 
- * @author libin
- * @date 2015年6月24日
  */
 public class HttpRequestUtil {
 	private static final int defaultConnectTimeout = 3000;

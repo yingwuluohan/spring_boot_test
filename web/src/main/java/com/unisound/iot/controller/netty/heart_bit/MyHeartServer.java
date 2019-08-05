@@ -29,7 +29,7 @@ public class MyHeartServer {
                     childHandler( new MyHeartServerHandler() );
             //监听端口
             ChannelFuture channelFuture = serverBootstrap.bind( 8888 ).sync();
-            channelFuture.channel().closeFuture().sync();
+//            channelFuture.channel().closeFuture().sync();
         }catch ( Exception e ){
 
         }finally {

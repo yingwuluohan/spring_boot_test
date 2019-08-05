@@ -48,7 +48,7 @@ public class Invoke {
             }
         };
 
-        inter.find(  new Modle());
+
 
 
 
