@@ -5,14 +5,13 @@ import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.beans.factory.support.AbstractBeanDefinition;
 import org.springframework.beans.factory.support.GenericBeanDefinition;
-import org.springframework.stereotype.Component;
 
 /**
  * @Created by yingwuluohan on 2019/7/15.
  * @Company 北京云知声技术有限公司
  */
 
-@Component
+//@Component
 public class SelfBeanFactoryPostProcessor implements BeanFactoryPostProcessor {
     @Override
     public void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) throws BeansException {

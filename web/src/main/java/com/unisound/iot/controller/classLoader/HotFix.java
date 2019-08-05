@@ -11,9 +11,9 @@ import java.net.URLClassLoader;
  */
 public class HotFix {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IllegalAccessException, InvocationTargetException, InstantiationException, NoSuchMethodException, MalformedURLException, ClassNotFoundException {
 
-
+        classLoader();
 
     }
 
@@ -21,11 +21,11 @@ public class HotFix {
         //自定义类加载器，JVM加载class文件工具，支持通过文件路径
         URLClassLoader classLoader = null;
         //class文件的位置
-        URL url = new URL( "file:D:\\" );
+        URL url = new URL( "/workplace/spring_boot_operation/web/src/main/java/com/unisound/iot/controller/classLoader" );
         //双亲委派，当前类的父加载器
         classLoader = new URLClassLoader( new URL[]{ url},HotFix.class.getClassLoader() );
         //类加载流程
-        Class classes = classLoader.loadClass( "" );
+        Class classes = classLoader.loadClass( "HotFix.java" );
         Object instance = classes.newInstance();
 
         Object result = classes.getMethod( "getLoadername" ).invoke( instance );

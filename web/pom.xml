@@ -37,7 +37,11 @@
 		</dependencies>
 	</dependencyManagement>
 	<dependencies>
-
+		<!--自定义Dubbo 框架 利用内置Tomcat-->
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-core</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>asm</groupId>
 			<artifactId>asm</artifactId>

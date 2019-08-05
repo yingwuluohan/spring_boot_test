@@ -20,8 +20,6 @@
 	<modules>
 		<module>web</module>
 		<module>common</module>
-        <module>distribut_transaction</module>
-        <module>distribut_manage</module>
     </modules>
 
 	<properties>
