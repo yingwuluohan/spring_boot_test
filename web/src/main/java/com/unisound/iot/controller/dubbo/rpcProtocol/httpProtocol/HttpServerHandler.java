@@ -12,13 +12,13 @@ import java.lang.reflect.Method;
 
 /**
  * @Created by yingwuluohan on 2019/8/2.
- * @Company 北京云知声技术有限公司
+ * @Company
  */
 public class HttpServerHandler {
 
 
     public void handler(HttpServletRequest request , HttpServletResponse response) throws NoSuchMethodException {
-        //处理HTTP请求的luoji
+        //处理HTTP请求的逻辑
         System.out.println( "" + request.getAuthType() );
         try {
             Invocation invocation = JSONObject.parseObject( request.getInputStream(), Invocation.class);

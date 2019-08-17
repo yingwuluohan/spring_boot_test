@@ -7,6 +7,8 @@ package com.unisound.iot.controller.classLoader;
 public class ClassLoaderModle {
 
 
-
+    public String getString(){
+        return "test";
+    }
 
 }
