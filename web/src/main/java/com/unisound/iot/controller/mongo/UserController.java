@@ -1,12 +1,8 @@
 package com.unisound.iot.controller.mongo;
 
 import com.unisound.iot.common.mongo.Channel;
-import com.unisound.iot.common.mongo.User;
 import com.unisound.iot.common.vo.ItemVo;
 import com.unisound.iot.controller.base.BaseController;
-import com.unisound.iot.service.mongo.channel.ChannelServiceImpl;
-import com.unisound.iot.service.mongo.user.UserServiceImpl;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
@@ -20,10 +16,10 @@ import java.util.List;
 @RequestMapping("v1/user/")
 public class UserController extends BaseController {
 
-    @Autowired
-    private UserServiceImpl userService;
-    @Autowired
-    private ChannelServiceImpl channelService;
+//    @Autowired
+//    private UserServiceImpl userService;
+//    @Autowired
+//    private ChannelServiceImpl channelService;
 
 
     /**v1/user/find_user */
@@ -35,8 +31,8 @@ public class UserController extends BaseController {
         channel.setCode( "testcode" );
         channel.setName( "terstname");
         channel.setId( "2837381");
-        channelService.addChannel( channel );
-        User list = userService.getUser( id );
+//        channelService.addChannel( channel );
+//        User list = userService.getUser( id );
         return "ok";
     }
 
@@ -45,8 +41,8 @@ public class UserController extends BaseController {
     @RequestMapping(value="find_channel/{code}",method = {RequestMethod.GET, RequestMethod.POST})
     public List mongoOperate2(HttpServletRequest request, @ModelAttribute ItemVo itemVo ,
                                @PathVariable(name="code") String code){
-        List< Channel > list = channelService.findChannel( code );
-        return list;
+//        List< Channel > list = channelService.findChannel( code );
+        return null;
     }
 
 

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @Created by yingwuluohan on 2019/4/11.
- * @Company 北京云知声技术有限公司
+ * @Company
  */
 @Component
 public class RabbiMqListenerConsumer {

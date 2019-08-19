@@ -4,64 +4,37 @@ server:
 
 # springBoot 2.0 之后 配置url时需要用jdbc-url ,不然多数据源时找不到URL
 spring:
-    http:
-        encoding:
-          charset: UTF-8
-          force: true
-          enabled: true
+  http:
+      encoding:
+        charset: UTF-8
+        force: true
+        enabled: true
 
-    datasource:
-      primary:
-        driver-class-name: com.mysql.jdbc.Driver
-        type: com.alibaba.druid.pool.DruidDataSource
-        name: test
-#        jdbc-url: jdbc:mysql://10.30.0.249:3306/operation-platform-template
-#        url: jdbc:mysql://10.30.0.249:3306/operation-platform-template?useUnicode=true&characterEncoding=UTF-8
-        url: jdbc:mysql://127.0.0.1:3306/operation-platform
-#        username: dev
-        username: root
-#        password: M20131209k
-        password: 123456
+  datasource:
+    url: jdbc:mysql://10.30.0.249:3306/operation-platform-template?useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+#        url: jdbc:mysql://127.0.0.1:3306/operation-platform
+    username: dev
+#        username: root
+    password: M20131209k
+#        password: 123456
 #        filters: stat
-        maxActive: 20
-        initialSize: 1
-        maxWait: 60000
-        minIdle: 1
-        timeBetweenEvictionRunsMillis: 60000
-        minEvictableIdleTimeMillis: 300000
-        validationQuery: select 'x'
-        testWhileIdle: true
-        testOnBorrow: false
-        testOnReturn: false
-        poolPreparedStatements: true
-        maxOpenPreparedStatements: 20
-        time-between-eviction-runs-millis: 18800 #就是这句话
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+    time-between-eviction-runs-millis: 18800 #就是这句话
 
-      secondary:
-        driver-class-name: com.mysql.jdbc.Driver
-        type: com.alibaba.druid.pool.DruidDataSource
-        name: report
-        url: jdbc:mysql://127.0.0.1:3306/cloud
-#        jdbc-url: jdbc:mysql://10.30.0.249:3306/operation-platform
-#        url: jdbc:mysql://10.30.0.249:3306/operation-platform?useUnicode=true&characterEncoding=UTF-8
-#        username: dev
-        username: root
-#        password: M20131209k
-        password: 123456
-        filters: stat
-        maxActive: 20
-        initialSize: 1
-        maxWait: 60000
-        minIdle: 1
-        timeBetweenEvictionRunsMillis: 60000
-        minEvictableIdleTimeMillis: 300000
-        validationQuery: select 'x'
-        testWhileIdle: true
-        testOnBorrow: false
-        testOnReturn: false
-        poolPreparedStatements: true
-        maxOpenPreparedStatements: 20
-        time-between-eviction-runs-millis: 18800 #就是这句话
+
 
 # https://blog.csdn.net/janceewa/article/details/79696949
     mongodb:

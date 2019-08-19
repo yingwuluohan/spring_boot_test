@@ -1,17 +1,14 @@
 package com.unisound.iot.common.mongo;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
-
 import java.io.Serializable;
 /**
  * @Created by yingwuluohan on 2018/12/18.
  * @Company 北京云知声技术有限公司
  */
-@Document(collection="users")
+//@Document(collection="users")
 public class User implements Serializable {
 
-    @Id
+//    @Id
     private String _id;
     private String id;
     private String userid;

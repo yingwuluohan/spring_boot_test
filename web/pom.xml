@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.unisound.iot</groupId>
@@ -37,11 +37,7 @@
 		</dependencies>
 	</dependencyManagement>
 	<dependencies>
-		<!--自定义Dubbo 框架 利用内置Tomcat-->
-		<dependency>
-			<groupId>org.apache.tomcat.embed</groupId>
-			<artifactId>tomcat-embed-core</artifactId>
-		</dependency>
+
 		<dependency>
 			<groupId>asm</groupId>
 			<artifactId>asm</artifactId>
@@ -103,11 +99,6 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-
-
-
-
-
 
 		<!-- 关联外部tomcat进行部署，加入servlet-api依赖 -->
 		<dependency>
@@ -174,7 +165,7 @@
 			<groupId>org.springframework.kafka</groupId>
 			<artifactId>spring-kafka</artifactId>
 		</dependency>
-        <!-- springBoot集成kafka结束  -->
+		<!-- springBoot集成kafka结束  -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -239,7 +230,12 @@
 			<artifactId>commons-collections</artifactId>
 			<version>3.2.1</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>tomcat-servlet-api</artifactId>
+			<version>7.0.54</version>
+			<scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.apache.tomcat</groupId>
 			<artifactId>tomcat-jsp-api</artifactId>
@@ -272,9 +268,9 @@
 		<!--<artifactId>spring-boot-starter-log4j2</artifactId>-->
 		<!--</dependency>-->
 		<!--<dependency>-->
-			<!--<groupId>ch.qos.logback</groupId>-->
-			<!--<artifactId>logback-core</artifactId>-->
-			<!--<version>1.2.3</version>-->
+		<!--<groupId>ch.qos.logback</groupId>-->
+		<!--<artifactId>logback-core</artifactId>-->
+		<!--<version>1.2.3</version>-->
 		<!--</dependency>-->
 
 		<dependency>
@@ -296,37 +292,29 @@
 			<artifactId>xxl-job-core</artifactId>
 			<version>1.9.2-SNAPSHOT</version>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-mongodb</artifactId>
-		</dependency>
-        <dependency>
-            <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-mongodb</artifactId>
-            <version>2.0.10.RELEASE</version>
-        </dependency>
+
 		<!-- disruptor -->
 		<dependency>
 			<groupId>org.yeauty</groupId>
 			<artifactId>netty-websocket-spring-boot-starter</artifactId>
 			<version>0.7.6</version>
 		</dependency>
-        <dependency>
-            <groupId>com.lmax</groupId>
-            <artifactId>disruptor</artifactId>
-            <version>3.3.6</version>
-        </dependency>
+		<dependency>
+			<groupId>com.lmax</groupId>
+			<artifactId>disruptor</artifactId>
+			<version>3.3.6</version>
+		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<version>1.16.18</version>
 		</dependency>
 		<!--webSockt 开始 -->
-        <dependency>
-            <groupId>javax.websocket</groupId>
-            <artifactId>javax.websocket-api</artifactId>
-            <version>1.0</version>
-        </dependency>
+		<dependency>
+			<groupId>javax.websocket</groupId>
+			<artifactId>javax.websocket-api</artifactId>
+			<version>1.0</version>
+		</dependency>
 		<dependency>
 			<groupId>org.java-websocket</groupId>
 			<artifactId>Java-WebSocket</artifactId>
@@ -335,20 +323,20 @@
 		<!-- websockt 结束 -->
 		<!--转写测试-->
 		<!--<dependency>-->
-			<!--<groupId>cn.yunzhisheng.utils</groupId>-->
-			<!--<artifactId>jtoken</artifactId>-->
-			<!--<version>2.0.5</version>-->
+		<!--<groupId>cn.yunzhisheng.utils</groupId>-->
+		<!--<artifactId>jtoken</artifactId>-->
+		<!--<version>2.0.5</version>-->
 		<!--</dependency>-->
 		<dependency>
 			<groupId>redis.clients</groupId>
 			<artifactId>jedis</artifactId>
 			<version>2.7.3</version>
 		</dependency>
-        <dependency>
-            <groupId>c3p0</groupId>
-            <artifactId>c3p0</artifactId>
-            <version>0.9.1.1</version>
-        </dependency>
+		<dependency>
+			<groupId>c3p0</groupId>
+			<artifactId>c3p0</artifactId>
+			<version>0.9.1.1</version>
+		</dependency>
 		<dependency>
 			<groupId>commons-dbutils</groupId>
 			<artifactId>commons-dbutils</artifactId>
@@ -359,29 +347,19 @@
 			<artifactId>netty-all</artifactId>
 			<version>4.1.10.Final</version>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-context</artifactId>
-			<version>5.1.8.RELEASE</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-context</artifactId>
-			<version>5.1.8.RELEASE</version>
-		</dependency>
 
 
 		<!--转写测试-->
-    </dependencies>
+	</dependencies>
 
 	<!--<build>-->
-		<!--<plugins>-->
-			<!--<plugin>-->
-				<!--<groupId>org.springframework.boot</groupId>-->
-				<!--<artifactId>spring-boot-maven-plugin</artifactId>-->
+	<!--<plugins>-->
+	<!--<plugin>-->
+	<!--<groupId>org.springframework.boot</groupId>-->
+	<!--<artifactId>spring-boot-maven-plugin</artifactId>-->
 
-			<!--</plugin>-->
-		<!--</plugins>-->
+	<!--</plugin>-->
+	<!--</plugins>-->
 	<!--</build>-->
 	<build>
 		<plugins>
