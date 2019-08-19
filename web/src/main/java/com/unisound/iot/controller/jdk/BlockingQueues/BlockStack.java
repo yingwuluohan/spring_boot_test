@@ -1,10 +1,9 @@
-package com.unisound.iot.controller.jdk;
+package com.unisound.iot.controller.jdk.BlockingQueues;
 
 import java.util.Stack;
 
 /**
  * @Created by yingwuluohan on 2019/4/11.
- * @Company 北京云知声技术有限公司
  *
  *
  */

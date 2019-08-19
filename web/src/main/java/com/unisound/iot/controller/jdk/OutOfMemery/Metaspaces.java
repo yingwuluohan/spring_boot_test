@@ -10,7 +10,6 @@ import java.util.List;
 /**
  * Exception in thread "main"  java.lang.OutOfMemoryError: Metaspace
  * @Created by yingwuluohan on 2019/5/23.
- * @Company 北京云知声技术有限公司
  *
  *
  *

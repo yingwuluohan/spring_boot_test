@@ -5,4 +5,11 @@ package com.unisound.iot.controller.jdk.Atomic;
  * @Company 北京云知声技术有限公司
  */
 public class CountDownLatchs {
+
+
+    public static void main(String[] args) {
+        int i = 134217728;
+        System.out.println( (i /1024)/1024 );
+
+    }
 }

@@ -2,7 +2,6 @@ package com.unisound.iot.controller.websocket;
 
 /**
  * @Created by yingwuluohan on 2019/4/26.
- * @Company 北京云知声技术有限公司
  */
 
 import com.unisound.iot.controller.websocket.javax_websocket.HttpSessionConfigurator;

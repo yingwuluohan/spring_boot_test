@@ -27,7 +27,7 @@ public class UseFunctionalInterfaceEg {
         useInterface(new FunctionInt() {
             @Override
             public void method() {
-                System.out.println( "" );
+                System.out.println( "内部类继承" );
             }
         });
 

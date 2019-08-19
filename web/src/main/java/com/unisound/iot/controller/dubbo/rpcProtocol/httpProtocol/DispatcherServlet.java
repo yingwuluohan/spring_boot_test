@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * @Created by yingwuluohan on 2019/8/2.
- * @Company 北京云知声技术有限公司
+ * @Company
  */
 public class DispatcherServlet extends HttpServlet {
 
@@ -14,7 +14,7 @@ public class DispatcherServlet extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest request , HttpServletResponse response){
-        new HttpServerHandler().handler( request ,response );
+//        new HttpServerHandler().handler( request ,response );
 
     }
 
