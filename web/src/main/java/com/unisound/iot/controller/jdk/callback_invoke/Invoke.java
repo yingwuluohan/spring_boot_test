@@ -4,6 +4,10 @@ import com.unisound.iot.controller.jdk.lambad.Modle.Modle;
 
 /**
  * @Created by yingwuluohan on 2019/7/16.
+<<<<<<< HEAD
+=======
+ * @Company
+>>>>>>> 77e15e1a5ccb8da086334769cff4117117f04104
  */
 public class Invoke {
 
@@ -47,7 +51,7 @@ public class Invoke {
             }
         };
 
-//        inter.find(  new Modle());
+
 
 
 

@@ -1,5 +1,6 @@
 package com.unisound.iot.controller.classLoader;
 
+import java.io.File;
 import java.lang.reflect.InvocationTargetException;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -7,7 +8,6 @@ import java.net.URLClassLoader;
 
 /**
  * @Created by yingwuluohan on 2019/6/24.
- * @Company 北京云知声技术有限公司
  */
 public class HotFix {
 
@@ -21,11 +21,17 @@ public class HotFix {
         //自定义类加载器，JVM加载class文件工具，支持通过文件路径
         URLClassLoader classLoader = null;
         //class文件的位置
-        URL url = new URL( "/workplace/spring_boot_operation/web/src/main/java/com/unisound/iot/controller/classLoader" );
+//        URL url = new URL( "/workplace/spring_boot_operation/web/src/main/java/com/unisound/iot/controller/classLoader" );
+//        URL url = new URL( "D:\\workspace\\uper-other-codeing\\spring_boot_test\\web\\src\\main\\java\\com\\unisound\\iot\\controller\\classLoader" );
         //双亲委派，当前类的父加载器
+        File file = new File( "D:\\workspace\\uper-other-codeing\\spring_boot_test\\web\\target\\classes\\com\\unisound\\iot\\controller\\classLoader\\HotFix.class");
+        URL url = file.toURL();
+        String className = "com.unisound.iot.controller.classLoader.HotFix";
+        Object obj = Class.forName(className).newInstance();
+        HotFix modle = (HotFix)obj;
         classLoader = new URLClassLoader( new URL[]{ url},HotFix.class.getClassLoader() );
         //类加载流程
-        Class classes = classLoader.loadClass( "HotFix.java" );
+        Class classes = classLoader.loadClass( "HotFix.class" );
         Object instance = classes.newInstance();
 
         Object result = classes.getMethod( "getLoadername" ).invoke( instance );
@@ -44,7 +50,7 @@ public class HotFix {
          * 7.销毁
          *
          * 同一个类名，同一个类加载器加载的代表同一个类
-         *
+         *com.unisound.iot.controller.classLoader.HotFix
          */
     }
 
