@@ -1,11 +1,11 @@
-package com.unisound.iot.controller.jdk;
+package com.unisound.iot.controller.jdk.BlockingQueues;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * @Created by yingwuluohan on 2019/4/11.
- * @Company 北京云知声技术有限公司
+ * @Company
  */
 public class BlockingQueue {
 
@@ -18,11 +18,21 @@ public class BlockingQueue {
      2. Remove: 若队列为空，抛出NoSuchElementException异常
      3. Take : 若队列为空，发生阻塞，等待有元素
      */
+    /**
+     * offer
+     * add
+     * put
+     */
     public static synchronized void test(){
 
-        arrayQueue.add( "a" );
-        linkQueue.add( "1" );
+
+
         try {
+            Object result = arrayQueue.poll(  );
+            System.out.println( result );
+            arrayQueue.put( "a" );
+            arrayQueue.add( "a" );
+            linkQueue.add( "1" );
             arrayQueue.put( "b" );
             linkQueue.put( "2" );
         } catch (InterruptedException e) {
@@ -49,6 +59,14 @@ public class BlockingQueue {
         System.out.println( "linkQueue 头数据" + linkQueue.poll() );
         System.out.println( "linkQueue size :" + linkQueue.size() );
     }
+
+
+
+
+
+
+
+
 
 
 }

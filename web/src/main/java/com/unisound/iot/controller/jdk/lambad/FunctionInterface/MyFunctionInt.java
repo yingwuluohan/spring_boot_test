@@ -9,7 +9,7 @@ public class MyFunctionInt implements FunctionInt {
 
     @Override
     public void method() {
-
+        System.out.println( "子类 method 执行" );
     }
 
 
