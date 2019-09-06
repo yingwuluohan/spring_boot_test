@@ -29,6 +29,7 @@ public class Filter_map_count_limit {
     /**
      * map：主要是改变集合的数据结构
      * Stream < R > map( Function< ? Super T ,? Extends R > mapper );
+     *
      Function 函数式接口，只有一个抽象方法： apply（ T t ） ,即可以将T种类型转换成R类型，即映射
      */
     public void map(){
