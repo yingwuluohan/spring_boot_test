@@ -7,22 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4ce12f4-769e-43a1-b6d5-f65d93d447d7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/dubbo/rpcProtocol/httpProtocol/DispatcherServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/volatiles/VolatileTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/ioc/test.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/Proccess.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/Result.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/ResultImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/Server.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/ServerImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/ServerInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/ThreadsShareResource.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/neibu_callback/C.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/neibu_callback/CallBackInner.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/neibu_callback/P.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/Atomic/CountDownLatchs.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/Atomic/CountDownLatchs.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockStack.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueues/BlockStack.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueues/BlockingQueue.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/Metaspace.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/Metaspace.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/Metaspaces.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/Metaspaces.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/callback_invoke/Invoke.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/callback_invoke/Invoke.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/lambad/FunctionInterface/MyFunctionInt.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/lambad/FunctionInterface/MyFunctionInt.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/lambad/FunctionInterface/UseFunctionalInterfaceEg.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/lambad/FunctionInterface/UseFunctionalInterfaceEg.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/lambad/result_is_lambad/ResultLambad.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/lambad/result_is_lambad/ResultLambad.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/tomcat/SecendWarTomcat.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/tomcat/SecendWarTomcat.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/MyWebSocket.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/websocket/MyWebSocket.java" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/chart/HttpRequestHandler.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/chart/HttpRequestHandler.java" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/AudioTransfer.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/AudioTransfer.java" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/DerictByteBuffer.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/DerictByteBuffer.java" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/volatiles/VolatileTest.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/volatiles/VolatileTest.java" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/rabbitmq/RabbitMqController.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/rabbitmq/RabbitMqController.java" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/web/src/main/resources/application-dev.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/web/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,75 +45,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="EntryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/bean_init/EntryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppconfigTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/Cglib_Bean/AppconfigTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Appconfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/mybatis/Appconfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CityDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/mybatis/CityDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MybatisProxy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/mybatis/MybatisProxy.java">
+      <file leaf-file-name="BlockQueueInterrupted.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueueThread/BlockQueueInterrupted.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="506">
-              <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MybatisInvocationHandler.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/mybatis/MybatisInvocationHandler.java">
+      <file leaf-file-name="Proccess.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/Proccess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="88">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LubanScan.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/mybatis/LubanScan.java">
+      <file leaf-file-name="Result.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/Result.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="132">
+              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,31 +77,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mybatis_ImportBeanDefinitionRegistrar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/mybatis/Mybatis_ImportBeanDefinitionRegistrar.java">
+      <file leaf-file-name="ResultImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/ResultImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-              <folding />
+            <state relative-caret-position="528">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestFactoryBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/bean_init/TestFactoryBean.java">
+      <file leaf-file-name="VolatileTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/volatiles/VolatileTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringProxy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/bean_manage/SpringProxy.java">
+      <file leaf-file-name="CallBackInner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/neibu_callback/CallBackInner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="572">
+              <caret line="26" column="70" lean-forward="false" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#557#1267#0" expanded="true" />
+                <element signature="e#1266#1267#0" expanded="true" />
+                <element signature="e#1538#1539#0" expanded="true" />
+                <element signature="e#1603#1604#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RabbitMqController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/rabbitmq/RabbitMqController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-88">
+              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadsShareResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/ThreadsShareResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/ServerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -165,7 +171,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>disrupt</find>
       <find>spring-boot-starter-web</find>
       <find>initChatServer</find>
       <find>websocket-api</find>
@@ -195,6 +200,7 @@
       <find>WebApplication</find>
       <find>StdOutImpl</find>
       <find>cityDao</find>
+      <find>queue</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -214,21 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/lambad/result_is_lambad/ResultLambad.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/lambad/stream/StreamLambad.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/lambad/Modle/Modle.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/lambad/stream/Filter_map_count_limit.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/lambad/reference_method/FunctionInter.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/lambad/reference_method/Reference.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/netty/heart_bit/MyHeartServerHandler.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/tomcat/SecendWarTomcat.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/JmapController.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/netty/socket/MyServer.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/netty/heart_bit/MyHeartServer.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/util/HttpRequestUtil.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/BeanFactory/OrderService.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/BeanFactory/UserService.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/BeanFactory/AppconfigTest.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/BeanFactory/LubanMethodInterceptor.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/BeanFactory/BeanFactoryPostProcessorDemo.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/Cglib_Bean/LubanMethodInterceptor.java" />
@@ -248,7 +239,6 @@
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/mongo/UserController.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/config/db/DataSource2Configuration.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/config/db/DateSourceConfiguration.java" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/config/mongo/MongoConfig.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/mongo/Channel.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/mongo/User.java" />
@@ -265,6 +255,22 @@
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/bean_init/EntryTest.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/mybatis/Appconfig.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/mybatis/Mybatis_ImportBeanDefinitionRegistrar.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/chart/HttpRequestHandler.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/AudioTransfer.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/DerictByteBuffer.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/volatiles/VolatileTest.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/rabbitmq/RabbitMqController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/neibu_callback/P.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/neibu_callback/C.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/neibu_callback/CallBackInner.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/Result.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/ResultImpl.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/Proccess.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/ServerInfo.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/Server.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/ThreadsShareResource.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/ServerImpl.java" />
       </list>
     </option>
   </component>
@@ -408,6 +414,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -470,7 +477,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="iot" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
@@ -481,8 +488,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="iot" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="bean_init" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="BlockingQueue_threads_enjoy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
@@ -493,8 +500,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="iot" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="bean_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="volatiles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
@@ -505,8 +512,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="iot" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="Cglib_Bean" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
@@ -516,9 +522,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="iot" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="constract" type="462c0819:PsiDirectoryNode" />
+              <item name="copy_asr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
@@ -528,9 +532,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="iot" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="copy_asr" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
@@ -538,11 +541,7 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="iot" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
@@ -561,85 +560,10 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:5.0.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:5.0.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-5.0.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:5.0.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-5.0.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:5.0.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-5.0.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:5.0.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:5.0.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-5.0.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:5.0.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-5.0.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:5.0.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-5.0.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:5.0.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-5.0.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_boot_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:5.0.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-5.0.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -653,8 +577,8 @@
     <property name="node.js.selected.package.tslint" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../business-platform" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/workspace/uper-other-codeing/spring_boot_test/web/src/main/java/com/unisound/iot/common/config/rabbitMq/RabbitTopicQueueConfig.java&#10;MongoBaseDao&#9;FILE&#9;file://D:/workspace/uper-other-codeing/spring_boot_test/web/src/main/java/com/unisound/iot/dao/mongo/MongoBaseDao.java&#10;UserDao&#9;FILE&#9;file://D:/workspace/uper-other-codeing/spring_boot_test/web/src/main/java/com/unisound/iot/dao/mongo/UserDao.java&#10;DataBinder&#9;PSI&#9;JAVA://org.springframework.validation.DataBinder&#10;InvocableHandlerMethod&#9;FILE&#9;jar://D:/soft/apache-maven-3.1.0-bin/localRepository/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java&#10;ModelAndViewContainer&#9;FILE&#9;jar://D:/soft/apache-maven-3.1.0-bin/localRepository/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE-sources.jar!/org/springframework/web/method/support/ModelAndViewContainer.java&#10;ModelAttributeMethodProcessor&#9;FILE&#9;jar://D:/soft/apache-maven-3.1.0-bin/localRepository/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/method/annotation/ModelAttributeMethodProcessor.class&#10;DispatcherServlet.java&#9;FILE&#9;file://D:/workspace/uper-other-codeing/spring_boot_test/web/src/main/java/com/unisound/iot/controller/dubbo/rpcProtocol/httpProtocol/DispatcherServlet.java&#10;Invoke.java&#9;FILE&#9;file://D:/workspace/uper-other-codeing/spring_boot_test/web/src/main/java/com/unisound/iot/controller/jdk/callback_invoke/Invoke.java&#10;ConfigurationClassPost&#9;FILE&#9;jar://D:/soft/apache-maven-3.1.0-bin/localRepository/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.class&#10;ReflectionUtils&#9;FILE&#9;jar://D:/soft/apache-maven-3.1.0-bin/localRepository/org/springframework/spring-core/5.0.9.RELEASE/spring-core-5.0.9.RELEASE.jar!/org/springframework/util/ReflectionUtils.class&#10;Unpooledd&#9;FILE&#9;jar:///application/repository/io/netty/netty-all/4.1.10.Final/netty-all-4.1.10.Final.jar!/io/netty/buffer/UnpooledDirectByteBuf.class&#10;channelPipeline&#9;PSI&#9;JAVA://io.netty.channel.ChannelPipeline&#10;ConstructorResolver&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.ConstructorResolver&#10;Flow&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/comp/Flow.class&#10;application-dev.yml&#9;FILE&#9;file:///workplace/spring_boot_operation/web/src/main/resources/application-dev.yml&#10;newFixedThreadPool&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newFixedThreadPool&#10;NettyServer.&#9;FILE&#9;file:///workplace/spring_boot_operation/distribut_manage/src/main/java/com/self/manage/server/NettyServer.java&#10;DirectByteBuffer&#9;PSI&#9;JAVA://java.nio.DirectByteBuffer&#10;Thread&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Thread.class&#10;TreeMap&#9;PSI&#9;JAVA://java.util.TreeMap&#10;RemoteE&#9;FILE&#9;jar:///application/repository/org/apache/tomcat/tomcat7-websocket/7.0.94/tomcat7-websocket-7.0.94.jar!/org/apache/tomcat/websocket/WsRemoteEndpointImplBase.class&#10;StandardWebSocketHandlerAdapter&#9;PSI&#9;JAVA://org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter&#10;ChartRoomService&#9;FILE&#9;file:///workplace/spring_boot_operation/web/src/main/java/com/unisound/iot/api/chart/ChartRoomService.java&#10;reportDao&#9;FILE&#9;file:///workplace/spring_boot_operation/web/src/main/resources/mapping/source2/report/ReportDao.xml&#10;MyDailyRollingFileAppender.java&#9;FILE&#9;file:///workplace/spring_boot_operation/web/src/main/java/com/unisound/iot/common/config/MyDailyRollingFileAppender.java&#10;BaseSer&#9;PSI&#9;JAVA://com.unisound.iot.service.base.BaseService&#10;BaseC&#9;PSI&#9;JAVA://com.unisound.iot.controller.base.BaseController&#10;spring.fa&#9;FILE&#9;jar:///application/repository/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/META-INF/spring.factories&#10;SoundAlbumDao&#9;FILE&#9;file:///workplace/Sound_project/kar-business-operation/web/src/main/java/com/unisound/iot/dao/mapper/source1/album/SoundAlbumDao.java&#10;dataRpcService&#9;FILE&#9;file:///workplace/Sound_project/kar-business-operation/web/src/main/java/com/unisound/iot/service/dataRpc/DataRpcService.java&#10;AlbumTypeDetail&#9;FILE&#9;file:///workplace/Sound_project/kar-business-operation/web/src/main/java/com/unisound/iot/common/modle/dataRpc/AlbumTypeDetail.java&#10;AlbumType&#9;FILE&#9;file:///workplace/Sound_project/kar-business-operation/web/src/main/java/com/unisound/iot/common/modle/dataRpc/AlbumType.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../traffic_router" />
+    <property name="SearchEverywhereHistoryKey" value="AudioTransfer&#9;PSI&#9;JAVA://com.unisound.iot.controller.jdk.nio.AudioTransfer&#10;MongoBaseDao&#9;FILE&#9;file://D:/workspace/uper-other-codeing/spring_boot_test/web/src/main/java/com/unisound/iot/dao/mongo/MongoBaseDao.java&#10;UserDao&#9;FILE&#9;file://D:/workspace/uper-other-codeing/spring_boot_test/web/src/main/java/com/unisound/iot/dao/mongo/UserDao.java&#10;DataBinder&#9;PSI&#9;JAVA://org.springframework.validation.DataBinder&#10;InvocableHandlerMethod&#9;FILE&#9;jar://D:/soft/apache-maven-3.1.0-bin/localRepository/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java&#10;ModelAndViewContainer&#9;FILE&#9;jar://D:/soft/apache-maven-3.1.0-bin/localRepository/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE-sources.jar!/org/springframework/web/method/support/ModelAndViewContainer.java&#10;ModelAttributeMethodProcessor&#9;FILE&#9;jar://D:/soft/apache-maven-3.1.0-bin/localRepository/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/method/annotation/ModelAttributeMethodProcessor.class&#10;DispatcherServlet.java&#9;FILE&#9;file://D:/workspace/uper-other-codeing/spring_boot_test/web/src/main/java/com/unisound/iot/controller/dubbo/rpcProtocol/httpProtocol/DispatcherServlet.java&#10;Invoke.java&#9;FILE&#9;file://D:/workspace/uper-other-codeing/spring_boot_test/web/src/main/java/com/unisound/iot/controller/jdk/callback_invoke/Invoke.java&#10;ConfigurationClassPost&#9;FILE&#9;jar://D:/soft/apache-maven-3.1.0-bin/localRepository/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.class&#10;ReflectionUtils&#9;FILE&#9;jar://D:/soft/apache-maven-3.1.0-bin/localRepository/org/springframework/spring-core/5.0.9.RELEASE/spring-core-5.0.9.RELEASE.jar!/org/springframework/util/ReflectionUtils.class&#10;Unpooledd&#9;FILE&#9;jar:///application/repository/io/netty/netty-all/4.1.10.Final/netty-all-4.1.10.Final.jar!/io/netty/buffer/UnpooledDirectByteBuf.class&#10;channelPipeline&#9;PSI&#9;JAVA://io.netty.channel.ChannelPipeline&#10;ConstructorResolver&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.ConstructorResolver&#10;Flow&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/comp/Flow.class&#10;application-dev.yml&#9;FILE&#9;file:///workplace/spring_boot_operation/web/src/main/resources/application-dev.yml&#10;newFixedThreadPool&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newFixedThreadPool&#10;NettyServer.&#9;FILE&#9;file:///workplace/spring_boot_operation/distribut_manage/src/main/java/com/self/manage/server/NettyServer.java&#10;DirectByteBuffer&#9;PSI&#9;JAVA://java.nio.DirectByteBuffer&#10;Thread&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Thread.class&#10;TreeMap&#9;PSI&#9;JAVA://java.util.TreeMap&#10;RemoteE&#9;FILE&#9;jar:///application/repository/org/apache/tomcat/tomcat7-websocket/7.0.94/tomcat7-websocket-7.0.94.jar!/org/apache/tomcat/websocket/WsRemoteEndpointImplBase.class&#10;StandardWebSocketHandlerAdapter&#9;PSI&#9;JAVA://org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter&#10;ChartRoomService&#9;FILE&#9;file:///workplace/spring_boot_operation/web/src/main/java/com/unisound/iot/api/chart/ChartRoomService.java&#10;reportDao&#9;FILE&#9;file:///workplace/spring_boot_operation/web/src/main/resources/mapping/source2/report/ReportDao.xml&#10;MyDailyRollingFileAppender.java&#9;FILE&#9;file:///workplace/spring_boot_operation/web/src/main/java/com/unisound/iot/common/config/MyDailyRollingFileAppender.java&#10;BaseSer&#9;PSI&#9;JAVA://com.unisound.iot.service.base.BaseService&#10;BaseC&#9;PSI&#9;JAVA://com.unisound.iot.controller.base.BaseController&#10;spring.fa&#9;FILE&#9;jar:///application/repository/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/META-INF/spring.factories&#10;SoundAlbumDao&#9;FILE&#9;file:///workplace/Sound_project/kar-business-operation/web/src/main/java/com/unisound/iot/dao/mapper/source1/album/SoundAlbumDao.java&#10;dataRpcService&#9;FILE&#9;file:///workplace/Sound_project/kar-business-operation/web/src/main/java/com/unisound/iot/service/dataRpc/DataRpcService.java&#10;AlbumTypeDetail&#9;FILE&#9;file:///workplace/Sound_project/kar-business-operation/web/src/main/java/com/unisound/iot/common/modle/dataRpc/AlbumTypeDetail.java&#10;AlbumType&#9;FILE&#9;file:///workplace/Sound_project/kar-business-operation/web/src/main/java/com/unisound/iot/common/modle/dataRpc/AlbumType.java" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
@@ -1504,14 +1428,19 @@
       <workItem from="1564055789888" duration="5676000" />
       <workItem from="1565077885699" duration="11077000" />
       <workItem from="1566033150571" duration="14408000" />
+      <workItem from="1566451296738" duration="666000" />
+      <workItem from="1566524134410" duration="2206000" />
+      <workItem from="1566716895255" duration="3553000" />
+      <workItem from="1567648613508" duration="9174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="446401000" />
+    <option name="totallyTimeSpent" value="463393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="0" width="1914" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
@@ -1523,7 +1452,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4970964" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5261324" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38675958" sideWeight="0.5" order="24" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1533,54 +1462,27 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48896632" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45711184" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48432055" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30163935" sideWeight="0.4961998" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.554007" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31530055" sideWeight="0.4961998" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4506388" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28100777" sideWeight="0.5038002" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923675" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.514518" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38675958" sideWeight="0.5" order="24" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="30" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="LuaCheck" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="26" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48896632" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45711184" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48432055" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30163935" sideWeight="0.4961998" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="28" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4506388" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28100777" sideWeight="0.5038002" order="6" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1602,7 +1504,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7514518" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5261324" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38675958" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -1612,11 +1514,11 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="LuaCheck" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48896632" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45711184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28455284" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30163935" sideWeight="0.4961998" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.554007" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31530055" sideWeight="0.4961998" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
@@ -1936,7 +1838,7 @@
           <option name="timeStamp" value="98" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="119" />
+      <option name="time" value="122" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1945,343 +1847,434 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/service/mongo/user/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/service/rabbitmq/RabbiMqListenerConsumer.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/Cglib_Bean/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/Atomic/CountDownLatchs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/config/db/DateSourceConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/bio/BioClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="220">
+          <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/config/db/DataSource2Configuration.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/bio/BioClient_shengji.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/bio/BioServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/bio/BioServer_shengji.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/tomcat/FirstStepTomcatTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="8" selection-end-column="17" />
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.class">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/tomcat/SecendWarTomcat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="198" column="16" lean-forward="false" selection-start-line="198" selection-start-column="16" selection-end-line="198" selection-end-column="16" />
+        <state relative-caret-position="220">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/tomcat/FirstStepTomcat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/DirectBufferMemoryOutof.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/HeapMethodOldController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="27" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/OutOfMemery/DirectMemoryOut/DirectMemoryOOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/DirectByteBuffer/Direct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/DirectByteBuffer/MemoryLocat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/copy_asr/thread/ActionExcutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/copy_asr/thread/ActionRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/copy_asr/thread/ResourceCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-286">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/core/consum/ConsumMessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/core/product/ProductMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/copy_asr/InitServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/dubbo/rpcProtocol/httpProtocol/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/chart/TextWebSocketFrameHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/chart/HttpRequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1298">
+          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/chart/ChatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/chart/ChartClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/chart/ChartServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/first_buffer/ByteBuffer_t.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/first_buffer/DerectBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/CommonExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/CommonX509TrustManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/DerictByteBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/Transcribe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <element signature="e#404#405#0" expanded="false" />
+            <element signature="e#435#436#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/nio/AudioTransfer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jvm/hsdb/Hsdb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueues/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueues/BlockStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/rabbitmq/RabbitMqController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/mongo/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/mongo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="305" column="21" lean-forward="false" selection-start-line="305" selection-start-column="21" selection-end-line="305" selection-end-column="21" />
+        <state relative-caret-position="308">
+          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/mongo/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/dao/mongo/MongoBaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="128" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/dao/mongo/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/dao/mongo/ChannelDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/Cglib_Bean/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/Cglib_Bean/OrderService.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/Cglib_Bean/LubanMethodInterceptor.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/Cglib_Bean/BeanFactoryPostProcessorDemo.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/cglib_proxd/EnhansTest.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/cglib_proxd/MethodIntercepter.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/cglib_proxd/ProxyService.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/constract/SelfService.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/config/mongo/MongoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/config/rabbitMq/MessageRecevier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/config/rabbitMq/RabbitMqDirectConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/config/rabbitMq/RabbitMqFanoutConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/config/rabbitMq/RabbitMqTopicConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/config/zookeeper/ZkConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-303">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding>
-            <element signature="e#22548#22552#0" expanded="false" />
-            <element signature="e#22558#22562#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/config/rabbitMq/RabbitTopicQueueConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/spring/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/constract/SelfBeanFactoryPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="515" column="16" lean-forward="false" selection-start-line="515" selection-start-column="16" selection-end-line="515" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/bean_init/SelfBeanFactoryPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/bean_init/TestBeanService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/bean_init/SpringBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/FactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="57" column="17" lean-forward="false" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/bean_init/TestFactoryBean.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE-sources.jar!/org/springframework/context/annotation/ComponentScan.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/volatiles/VolatileTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+        <state relative-caret-position="352">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/mybatis/LubanScan.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/neibu_callback/P.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="137">
+          <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/ioc/test.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/neibu_callback/C.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="269">
+          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/mybatis/MybatisProxy.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/neibu_callback/CallBackInner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="70" lean-forward="false" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#557#1267#0" expanded="true" />
+            <element signature="e#1266#1267#0" expanded="true" />
+            <element signature="e#1538#1539#0" expanded="true" />
+            <element signature="e#1603#1604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueueThread/BlockQueueInterrupted.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
-          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/bean_manage/SpringProxy.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/Cglib_Bean/AppconfigTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="132">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/bean_init/EntryTest.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/ResultImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="528">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/Proccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/mybatis/Appconfig.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/ServerInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="110">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/mybatis/CityDao.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="110">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/mybatis/Mybatis_ImportBeanDefinitionRegistrar.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/ThreadsShareResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="269">
+          <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/spring/mybatis/MybatisInvocationHandler.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/BlockingQueue_threads_enjoy/ServerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="44">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
           <folding />
         </state>
       </provider>

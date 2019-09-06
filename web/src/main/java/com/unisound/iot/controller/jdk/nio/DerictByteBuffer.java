@@ -25,7 +25,10 @@ public class DerictByteBuffer {
     @RequestMapping( value="/init" ,method= RequestMethod.GET )
     public void initHttpChat(){
         try {
-            AudioTransfer audioTransfer = new AudioTransfer( 4 , "/Users/yingwuluohan/Documents/soft/redis-3.2.9.tar" );
+            //MAC
+//            AudioTransfer audioTransfer = new AudioTransfer( 4 , "/Users/yingwuluohan/Documents/soft/redis-3.2.9.tar" );
+            //TODO linux
+            AudioTransfer audioTransfer = new AudioTransfer( 4 , "/opt/springboot.hprof" );
             new Thread(new Runnable() {
                 @Override
                 public void run() {
