@@ -16,7 +16,7 @@ import java.net.URL;
  */
 //后面的泛型代表接受的消息的类型。
 
-public class HttpRequestHandler extends SimpleChannelInboundHandler<FullHttpRequest> { //1
+public class  HttpRequestHandler extends SimpleChannelInboundHandler<FullHttpRequest> { //1
     private final String wsUri;
     private static final File INDEX;
 
