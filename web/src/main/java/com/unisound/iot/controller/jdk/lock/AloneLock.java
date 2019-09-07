@@ -4,6 +4,8 @@ import org.apache.commons.collections.map.HashedMap;
 
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
@@ -79,7 +81,6 @@ public class AloneLock {
 
         Mycache mycache = new Mycache();
         for( int i = 0 ; i < 10 ;i++ ){
-
             final int tem = i;
             new Thread( ()-> {
                 try {
@@ -116,7 +117,14 @@ class Mycache{
 //    private Lock lock = new ReentrantLock();//为实现可以有多个线程读，因此不能用该锁
 
     ReentrantReadWriteLock readWriteLock = new ReentrantReadWriteLock();
-    public void put( String key ,Object value ) throws InterruptedException {
+    ReentrantLock lock = new ReentrantLock();
+
+    public Condition getCondition() {
+        Condition condition = lock.newCondition();
+        return condition;
+    }
+
+    public void put(String key , Object value ) throws InterruptedException {
 
         try{
             readWriteLock.writeLock().lock();
@@ -135,8 +143,6 @@ class Mycache{
     }
 
     public Object read( String key  ) throws InterruptedException {
-
-
         try{
             System.out.println( Thread.currentThread().getName() +"在读取 ----");
             TimeUnit.SECONDS.sleep( 1000);
