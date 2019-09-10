@@ -26,9 +26,9 @@ public class ThreadRunner  {
         this.action = action;
 
     }
-    private static ExecutorService executor = new ThreadPoolExecutor( 0, 5,
+    private static ExecutorService executor = new ThreadPoolExecutor( 1, 3,
             1L, TimeUnit.SECONDS , new LinkedBlockingQueue<Runnable>( 5 )  ,
-            Executors.defaultThreadFactory() ,new ThreadPoolExecutor.DiscardPolicy());
+            Executors.defaultThreadFactory() ,new ThreadPoolExecutor.DiscardOldestPolicy());//.DiscardPolicy()
 
     public ActionInterface getAction() {
         return action;
@@ -47,6 +47,7 @@ public class ThreadRunner  {
         Unsafe unsafe = getUnsafeInstance();
         System.out.println( "size:" + unsafe.allocateMemory( 1024 ));
         for( int i = 0 ; i< 10 ;i++ ){
+
             runTask( new Object() ,threadNum );
         }
     }
