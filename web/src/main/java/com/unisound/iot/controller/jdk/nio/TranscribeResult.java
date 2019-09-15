@@ -1,9 +1,10 @@
 package com.unisound.iot.controller.jdk.nio;
 
+import com.unisound.iot.controller.jdk.nio.transfer_mp3_test.RequestParam;
+
 /**
  * 保存转写结果
- * @author	xiezhb
- * @date	2018年12月21日
+
  */
 public class TranscribeResult {
 	public static final String  AUDIO_CHUNK_INDEX = "index";
@@ -14,7 +15,7 @@ public class TranscribeResult {
 
 	private String appkey = null;
 	private String userid = null;
-
+	private RequestParam param = null;
 	private long startTime = 0;
 	
 	private long costTime = 0;
@@ -44,6 +45,15 @@ public class TranscribeResult {
 	private boolean useHotData = false;
 
 	private int tryTimes = 1;
+
+
+	public RequestParam getParam() {
+		return param;
+	}
+
+	public void setParam(RequestParam param) {
+		this.param = param;
+	}
 
 	public String getAppkey() {
 		return appkey;
