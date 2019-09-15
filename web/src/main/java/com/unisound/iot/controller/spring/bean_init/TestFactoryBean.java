@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * @Created by yingwuluohan on 2019/7/28.
- * @Company 北京云知声技术有限公司
  */
 @Component("testServiceBean")
 public class TestFactoryBean implements FactoryBean {
