@@ -58,16 +58,16 @@ spring:
             max-wait: -1 #默认-1 最大连接阻塞等待时间
             max-idle: 8 #最大空闲连接 默认8
             min-idle: 0 #最小空闲连接
-#    rabbitmq:
-#      host: 10.20.222.62
-#      port: 5672
-#      username: guest
-#      password: guest
-#      timeout: 1000
-#      retryMaxCount: 5
-#      # 开启ACK
-#      listener:
-#        acknowledge-mode: manual
+  rabbitmq:
+    host: 10.20.222.62
+    port: 5672
+    username: admin
+    password: 12345678
+    timeout: 1000
+    retryMaxCount: 5
+    # 开启ACK
+    listener:
+      acknowledge-mode: manual
 
 
 #zookeeper:

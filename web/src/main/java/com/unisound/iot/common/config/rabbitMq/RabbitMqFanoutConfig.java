@@ -25,11 +25,15 @@ public class RabbitMqFanoutConfig {
    */
   @Bean(name="platform-fanout-queue1")
   public Queue queue1(){
-      return new Queue("platform-fanout-queue1");
+    System.out.println( "MQ queue 实例化platform-fanout-queue1 " );
+
+    return new Queue("platform-fanout-queue1");
   }
 
   @Bean(name="platform-fanout-queue2")
   public Queue queue2(){
+    System.out.println( "MQ queue 实例化platform-fanout-queue2-- " );
+
     return new Queue("platform-fanout-queue2");
   }
 
@@ -50,6 +54,7 @@ public class RabbitMqFanoutConfig {
   @Bean
   Binding bindQueueToExchange(@Qualifier("platform-fanout-queue1") Queue platFormQueue,
                               @Qualifier("platform-fanout-exchange")FanoutExchange platFormDirectExchange){
+    System.out.println( "fanout init queue1 " );
     return BindingBuilder.bind( platFormQueue).to( platFormDirectExchange );
   }
 

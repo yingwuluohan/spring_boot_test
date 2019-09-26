@@ -17,9 +17,16 @@ public class RabbitMqProductService {
 
 
     public void fanoutExchangeSendInfo(String message){
+        /**
+         * 第一个参数表示交换机，
+         * 第二个参数表示 routing key
+         * */
+        try{
 
-        amqpTemplate.convertAndSend( "platform-fanout-exchange" , "","fanout-send:"+message );
-
+            amqpTemplate.convertAndSend( "platform-fanout-exchange" , "","fanout-send:"+message );
+        }catch ( Exception e ){
+            e.printStackTrace();
+        }
     }
 
 

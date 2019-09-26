@@ -17,11 +17,11 @@ public class RequestListener implements ServletRequestListener {
 
     }
     public RequestListener() {
-        System.out.println( "RequestListener");
+        System.out.println( "-------websocket---RequestListener");
     }
 
     public void requestDestroyed(ServletRequestEvent arg0)  {
-        System.out.println( "requestDestroyed" );
+        System.out.println( "requestDestroyed-------end------" );
 
     }
 
