@@ -14,7 +14,11 @@ public class DispatcherServlet extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest request , HttpServletResponse response){
-//        new HttpServerHandler().handler( request ,response );
+        try {
+            new HttpServerHandler().handler( request ,response );
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        }
 
     }
 

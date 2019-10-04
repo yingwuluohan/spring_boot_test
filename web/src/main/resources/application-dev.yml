@@ -69,6 +69,24 @@ spring:
     listener:
       acknowledge-mode: manual
 
+#  kafka:     # 指定kafka 代理地址，可以多个
+#    bootstrap-servers: 10.20.222.66:9092
+#    template:    # 指定默认topic id
+#      default-topic: producer
+#    listener:   # 指定listener 容器中的线程数，用于提高并发量
+#      concurrency: 5
+#    consumer:
+#      group-id: myGroup # 指定默认消费者group id
+#      client-id: 200
+#      max-poll-records: 200
+#      auto-offset-reset: earliest
+#      enable-auto-commit: false  # 最早未被消费的offset
+#
+#    producer:
+#      batch-size: 1000 # 每次批量发送消息的数量
+#      retries: 3
+#      client-id: 200
+#      buffer-memory: 40960
 
 #zookeeper:
 #  server: 10.20.222.77:2181,10.20.222.76:2181,10.20.222.75:2181
