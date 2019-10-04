@@ -3,6 +3,7 @@ package com.unisound.iot.controller.dubbo.rpcProtocol.httpProtocol;
 import com.alibaba.fastjson.JSONObject;
 import com.unisound.iot.controller.dubbo.ServiceProvider.LocalRegister;
 import com.unisound.iot.controller.dubbo.frame.Invocation;
+import org.apache.commons.io.IOUtils;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -28,7 +29,8 @@ public class HttpServerHandler {
             //通常是OBject ，简化处理成string
             String result = (String)method.invoke( impClass.newInstance(),invocation.getParams());
 
-//            IOUtils.write( request , response.getOutputStream());
+            //TODO apache 包提供工具类
+            IOUtils.write( result, response.getOutputStream());
         } catch (IOException e) {
             e.printStackTrace();
         }catch (IllegalAccessException e) {
