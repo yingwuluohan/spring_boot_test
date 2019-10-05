@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f4ce12f4-769e-43a1-b6d5-f65d93d447d7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/dubbo/rpcProtocol/httpProtocol/HttpServerHandler.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/dubbo/rpcProtocol/httpProtocol/HttpServerHandler.java" />
     </list>
     <ignored path="$PROJECT_DIR$/web/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,7 +75,7 @@
       <file leaf-file-name="HttpServerHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/dubbo/rpcProtocol/httpProtocol/HttpServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
+            <state relative-caret-position="182">
               <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
               <folding />
             </state>
@@ -2130,15 +2129,16 @@
       <workItem from="1566033150571" duration="12481000" />
       <workItem from="1566189239814" duration="1325000" />
       <workItem from="1567726954644" duration="1385000" />
-      <workItem from="1568979736587" duration="28447000" />
+      <workItem from="1568979736587" duration="28669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="490305000" />
+    <option name="totallyTimeSpent" value="490527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="72" y="23" width="1608" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2164,7 +2164,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45711184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48896632" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48425624" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48425624" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28856042" sideWeight="0.4961998" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -2988,7 +2988,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/dubbo/rpcProtocol/httpProtocol/HttpServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
+        <state relative-caret-position="182">
           <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
           <folding />
         </state>
