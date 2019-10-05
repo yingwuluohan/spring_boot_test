@@ -122,6 +122,13 @@
 			<artifactId>commons-io</artifactId>
 			<version>1.3.2</version>
 		</dependency>
+		<!-- OPEN-jdk 打印对象信息-->
+		<dependency>
+			<groupId>org.openjdk.jol</groupId>
+			<artifactId>jol-core</artifactId>
+			<version>0.8</version>
+		</dependency>
+
 
 		<!-- 关联外部tomcat进行部署，加入servlet-api依赖 -->
 		<dependency>
