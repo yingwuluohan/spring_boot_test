@@ -13,17 +13,24 @@ public class ObjectEventProducer {
         this.ringBuffer = ringBuffer;
     }
 
+    /**
+     * ByteBuffer :
+     * @param bb
+     */
     public void product(ByteBuffer bb)
     {
+        //next 获取下一个事件 的下标
         long sequence = ringBuffer.next();  // Grab the next sequence
         try
         {
+            //获取一个空余的位置
             ObjectEvent event = ringBuffer.get(sequence); // Get the entry in the Disruptor
-            // for the sequence
+            //ringbuffer里面在初始化时已经实现存放好了ObjectEvent类型的对象,此时只需要赋值就可以了
             event.setObject(bb.getLong(0));  // Fill with data
         }
         finally
         {
+            //发布事件
             ringBuffer.publish(sequence);
         }
     }
