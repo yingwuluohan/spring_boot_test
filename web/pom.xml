@@ -377,7 +377,11 @@
 			<artifactId>netty-all</artifactId>
 			<version>4.1.10.Final</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-math3</artifactId>
+			<version>3.6.1</version>
+		</dependency>
 
 		<!--转写测试-->
 	</dependencies>
