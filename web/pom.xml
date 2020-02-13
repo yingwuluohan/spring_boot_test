@@ -22,6 +22,9 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 		<disruptor.version>3.3.4</disruptor.version>
+		<rocketmq.version>4.4.0</rocketmq.version>
+
+		<aspectj.version>1.6.11</aspectj.version>
 	</properties>
 
 
@@ -292,17 +295,6 @@
 			<artifactId>lettuce-core</artifactId>
 		</dependency>
 
-
-		<!--<dependency> &lt;!&ndash; 引入log4j2依赖 &ndash;&gt;-->
-		<!--<groupId>org.springframework.boot</groupId>-->
-		<!--<artifactId>spring-boot-starter-log4j2</artifactId>-->
-		<!--</dependency>-->
-		<!--<dependency>-->
-		<!--<groupId>ch.qos.logback</groupId>-->
-		<!--<artifactId>logback-core</artifactId>-->
-		<!--<version>1.2.3</version>-->
-		<!--</dependency>-->
-
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
@@ -384,6 +376,39 @@
 		</dependency>
 
 		<!--转写测试-->
+		<!--MQ 开始 -->
+		<dependency>
+			<groupId>org.apache.rocketmq</groupId>
+			<artifactId>rocketmq-client</artifactId>
+			<version>4.4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.rocketmq</groupId>
+			<artifactId>rocketmq-tools</artifactId>
+			<version>${rocketmq.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.rocketmq</groupId>
+			<artifactId>rocketmq-namesrv</artifactId>
+			<version>${rocketmq.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.rocketmq</groupId>
+			<artifactId>rocketmq-broker</artifactId>
+			<version>${rocketmq.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjrt</artifactId>
+			<version>${aspectj.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>${aspectj.version}</version>
+		</dependency>
 	</dependencies>
 
 	<!--<build>-->

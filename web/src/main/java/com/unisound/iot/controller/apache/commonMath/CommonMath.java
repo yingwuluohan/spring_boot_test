@@ -46,8 +46,6 @@ public class CommonMath {
 
         Max max = new Max();
 
-
-
         Mean mean = new Mean(); // 算术平均值
 
         Product product = new Product();//乘积

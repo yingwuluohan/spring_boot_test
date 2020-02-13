@@ -14,6 +14,13 @@ public class User implements Serializable {
     private String userid;
     private String password;
 
+    public User(){}
+
+    public User(String id, String userid) {
+        this.id = id;
+        this.userid = userid;
+    }
+
     public String getId() {
         return id;
     }
