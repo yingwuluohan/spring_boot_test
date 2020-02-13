@@ -1,4 +1,4 @@
-package com.unisound.iot.controller.jdk.object_header;
+package com.unisound.iot.controller.jvm.object_header;
 
 import org.openjdk.jol.info.ClassLayout;
 import org.openjdk.jol.info.GraphLayout;
@@ -23,6 +23,8 @@ public class HotspotHead {
         // sync锁住的是对象 ，就是修改h对象的头信息
         synchronized ( h ){
             System.out.println( "lock ------" );
+            System.out.println(ClassLayout.parseInstance( h ).toPrintable() );
+
         }
 
         //TODO 查看对象外部信息：包括引用的对象： GraphLayout.parseInstance(obj).toPrintable()
