@@ -7,7 +7,7 @@ import java.net.SocketException;
 
 /**
  * @Created by yingwuluohan on 2019/5/19.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  *
  * 用DateGramPacket 监听端口
  * 准备数据 ， 再用容器字节数组 封装成DateGramPacket

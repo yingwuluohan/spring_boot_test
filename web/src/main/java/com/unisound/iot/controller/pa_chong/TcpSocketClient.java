@@ -8,7 +8,7 @@ import java.net.Socket;
 
 /**
  * @Created by yingwuluohan on 2019/5/19.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  * 使用socket创建客户端
  * 需要指定服务端的IP和端口
  *

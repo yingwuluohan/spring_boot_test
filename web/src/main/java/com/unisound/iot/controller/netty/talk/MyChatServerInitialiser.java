@@ -5,7 +5,7 @@ import io.netty.channel.socket.SocketChannel;
 
 /**
  * @Created by yingwuluohan on 2019/7/11.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 public class MyChatServerInitialiser extends ChannelInitializer<SocketChannel> {
     @Override

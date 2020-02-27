@@ -2,7 +2,7 @@ package com.unisound.iot.dao.mongo;
 
 /**
  * @Created by yingwuluohan on 2018/12/18.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 //@Repository
 public class ChannelDao { //extends MongoBaseDao<Channel>  {

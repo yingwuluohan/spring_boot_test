@@ -11,7 +11,7 @@ import java.net.URI;
 
 /**
  * @Created by yingwuluohan on 2019/7/10.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 //Inbound
 public class TestHttpServerHandler extends SimpleChannelInboundHandler<HttpObject> {

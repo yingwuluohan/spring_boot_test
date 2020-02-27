@@ -2,7 +2,7 @@ package com.unisound.iot.common.zookeeper;
 
 /**
  * @Created by yingwuluohan on 2019/4/9.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;

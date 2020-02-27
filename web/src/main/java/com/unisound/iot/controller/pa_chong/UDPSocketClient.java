@@ -8,7 +8,7 @@ import java.net.SocketException;
 
 /**
  * @Created by yingwuluohan on 2019/5/19.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  *
  * 用DataGramPacket 指定端口，创建发送端
  * 把发送的数据转成字节数组

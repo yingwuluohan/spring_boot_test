@@ -4,7 +4,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
  * @Created by yingwuluohan on 2019/5/5.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 public class Synchronized  {
 

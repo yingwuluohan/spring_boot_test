@@ -9,7 +9,7 @@ import java.net.URL;
 
 /**
  * @Created by yingwuluohan on 2019/5/19.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 public class HttpPaChong {
 

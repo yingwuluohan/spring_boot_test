@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * @Created by yingwuluohan on 2018/12/18.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 @RestController
 @RequestMapping("v1/user/")

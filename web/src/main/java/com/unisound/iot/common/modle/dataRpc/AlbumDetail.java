@@ -49,7 +49,7 @@ public class AlbumDetail implements Serializable {
     private String domainName;
     /** 数据套餐标识（1001,1002,2001） **/
     private Integer dataPlanCode;
-    /** 第三方数据来源(1:云知声 2：喜马拉雅 3：efunvidio 4:古诗文网) **/
+    /** 第三方数据来源(1:fn 2：喜马拉雅 3：efunvidio 4:古诗文网) **/
     private Integer dataOrigin;
     /** 标签列表 **/
     private String[] tags;

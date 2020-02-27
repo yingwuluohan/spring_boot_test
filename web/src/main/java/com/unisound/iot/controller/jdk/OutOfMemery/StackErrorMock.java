@@ -2,7 +2,7 @@ package com.unisound.iot.controller.jdk.OutOfMemery;
 
 /**
  * @Created by yingwuluohan on 2019/6/12.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 public class StackErrorMock {
 

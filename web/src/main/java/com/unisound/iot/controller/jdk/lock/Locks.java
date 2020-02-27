@@ -5,7 +5,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @Created by yingwuluohan on 2019/7/9.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 public class Locks {
 //    自旋锁

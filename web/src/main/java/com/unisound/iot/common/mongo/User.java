@@ -3,7 +3,7 @@ package com.unisound.iot.common.mongo;
 import java.io.Serializable;
 /**
  * @Created by yingwuluohan on 2018/12/18.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 //@Document(collection="users")
 public class User implements Serializable {

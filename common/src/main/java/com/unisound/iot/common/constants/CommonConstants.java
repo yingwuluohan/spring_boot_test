@@ -2,7 +2,7 @@ package com.unisound.iot.common.constants;
 
 /**
  * @Created by yingwuluohan on 2018/10/7.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 public class CommonConstants {
 
@@ -24,7 +24,7 @@ public class CommonConstants {
     public static final String MANAGE_KEY = "02be86b7fe35b2405f9049dda19ced42";
     public static final String MANAGE_SECRET = "45d795c3dbec499cc6241d66ae67ff5c";
     /**
-     * 云知声 domainId
+     *  domainId
      */
     public static final long YZS_DOMAIN_ID = 10000000L;
     /**权限类型 1：公开， 2：（c600 ，lite3,pro） ,3: 所有子公司 4,：具体某产品appkey*/

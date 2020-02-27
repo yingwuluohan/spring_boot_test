@@ -16,7 +16,7 @@ public abstract class BaseVO implements Serializable{
     private Integer companyId;
     private String scopeValue;
     /**
-     * 所属类型（云知声：yzs ，一级公司：clientName ，APP：app）
+     * 所属类型（fn：yzs ，一级公司：clientName ，APP：app）
      */
     private String scopeType;
     /**

@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * @Created by yingwuluohan on 2019/6/1.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  *
  * java.lang.OutOfMemoryError: GC overhead limit exceeded
  */

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 /**
  * 数据服务（ 专辑，作品，专辑合集 ，套餐，）控制类入口
  * @Created by yingwuluohan on 2018/10/7.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 @RestController
 @RequestMapping("rest/")

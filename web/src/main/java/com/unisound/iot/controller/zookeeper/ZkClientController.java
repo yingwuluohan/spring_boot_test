@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * @Created by yingwuluohan on 2019/4/9.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 @RestController
 @RequestMapping("zk/")

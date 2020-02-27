@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  * @Created by yingwuluohan on 2019/1/18.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 public class CollectionLamUtil {
 

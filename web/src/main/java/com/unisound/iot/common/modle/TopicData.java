@@ -7,7 +7,7 @@ import java.io.Serializable;
 
 /**
  * @Created by yingwuluohan on 2018/10/6.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 public class TopicData extends BaseModle implements Serializable {
 

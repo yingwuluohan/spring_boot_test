@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * 专题持久化操作
  * @Created by yingwuluohan on 2018/10/7.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 @Mapper
 public interface TopicDao {

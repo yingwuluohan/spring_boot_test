@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @Created by yingwuluohan on 2018/10/6.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 @RestController
 @RequestMapping("rest/")

@@ -10,7 +10,7 @@ import io.netty.handler.logging.LoggingHandler;
 
 /**
  * @Created by yingwuluohan on 2019/7/11.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 public class MyHeartServer {
 

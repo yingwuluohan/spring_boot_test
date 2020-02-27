@@ -2,7 +2,7 @@ package com.unisound.iot.common.config.db;
 
 /**
  * @Created by yingwuluohan on 2018/10/18.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 //@Configuration
 ////扫描 Mapper 接口并容器管理

@@ -5,7 +5,7 @@ import io.netty.buffer.Unpooled;
 
 /**
  * @Created by yingwuluohan on 2019/7/18.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 public class Composite_buffer {
 

@@ -6,7 +6,7 @@ import com.unisound.iot.controller.dubbo.rpcProtocol.httpProtocol.HttpServer;
 
 /**
  * @Created by yingwuluohan on 2019/8/2.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 public class Provider {
 

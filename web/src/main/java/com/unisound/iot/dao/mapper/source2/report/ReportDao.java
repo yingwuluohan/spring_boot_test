@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * @Created by yingwuluohan on 2018/10/18.
- * @Company 北京云知声技术有限公司
+ * @Company fn
  */
 public interface ReportDao {
 
