@@ -13,8 +13,11 @@ public class SynchronizedCas {
 
     class CasMange{
         private int i =0;
+        StringBuffer ss = new StringBuffer();
 
         public int getNum(){
+
+            ss.append( "");
             return i;
         }
     }

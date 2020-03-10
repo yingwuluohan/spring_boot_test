@@ -409,6 +409,14 @@
 			<artifactId>aspectjweaver</artifactId>
 			<version>${aspectj.version}</version>
 		</dependency>
+		<!--利用Google提供的布隆过滤器 做redis数据存储验证 防缓存击穿 -->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>27.0.1-jre</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<!--<build>-->
