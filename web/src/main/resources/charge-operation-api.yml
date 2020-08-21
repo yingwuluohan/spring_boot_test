@@ -1,0 +1,80 @@
+spring:
+  datasource:
+    dynamic:
+      #修改默认数据源名称，默认值是master
+      primary: master
+      datasource:
+        master:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://rm-2zebvu16ln3987b578o.mysql.rds.aliyuncs.com:3306/fp_charge_price?serverTimezone=Asia/Shanghai&useSSL=false
+          username: fleetin_test
+          password: fleetin@2019
+
+  redis:
+    database: 3
+    host: r-2ze6x2062u2w5mbqujpd.redis.rds.aliyuncs.com
+    password: fleetin@2019
+    port: 6379
+    timeout: 2000
+    jedis:
+    pool:
+      maxIdle: 8
+      minIdle: 0
+      maxActive: 8
+      maxWait: 10000
+
+
+  thymeleaf:
+    mode: HTML
+    encoding: UTF-8
+    # 禁用缓存
+    cache: false
+    prefix: classpath:/templates/
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+#mybatis
+mybatis.configuration.log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+mybatis-plus:
+  mapper-locations: classpath*:mapper/**/*Mapper.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.fp.chargeoperation.domain
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启sql日志
+  global-config:
+    db-config:
+      id-type: auto
+      #驼峰下划线转换
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+logging:
+  config: classpath:log4j2.xml
+  rootLogger: debug
+
+log:
+  isOverwrite: 1 # 1:开启 0:关闭
+  dataId: log4j2-fp-charge-operation.xml
+
+service.url.domain.portal: http://test-gaia.gokuaidian.cn/
+#Portal 站点标志
+portal.authen.flag: cn_test_i
+#Portal web域名
+portal.web.domain: test-gaia.gokuaidian.cn
+#Portal API服务域名
+portal.api.domain: test-gaia.gokuaidian.cn
+#不经过过滤器路径，以逗号隔开
+exclude.path: /static,/services,/error,/login,/quit,/download,/test
+#子系统域名
+my.web.domain: dev-charge-operation.gokuaidian.cn
+#子系统名称
+my.web.name: charge-operation
+#子系统拥有者
+my.web.owner: duanwenjun
+#子系统组织
+my.web.organization: osp
+#加盐值
+my.web.salt: 5@jDrhdD##UtDbo%
+#语言
+language.default.locale: zh_CN

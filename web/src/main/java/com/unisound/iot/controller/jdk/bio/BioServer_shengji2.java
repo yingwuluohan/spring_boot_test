@@ -33,8 +33,6 @@ public class BioServer_shengji2 {
                 int read = socket.getInputStream().read(btyes );
                 if( read == 0 ){
                     //没有数据
-
-
                 }else{//有数据
 
                 }

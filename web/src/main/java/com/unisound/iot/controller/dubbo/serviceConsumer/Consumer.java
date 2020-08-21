@@ -18,7 +18,7 @@ public class Consumer {
 
         //TODO 上面的调用方式很不灵活方变，dubbo本身通过代理的形式获得接口对应的对象实例
         //TODO 这样就可以通过spring getBean的方法获取接口的对象实例
-        //TODO 动态代理改进后
+        //TODO 动态代理改进后 ，先获取代理对象
         HellowService hellowService = ProxyFactory.getProxy(HellowService.class );
         hellowService.sayHellow( "hwllow" );
 

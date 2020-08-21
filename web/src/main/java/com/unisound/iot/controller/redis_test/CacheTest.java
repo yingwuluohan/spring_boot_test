@@ -35,6 +35,9 @@ public class CacheTest {
 
         System.out.println( "参数:" + id );
         //itemService.findItemDetail( 232L );
+
+
+        redisUtil.operSet();
         return "1111";
 
     }

@@ -14,19 +14,19 @@ public class ThreadPool {
 
 
     public static void main(String[] args) {
-        for( int i = 0 ;i < 10 ;i++ ){
+        for( int i = 0 ;i < 9 ;i++ ){
             Thread thread = new Thread( new ThreadTest( i+"" ) );
-//            executors.submit( thread );
+            executors.submit( thread );
 
         }
-        Thread t1 = new Thread( ){
-            @Override
-            public void run() {
-                System.out.println( "*****************" );
-//                super.run();
-            }
-        };
-        t1.run();
+//        Thread t1 = new Thread( ){
+//            @Override
+//            public void run() {
+//                System.out.println( "*****************" );
+////                super.run();
+//            }
+//        };
+//        t1.run();
 
     }
 
@@ -43,7 +43,7 @@ public class ThreadPool {
         public void run() {
             System.out.println( "current Thread:" + Thread.currentThread().getName() );
             try {
-                Thread.sleep( 5000L);
+                Thread.sleep( 1000L);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

@@ -2,10 +2,7 @@ package com.unisound.iot.controller.disruptor2;
 
 import com.lmax.disruptor.*;
 
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
+import java.util.concurrent.*;
 
 public class EventProcessor {
 
@@ -39,6 +36,12 @@ public class EventProcessor {
             }
         });
 
+        ExecutorService pool = new ThreadPoolExecutor(5, 200,
+                0L, TimeUnit.MILLISECONDS,
+                new LinkedBlockingQueue<Runnable>(1024), null , new ThreadPoolExecutor.AbortPolicy());
+
+        pool.execute(()-> System.out.println(Thread.currentThread().getName()));
+        pool.shutdown();
 
 
 

@@ -16,11 +16,21 @@ public class User {
     private List< Integer > list;
     private static User instance;
 
+    private Modle modle;
+
     public static User getInstance() {
         if( null == instance ){
             instance = new User( 111, "test" );
         }
         return instance;
+    }
+
+    public Modle getModle() {
+        return modle;
+    }
+
+    public void setModle(Modle modle) {
+        this.modle = modle;
     }
 
     public Integer getNum() {

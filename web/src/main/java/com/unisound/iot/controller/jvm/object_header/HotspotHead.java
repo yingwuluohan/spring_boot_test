@@ -1,5 +1,6 @@
 package com.unisound.iot.controller.jvm.object_header;
 
+import com.unisound.iot.common.mongo.User;
 import org.openjdk.jol.info.ClassLayout;
 import org.openjdk.jol.info.GraphLayout;
 
@@ -17,8 +18,11 @@ public class HotspotHead {
         //二进制到16进制的转换
         System.out.println("16进制:"+ Integer.toHexString( h.hashCode() ));
         //TODO 打印对象头信息
-        System.out.println(ClassLayout.parseInstance( h ).toPrintable() );
+        System.out.println("Obj:"+ClassLayout.parseInstance( h ).toPrintable() );
 
+        /**
+         *  (loss due to the next object alignment) ：表示对齐填充
+         */
         // h 是什么样的锁
         // sync锁住的是对象 ，就是修改h对象的头信息
         synchronized ( h ){
@@ -35,7 +39,10 @@ public class HotspotHead {
 
         System.out.println( GraphLayout.parseInstance( h ).totalSize() );
 
+        //判断一个空对象占用多少字节？
+        User user = new User();
 
+        System.out.println("空对象：" + ClassLayout.parseInstance( user ).toPrintable() );
 
 
 

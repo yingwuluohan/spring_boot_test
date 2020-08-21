@@ -1,6 +1,8 @@
 package com.unisound.iot.controller.jdk.lambad.optional;
 
 
+import com.alibaba.fastjson.JSON;
+import com.unisound.iot.controller.jdk.lambad.lambda_function.Modle;
 import com.unisound.iot.controller.jdk.lambad.lambda_function.User;
 
 import java.util.*;
@@ -122,6 +124,18 @@ public class Opertional {
         }else{
             System.out.println( "2 " );
         }
+        User user1 = new User();
+        Modle modle = new Modle();
+
+        user1.setId( 1 );
+        modle.setCode( "234");
+        modle.setNo( "2");
+
+        user1.setModle( modle );
+
+        String  l = JSON.toJSON( user1 ).toString();
+
+        System.out.println( l );
     }
 
 
