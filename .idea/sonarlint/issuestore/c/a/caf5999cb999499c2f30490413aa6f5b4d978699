@@ -1,0 +1,17 @@
+
+[
+squid:S106E"9Replace this use of System.out or System.err by a logger.(¬÷ù¨úÿÿÿÿ8×Ä¸â—.
+Qsquid:S1481c".Remove this unused "resultMap" local variable.(ÿ”ú¸üÿÿÿÿ8×Ä¸â—.
+[
+squid:S106_"9Replace this use of System.out or System.err by a logger.( ¨ÌÇùÿÿÿÿ8×Ä¸â—.
+Jsquid:S1481<",Remove this unused "results" local variable.(™Ôò‚8˜ÈÃâ—.
+Ysquid:S1854<";Remove this useless assignment to local variable "results".(™Ôò‚8˜ÈÃâ—.
+`squid:S1854c"=Remove this useless assignment to local variable "resultMap".(ÿ”ú¸üÿÿÿÿ8×Ä¸â—.
+Ssquid:S1191"5Use classes from the Java API instead of Sun classes.(ÊüÿÃ8êÏªâ—.
+V
+squid:S106*"9Replace this use of System.out or System.err by a logger.(áÙ‘’8ŠçøÜ—.
+V
+squid:S106L"9Replace this use of System.out or System.err by a logger.(¹à—Æ8×Ä¸â—.
+isquid:CommentedOutCodeLineQ"<This block of commented-out lines of code should be removed.(±œéû8Ð­Ñâ—.
+Fsquid:S1481P"(Remove this unused "set" local variable.(—¹ Ó8Ð­Ñâ—.
+Usquid:S1854P"7Remove this useless assignment to local variable "set".(—¹ Ó8Ð­Ñâ—.

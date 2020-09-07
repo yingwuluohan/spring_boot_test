@@ -49,7 +49,8 @@ public class SynchronizedLock {
         int c = getState();
         if( 0 == c ){//同步器还没有被持有
             //如果当前线程是刚刚被唤醒的队首线程 也可以
-            if( ( waiters.size() == 0||current == waiters.peek() ) && compareAndSqapState( 0 ,1 ) ){
+            if( ( waiters.size() == 0||current == waiters.peek() ) &&
+                    compareAndSqapState( 0 ,1 ) ){
                 setLockHolder( current );
                 return true;
             }

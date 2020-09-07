@@ -10,6 +10,9 @@ import java.util.function.Function;
 
 @Slf4j
 public class ConsumerIn {
+
+
+
     public static <R> Optional<R> getAndPrintLogIfException(SupplierWithThrowable<R> supplier,  Logger logger,
                                                             String errorMsgFormatterIfException,  Object... args) {
         Optional optional = Optional.ofNullable(

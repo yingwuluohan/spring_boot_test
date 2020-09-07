@@ -27,8 +27,8 @@ public class BlockingQueue {
     /**
      * 添加方法
      * offer
-     * add
      * put
+     * add
      */
     public static synchronized void test(){
 

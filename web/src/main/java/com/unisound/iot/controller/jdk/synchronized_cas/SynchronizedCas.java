@@ -11,7 +11,7 @@ public class SynchronizedCas {
 
     }
 
-    class CasMange{
+    static class CasMange{
         private int i =0;
         StringBuffer ss = new StringBuffer();
 
