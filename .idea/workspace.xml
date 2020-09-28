@@ -10,8 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4ce12f4-769e-43a1-b6d5-f65d93d447d7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/class_loader/ClassUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/compliler/AbstractCompiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/compliler/ClassUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/compliler/Compiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/compliler/CtClassBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/compliler/JavassistCompiler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/publishJar.sh" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/publishJar.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,15 +139,15 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.unisound.iot.common.config" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.unisound.iot.controller.jdk.compliler" />
       <recent name="com.unisound.iot.controller.jvm.object_header" />
       <recent name="com.unisound.iot.controller.spring.BeanFactory" />
       <recent name="com.unisound.iot.controller.spring.bean_manage" />
       <recent name="com.unisound.iot.controller.netty.heart_bit" />
-      <recent name="com.unisound.iot.controller.jdk.OutOfMemery" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk" />
@@ -589,16 +594,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="lua.app" factoryName="Lua Application">
-      <option name="program" value="/usr/local/bin/lua" />
-      <option name="file" value="" />
-      <option name="workingDir" value="$PROJECT_DIR$/web/src/main/java" />
-      <option name="debuggerType" value="2" />
-      <option name="params" value="" />
-      <option name="charset" value="UTF-8" />
-      <option name="showConsole" value="true" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.EventSourceObject" />
       <item itemvalue="Application.LinkedArray" />
@@ -715,6 +710,8 @@
       <workItem from="1598943239786" duration="1647000" />
       <workItem from="1600180221032" duration="662000" />
       <workItem from="1600338132140" duration="709000" />
+      <workItem from="1600928467394" duration="4601000" />
+      <workItem from="1601275071645" duration="1811000" />
     </task>
     <servers />
   </component>

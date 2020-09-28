@@ -1,4 +1,4 @@
-package com.unisound.iot.controller.jdk.weiYunSuan;
+package com.unisound.iot.controller.jdk.weiYiSuan;
 
 /**
  * @Created by yingwuluohan on 2020/3/20.
