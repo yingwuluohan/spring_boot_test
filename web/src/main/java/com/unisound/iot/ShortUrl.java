@@ -8,6 +8,7 @@ package com.unisound.iot;
 public class ShortUrl {
 
     private String[] array = { "1","2", "3","4","5","6","7","8","9","0" ,"a"};
+    private String[] array1 = { "1","2", "3","4","5","6","7","8","9","0" ,"a"};
 
 
     public String changeUrl( String longUrl ){
