@@ -5,7 +5,7 @@ package com.unisound.iot.common.sign;/**
 import com.unisound.iot.common.constants.CommonConstants;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang.StringUtils;
-import sun.misc.BASE64Encoder;
+//import sun.misc.BASE64Encoder;
 
 import javax.crypto.Mac;
 import javax.crypto.SecretKey;
@@ -106,7 +106,7 @@ public class AlbumRequestUtil {
         if (null == key || key.length == 0) {
             return null;
         }
-        String ret = (new BASE64Encoder()).encodeBuffer(key);
+        String ret = null;//(new BASE64Encoder()).encodeBuffer(key);
         ret = ret.replaceAll("\r\n", "");
         ret = ret.replaceAll("\n", "");
         return ret;
