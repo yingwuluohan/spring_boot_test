@@ -10,23 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4ce12f4-769e-43a1-b6d5-f65d93d447d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/daili/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/daili/BirdLogProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/daili/BirdThirdProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/daili/BirdTimeProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/daili/DinamiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/daili/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/daili/TimeProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/daili/compli/JavaCompiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/daili/uper/ICreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/daili/uper/InvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/daili/uper/MyInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/daili/uper/TimeProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/daili/compli/ProxyCompli.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/unisound/iot/common/sign/AlbumRequestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/unisound/iot/common/sign/AlbumRequestUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kar-business-operation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kar-business-operation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +119,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/daili/compli" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
@@ -151,6 +136,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.unisound.iot.common.config" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.unisound.iot.controller.jdk.compliler" />
       <recent name="com.unisound.iot.controller.jvm.object_header" />
@@ -158,18 +146,15 @@
       <recent name="com.unisound.iot.controller.spring.bean_manage" />
       <recent name="com.unisound.iot.controller.netty.heart_bit" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/daili/compli" />
       <recent name="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk" />
       <recent name="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/util" />
       <recent name="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller" />
       <recent name="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/common/modle" />
-      <recent name="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/rocketMq" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestProxy">
+  <component name="RunManager" selected="Application.ProxyCompli">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -335,20 +320,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unisound.iot.controller.jdk.moreThread.demo_015.Demo15" />
-      <module name="web" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.unisound.iot.controller.jdk.moreThread.demo_015.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DinamiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.unisound.iot.controller.jdk.daili.DinamiTest" />
       <module name="web" />
@@ -356,6 +327,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.unisound.iot.controller.jdk.daili.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyCompli" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unisound.iot.controller.jdk.daili.compli.ProxyCompli" />
+      <module name="web" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.unisound.iot.controller.jdk.daili.compli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -607,20 +592,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Demo15" />
       <item itemvalue="Application.BytrBufferTest" />
       <item itemvalue="Tomcat Server.Server" />
       <item itemvalue="Application.DinamiTest" />
       <item itemvalue="Application.ProxyTest" />
       <item itemvalue="Application.TestProxy" />
+      <item itemvalue="Application.ProxyCompli" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProxyCompli" />
         <item itemvalue="Application.TestProxy" />
         <item itemvalue="Application.DinamiTest" />
         <item itemvalue="Application.ProxyTest" />
         <item itemvalue="Application.BytrBufferTest" />
-        <item itemvalue="Application.Demo15" />
       </list>
     </recent_temporary>
   </component>
@@ -726,7 +711,7 @@
       <workItem from="1601275071645" duration="1811000" />
       <workItem from="1605345011842" duration="597000" />
       <workItem from="1605530516871" duration="950000" />
-      <workItem from="1606442667066" duration="9243000" />
+      <workItem from="1606442667066" duration="18439000" />
     </task>
     <servers />
   </component>
@@ -748,53 +733,57 @@
       <screen x="63" y="23" width="1617" height="1027" />
     </state>
     <state x="682" y="248" key="#com.intellij.ide.util.MemberChooser/63.23.1617.1027@63.23.1617.1027" timestamp="1606444426548" />
-    <state width="1570" height="338" key="GridCell.Tab.0.bottom" timestamp="1606464092295">
+    <state x="109" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606701872689">
+      <screen x="61" y="23" width="1619" height="1027" />
+    </state>
+    <state x="109" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/61.23.1619.1027@61.23.1619.1027" timestamp="1606701872689" />
+    <state width="1570" height="338" key="GridCell.Tab.0.bottom" timestamp="1606989459213">
       <screen x="61" y="23" width="1619" height="1027" />
     </state>
     <state width="1566" height="367" key="GridCell.Tab.0.bottom/56.23.1624.1027@56.23.1624.1027" timestamp="1598421715377" />
-    <state width="1570" height="338" key="GridCell.Tab.0.bottom/61.23.1619.1027@61.23.1619.1027" timestamp="1606464092295" />
+    <state width="1570" height="338" key="GridCell.Tab.0.bottom/61.23.1619.1027@61.23.1619.1027" timestamp="1606989459213" />
     <state width="1570" height="338" key="GridCell.Tab.0.bottom/63.23.1617.1027@63.23.1617.1027" timestamp="1606445659713" />
-    <state width="1570" height="338" key="GridCell.Tab.0.center" timestamp="1606464092295">
+    <state width="1570" height="338" key="GridCell.Tab.0.center" timestamp="1606989459212">
       <screen x="61" y="23" width="1619" height="1027" />
     </state>
     <state width="1566" height="367" key="GridCell.Tab.0.center/56.23.1624.1027@56.23.1624.1027" timestamp="1598421715376" />
-    <state width="1570" height="338" key="GridCell.Tab.0.center/61.23.1619.1027@61.23.1619.1027" timestamp="1606464092295" />
+    <state width="1570" height="338" key="GridCell.Tab.0.center/61.23.1619.1027@61.23.1619.1027" timestamp="1606989459212" />
     <state width="1570" height="338" key="GridCell.Tab.0.center/63.23.1617.1027@63.23.1617.1027" timestamp="1606445659712" />
-    <state width="1570" height="338" key="GridCell.Tab.0.left" timestamp="1606464092294">
+    <state width="1570" height="338" key="GridCell.Tab.0.left" timestamp="1606989459211">
       <screen x="61" y="23" width="1619" height="1027" />
     </state>
     <state width="1566" height="367" key="GridCell.Tab.0.left/56.23.1624.1027@56.23.1624.1027" timestamp="1598421715375" />
-    <state width="1570" height="338" key="GridCell.Tab.0.left/61.23.1619.1027@61.23.1619.1027" timestamp="1606464092294" />
+    <state width="1570" height="338" key="GridCell.Tab.0.left/61.23.1619.1027@61.23.1619.1027" timestamp="1606989459211" />
     <state width="1570" height="338" key="GridCell.Tab.0.left/63.23.1617.1027@63.23.1617.1027" timestamp="1606445659712" />
-    <state width="1570" height="338" key="GridCell.Tab.0.right" timestamp="1606464092295">
+    <state width="1570" height="338" key="GridCell.Tab.0.right" timestamp="1606989459212">
       <screen x="61" y="23" width="1619" height="1027" />
     </state>
     <state width="1566" height="367" key="GridCell.Tab.0.right/56.23.1624.1027@56.23.1624.1027" timestamp="1598421715376" />
-    <state width="1570" height="338" key="GridCell.Tab.0.right/61.23.1619.1027@61.23.1619.1027" timestamp="1606464092295" />
+    <state width="1570" height="338" key="GridCell.Tab.0.right/61.23.1619.1027@61.23.1619.1027" timestamp="1606989459212" />
     <state width="1570" height="338" key="GridCell.Tab.0.right/63.23.1617.1027@63.23.1617.1027" timestamp="1606445659712" />
-    <state width="1570" height="338" key="GridCell.Tab.1.bottom" timestamp="1606464092577">
+    <state width="1570" height="338" key="GridCell.Tab.1.bottom" timestamp="1606989459215">
       <screen x="61" y="23" width="1619" height="1027" />
     </state>
     <state width="1566" height="367" key="GridCell.Tab.1.bottom/56.23.1624.1027@56.23.1624.1027" timestamp="1598421715257" />
-    <state width="1570" height="338" key="GridCell.Tab.1.bottom/61.23.1619.1027@61.23.1619.1027" timestamp="1606464092577" />
+    <state width="1570" height="338" key="GridCell.Tab.1.bottom/61.23.1619.1027@61.23.1619.1027" timestamp="1606989459215" />
     <state width="1570" height="338" key="GridCell.Tab.1.bottom/63.23.1617.1027@63.23.1617.1027" timestamp="1606445659714" />
-    <state width="1570" height="338" key="GridCell.Tab.1.center" timestamp="1606464092577">
+    <state width="1570" height="338" key="GridCell.Tab.1.center" timestamp="1606989459214">
       <screen x="61" y="23" width="1619" height="1027" />
     </state>
     <state width="1566" height="367" key="GridCell.Tab.1.center/56.23.1624.1027@56.23.1624.1027" timestamp="1598421715256" />
-    <state width="1570" height="338" key="GridCell.Tab.1.center/61.23.1619.1027@61.23.1619.1027" timestamp="1606464092577" />
+    <state width="1570" height="338" key="GridCell.Tab.1.center/61.23.1619.1027@61.23.1619.1027" timestamp="1606989459214" />
     <state width="1570" height="338" key="GridCell.Tab.1.center/63.23.1617.1027@63.23.1617.1027" timestamp="1606445659713" />
-    <state width="1570" height="338" key="GridCell.Tab.1.left" timestamp="1606464092576">
+    <state width="1570" height="338" key="GridCell.Tab.1.left" timestamp="1606989459213">
       <screen x="61" y="23" width="1619" height="1027" />
     </state>
     <state width="1566" height="367" key="GridCell.Tab.1.left/56.23.1624.1027@56.23.1624.1027" timestamp="1598421715255" />
-    <state width="1570" height="338" key="GridCell.Tab.1.left/61.23.1619.1027@61.23.1619.1027" timestamp="1606464092576" />
+    <state width="1570" height="338" key="GridCell.Tab.1.left/61.23.1619.1027@61.23.1619.1027" timestamp="1606989459213" />
     <state width="1570" height="338" key="GridCell.Tab.1.left/63.23.1617.1027@63.23.1617.1027" timestamp="1606445659713" />
-    <state width="1570" height="338" key="GridCell.Tab.1.right" timestamp="1606464092577">
+    <state width="1570" height="338" key="GridCell.Tab.1.right" timestamp="1606989459214">
       <screen x="61" y="23" width="1619" height="1027" />
     </state>
     <state width="1566" height="367" key="GridCell.Tab.1.right/56.23.1624.1027@56.23.1624.1027" timestamp="1598421715256" />
-    <state width="1570" height="338" key="GridCell.Tab.1.right/61.23.1619.1027@61.23.1619.1027" timestamp="1606464092577" />
+    <state width="1570" height="338" key="GridCell.Tab.1.right/61.23.1619.1027@61.23.1619.1027" timestamp="1606989459214" />
     <state width="1570" height="338" key="GridCell.Tab.1.right/63.23.1617.1027@63.23.1617.1027" timestamp="1606445659714" />
     <state x="407" y="194" key="Maven.ArtifactSearchDialog" timestamp="1606445235938">
       <screen x="63" y="23" width="1617" height="1027" />
@@ -1188,6 +1177,11 @@
           <url>file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/design_modle/proxy/CountProxy.java</url>
           <line>22</line>
           <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/daili/compli/ProxyCompli.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="196" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar!/javax/websocket/server/ServerEndpointConfig.class</url>
