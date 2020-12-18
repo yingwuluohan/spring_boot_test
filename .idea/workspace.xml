@@ -10,9 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4ce12f4-769e-43a1-b6d5-f65d93d447d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/daili/compli/ProxyCompli.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/binaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/jdk/binaryTree/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -427,7 +426,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="web" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -440,7 +439,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
@@ -593,11 +592,11 @@
     </configuration>
     <list>
       <item itemvalue="Application.BytrBufferTest" />
-      <item itemvalue="Tomcat Server.Server" />
       <item itemvalue="Application.DinamiTest" />
       <item itemvalue="Application.ProxyTest" />
       <item itemvalue="Application.TestProxy" />
       <item itemvalue="Application.ProxyCompli" />
+      <item itemvalue="Tomcat Server.Server" />
     </list>
     <recent_temporary>
       <list>
@@ -712,6 +711,11 @@
       <workItem from="1605345011842" duration="597000" />
       <workItem from="1605530516871" duration="950000" />
       <workItem from="1606442667066" duration="18439000" />
+      <workItem from="1606989771839" duration="657000" />
+      <workItem from="1606995536285" duration="5474000" />
+      <workItem from="1608002720019" duration="125000" />
+      <workItem from="1608002895840" duration="309000" />
+      <workItem from="1608003571836" duration="601000" />
     </task>
     <servers />
   </component>
@@ -728,6 +732,19 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="682" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1606444426548">
       <screen x="63" y="23" width="1617" height="1027" />
@@ -740,49 +757,41 @@
     <state width="1570" height="338" key="GridCell.Tab.0.bottom" timestamp="1606989459213">
       <screen x="61" y="23" width="1619" height="1027" />
     </state>
-    <state width="1566" height="367" key="GridCell.Tab.0.bottom/56.23.1624.1027@56.23.1624.1027" timestamp="1598421715377" />
     <state width="1570" height="338" key="GridCell.Tab.0.bottom/61.23.1619.1027@61.23.1619.1027" timestamp="1606989459213" />
     <state width="1570" height="338" key="GridCell.Tab.0.bottom/63.23.1617.1027@63.23.1617.1027" timestamp="1606445659713" />
     <state width="1570" height="338" key="GridCell.Tab.0.center" timestamp="1606989459212">
       <screen x="61" y="23" width="1619" height="1027" />
     </state>
-    <state width="1566" height="367" key="GridCell.Tab.0.center/56.23.1624.1027@56.23.1624.1027" timestamp="1598421715376" />
     <state width="1570" height="338" key="GridCell.Tab.0.center/61.23.1619.1027@61.23.1619.1027" timestamp="1606989459212" />
     <state width="1570" height="338" key="GridCell.Tab.0.center/63.23.1617.1027@63.23.1617.1027" timestamp="1606445659712" />
     <state width="1570" height="338" key="GridCell.Tab.0.left" timestamp="1606989459211">
       <screen x="61" y="23" width="1619" height="1027" />
     </state>
-    <state width="1566" height="367" key="GridCell.Tab.0.left/56.23.1624.1027@56.23.1624.1027" timestamp="1598421715375" />
     <state width="1570" height="338" key="GridCell.Tab.0.left/61.23.1619.1027@61.23.1619.1027" timestamp="1606989459211" />
     <state width="1570" height="338" key="GridCell.Tab.0.left/63.23.1617.1027@63.23.1617.1027" timestamp="1606445659712" />
     <state width="1570" height="338" key="GridCell.Tab.0.right" timestamp="1606989459212">
       <screen x="61" y="23" width="1619" height="1027" />
     </state>
-    <state width="1566" height="367" key="GridCell.Tab.0.right/56.23.1624.1027@56.23.1624.1027" timestamp="1598421715376" />
     <state width="1570" height="338" key="GridCell.Tab.0.right/61.23.1619.1027@61.23.1619.1027" timestamp="1606989459212" />
     <state width="1570" height="338" key="GridCell.Tab.0.right/63.23.1617.1027@63.23.1617.1027" timestamp="1606445659712" />
     <state width="1570" height="338" key="GridCell.Tab.1.bottom" timestamp="1606989459215">
       <screen x="61" y="23" width="1619" height="1027" />
     </state>
-    <state width="1566" height="367" key="GridCell.Tab.1.bottom/56.23.1624.1027@56.23.1624.1027" timestamp="1598421715257" />
     <state width="1570" height="338" key="GridCell.Tab.1.bottom/61.23.1619.1027@61.23.1619.1027" timestamp="1606989459215" />
     <state width="1570" height="338" key="GridCell.Tab.1.bottom/63.23.1617.1027@63.23.1617.1027" timestamp="1606445659714" />
     <state width="1570" height="338" key="GridCell.Tab.1.center" timestamp="1606989459214">
       <screen x="61" y="23" width="1619" height="1027" />
     </state>
-    <state width="1566" height="367" key="GridCell.Tab.1.center/56.23.1624.1027@56.23.1624.1027" timestamp="1598421715256" />
     <state width="1570" height="338" key="GridCell.Tab.1.center/61.23.1619.1027@61.23.1619.1027" timestamp="1606989459214" />
     <state width="1570" height="338" key="GridCell.Tab.1.center/63.23.1617.1027@63.23.1617.1027" timestamp="1606445659713" />
     <state width="1570" height="338" key="GridCell.Tab.1.left" timestamp="1606989459213">
       <screen x="61" y="23" width="1619" height="1027" />
     </state>
-    <state width="1566" height="367" key="GridCell.Tab.1.left/56.23.1624.1027@56.23.1624.1027" timestamp="1598421715255" />
     <state width="1570" height="338" key="GridCell.Tab.1.left/61.23.1619.1027@61.23.1619.1027" timestamp="1606989459213" />
     <state width="1570" height="338" key="GridCell.Tab.1.left/63.23.1617.1027@63.23.1617.1027" timestamp="1606445659713" />
     <state width="1570" height="338" key="GridCell.Tab.1.right" timestamp="1606989459214">
       <screen x="61" y="23" width="1619" height="1027" />
     </state>
-    <state width="1566" height="367" key="GridCell.Tab.1.right/56.23.1624.1027@56.23.1624.1027" timestamp="1598421715256" />
     <state width="1570" height="338" key="GridCell.Tab.1.right/61.23.1619.1027@61.23.1619.1027" timestamp="1606989459214" />
     <state width="1570" height="338" key="GridCell.Tab.1.right/63.23.1617.1027@63.23.1617.1027" timestamp="1606445659714" />
     <state x="407" y="194" key="Maven.ArtifactSearchDialog" timestamp="1606445235938">
@@ -794,10 +803,14 @@
     </state>
     <state x="383" y="169" key="SettingsEditor/63.23.1617.1027@63.23.1617.1027" timestamp="1606443617388" />
     <state x="385" y="169" key="SettingsEditor/66.23.1614.1027@66.23.1614.1027" timestamp="1605345161924" />
-    <state x="541" y="247" width="670" height="676" key="search.everywhere.popup" timestamp="1600180236938">
-      <screen x="63" y="23" width="1617" height="1027" />
+    <state x="461" y="257" width="816" height="550" key="find.popup" timestamp="1607525769967">
+      <screen x="50" y="23" width="1630" height="1027" />
     </state>
-    <state x="540" y="247" width="670" height="676" key="search.everywhere.popup/61.23.1619.1027@61.23.1619.1027" timestamp="1598597083297" />
+    <state x="461" y="257" width="816" height="550" key="find.popup/50.23.1630.1027@50.23.1630.1027" timestamp="1607525769967" />
+    <state x="532" y="247" width="676" height="676" key="search.everywhere.popup" timestamp="1607525782743">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state x="532" y="247" width="676" height="676" key="search.everywhere.popup/50.23.1630.1027@50.23.1630.1027" timestamp="1607525782743" />
     <state x="541" y="247" width="670" height="676" key="search.everywhere.popup/63.23.1617.1027@63.23.1617.1027" timestamp="1600180236938" />
   </component>
   <component name="XDebuggerManager">
