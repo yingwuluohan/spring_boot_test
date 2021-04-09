@@ -13,13 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4ce12f4-769e-43a1-b6d5-f65d93d447d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/http_request_io/ReplaceStreamFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/http_request_io/RequestWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_xuxueli_xxl_job_core_1_9_2_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_5_6_4.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/elasticSearchUtil/condition/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/unisound/iot/controller/elasticSearchUtil/condition/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -731,7 +727,7 @@
       <workItem from="1608275100240" duration="1376000" />
       <workItem from="1610678902830" duration="2162000" />
       <workItem from="1610681095069" duration="333000" />
-      <workItem from="1615363857248" duration="1005000" />
+      <workItem from="1615363857248" duration="3835000" />
     </task>
     <servers />
   </component>
@@ -760,6 +756,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="332" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615457172021">
+      <screen x="61" y="23" width="1619" height="1027" />
+    </state>
+    <state x="332" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/61.23.1619.1027@61.23.1619.1027" timestamp="1615457172021" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
